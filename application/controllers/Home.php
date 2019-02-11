@@ -9,7 +9,9 @@ class Home  extends CI_Controller{
     
     public function index(){
         
-        $this->load->view('home');
+        $data['content'] = $this->load->view('testmaster', '', true);
+        $data['custom_css'] = 'homepage.css';
+        $this->load->view('main', $data);
     } 
     
 }
