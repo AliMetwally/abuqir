@@ -59,7 +59,7 @@
         <?php if (!empty($custom_js)) : ?>
             <!--Custome js-->
             <script src="<?= base_url('public/js/') . $custom_js ?>"></script>
-
+            
         <?php endif; ?>
 
         <title><?= empty($title) ? 'Abuqir' : $title ?></title>
@@ -72,14 +72,18 @@
                 <div class="container d-flex  justify-content-around">
                     <div><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
-                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-primary text-uppercase"><?= lang('abuqir')?>
-                                <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers')?></span>
+                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-primary">AbuQir
+                                <span class="h5 text-muted Fert-text"> Fertilizers</span>
                         </a>
                     </div>
                     <div class="d-flex align-self-center">
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
+<<<<<<< HEAD
                         <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x"></i></a>
+=======
+                        <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
+>>>>>>> parent of 43b624c... translate template
                     </div>
                 </div>
             </div>
@@ -100,31 +104,31 @@
                 <div class="collapse navbar-collapse justify-content-center text-uppercase font-weight-bold" id="myNavbar">
                     <ul class="navbar-nav custom-nav">
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-active text-white"><?= lang('home_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-active text-white">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item text-white"><?= lang('about_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item text-white">about us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item text-white"><?= lang('media_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item text-white">our media</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item text-white"><?= lang('reponsibility_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item text-white">Social Responsibility</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item text-white"><?= lang('investors_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item text-white">Investors Relations</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item text-white"><?= lang('contact_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item text-white">Contact</a>
                         </li>
                         </li>
                         <li class="nav-item dropdown drop-nav">
                             <a href="#" class="nav-link m-2 menu-item text-white" data-toggle="dropdown" href="#" role="button"
                                aria-haspopup="true" aria-expanded="false"><i class="fa fa-flag fa-2x pb-2"></i></a>
                             <div class="dropdown-menu dropdown-menu-right nav-menu-dropdown custom-nav">
-                                <a class="nav-link menu-item text-white" href="<?php echo base_url('LangSwitch/switchLanguage/ar')?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt="">
+                                <a class="nav-link menu-item text-white" href="#"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt="">
                                     عربى</a>
-                                <a class="nav-link menu-item py-2 text-white" href="<?php echo base_url('LangSwitch/switchLanguage/en')?>" style="width: 110px;"><img src="<?= base_url() ?>public/images/iconfinder_GB.png">
+                                <a class="nav-link menu-item py-2 text-white" href="#" style="width: 110px;"><img src="<?= base_url() ?>public/images/iconfinder_GB.png">
                                     english</a>
                             </div>
                         </li>
@@ -146,55 +150,71 @@
         <?= empty($content) ? '' : $content ?>
 
         <!-- footer -->
-        <footer class="bg-dark px-5">
-            <div class="container-fluid">
-                <div class="row text-light py-4">
-                    <div class="col-lg-4 col-sm-4  pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('about')?></h5>
-                        <p><?= lang('about_statement')?></p>
-                    </div>
-                    <div class="col-lg-4 col-4  pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('visit')?></h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('home_link')?></a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('about_link')?></a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('media_link')?></a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('reponsibility_link')?></a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('investors_link')?></a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i><?= lang('contact_link')?></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-sm-4 pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('contact')?></h5>                        
-                        <ul class="list-unstyled">
-
-                            <li class="list-item mb-3"><i class="fas fa-home"></i> <small><?= lang('address')?></small></li>
-                            <li class="liste-item mb-3"><i class="fas fa-globe" style="margin-left: 1px;margin-right: 6px;"></i><small><?= lang('state')?></small></li>
-                            <li class="list-item mb-3"><i class="fas fa-mobile" style="margin-left: 4px;margin-right: 7px;"></i><small><?= lang('mobile')?></small></li>
-                            <li class="list-item mb-3"><i class="fas fa-phone" style="margin-left: 1px;margin-right: 6px;"></i><small><?= lang('phone')?></small></li>
-                        </ul>
-                    </div>
+    <footer class="bg-dark px-5">
+        <div class="container-fluid">
+            <div class="row text-light py-4">
+                <div class="col-lg-4 col-sm-4  pb-3">
+                    <h5 class="pb-3 font-weight-bold">About US</h5>
+                    <p>We work efficiently, safety and environmentally responsible manner to produce our products at
+                        the quality required by our customer and carryout investments to maximize returns.</p>
                 </div>
-                <div class="row">
-                    <div class="col text-center text-light border-top pt-3">
-                        <p>&copy; 2019 Copyright, All Rights Reserved</p>
-                    </div>
+                <div class="col-lg-4 col-4  pb-3">
+                    <h5 class="pb-3 font-weight-bold">visit</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Our Media</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Social Responsibility</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Investors Relations</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-4 pb-3">
+                    <h5 class="pb-3 font-weight-bold">Stay Connecting</h5>
+                    <!-- <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta nobis
+                        natus magni!
+                        Expedita iure ducimus voluptates cumque earum maiores.</p>
+                    <form action="" class="mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-danger text-white text-uppercase font-weight-bold">Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </form> -->
+                    <ul class="list-unstyled">
+
+                        <li class="list-item mb-3"><i class="fas fa-home"></i> <small>Address: EL-Tabia- Rashid Road</small></li>
+                        <li class="liste-item mb-3"><i class="fas fa-globe" style="margin-left: 1px;margin-right: 6px;"></i><small>Alexandria,
+                                Egypt</small></li>
+                        <li class="list-item mb-3"><i class="fas fa-mobile" style="margin-left: 4px;margin-right: 7px;"></i><small>Mobile
+                                : (201) 001-625632</small></li>
+                        <li class="list-item mb-3"><i class="fas fa-phone" style="margin-left: 1px;margin-right: 6px;"></i><small>Phone
+                                : (203) 560-3053</small></li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-
-
+            <div class="row">
+                <div class="col text-center text-light border-top pt-3">
+                    <p>&copy; 2019 Copyright, All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+        
     </body>
 </html>
