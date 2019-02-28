@@ -1,10 +1,16 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 11, 2019, 9:13:06 AM
-    Author     : dev7
-*/
+/* footer */
+footer{
+  background: linear-gradient(rgba(4, 28, 56,0.8), rgba(4, 28, 56, 0.9)),url(../..//..//images/them-blue1.jpg) center center /cover ;
 
+}
+.footer-link{
+  color: #eee;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.footer-link:hover{
+color: #70aed2;
+text-decoration: none;
+}
+/* end of footer */

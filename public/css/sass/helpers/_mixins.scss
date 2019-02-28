@@ -1,10 +1,27 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+ * Create Cover or Banner that consume all element area
 */
-/* 
-    Created on : Feb 11, 2019, 9:12:04 AM
-    Author     : dev7
-*/
+@mixin cover($img_path){
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)), 
+        url(images/header-img.jpeg) no-repeat center center /cover;
+}
 
+
+// Animation Mixins 
+
+/*
+    Horizontal fade    
+*/
+@mixin horizontalFade(){
+    @keyframes horizontalFade{
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        },
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}

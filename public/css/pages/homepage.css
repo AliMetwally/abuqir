@@ -1,0 +1,309 @@
+/*
+@import url(https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&amp;subset=arabic);
+
+// 'Cairo', sans-serif
+@import url(https://fonts.googleapis.com/css?family=Cairo:400,600,700,900&amp;subset=arabic);
+// Droid Arabic Kufi
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); 
+// 'droid arabic naskh', sans-serif;
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css); 
+
+// 'Tajawal', sans-serif
+@import url(https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800,900&amp;subset=arabic);
+
+//'Roboto', sans-serif;  
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700);
+
+// 'Ubuntu', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,700);
+
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+/* header */
+.header-img {
+  margin-top: 40px;
+  height: 85vh;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../..//..//images/banner2.jpg) no-repeat center center/cover;
+}
+
+/* General */
+/* for hide element */
+.hide-ele {
+  display: none;
+}
+
+/* UNDER LINE HEADER */
+.sec-title h2 .sec-title-border {
+  width: 130px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #032a54;
+  right: 0;
+  height: 0;
+  margin: auto;
+}
+
+.sec-title h2 .sec-title-border span {
+  width: 9px;
+  height: 9px;
+  position: relative;
+  display: inline-block;
+  top: -24px;
+  right: 0;
+  margin: 0 -3px;
+}
+
+.sec-title h2 .sec-title-border span::before {
+  background: #fff;
+  border: 1px solid #032a54;
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+}
+
+/* navbar */
+.nav-top {
+  top: 100px;
+}
+
+.nav-menu {
+  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
+  padding: 20px 20px;
+  /* transition: all .2s; */
+}
+
+.img-logo {
+  width: 110px;
+  transition-duration: .8s;
+}
+
+.company-name {
+  padding-left: 90px;
+  transition-duration: .8s;
+}
+
+.nav-menu-dropdown {
+  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
+  padding: 10px;
+  top: 47px;
+}
+
+.menu-item {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #3c4043;
+  transition: color .5s;
+}
+
+.nav-active {
+  color: #70aed2;
+}
+
+.menu-item:hover {
+  color: #70aed2;
+}
+
+.line1, .line2, .line3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all .4s;
+}
+
+.change .line1 {
+  transform: rotate(-45deg) translate(-5px, 6.5px);
+}
+
+.change .line2 {
+  opacity: 0;
+}
+
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6.1px);
+}
+
+.custom-nav {
+  border: 1px solid #0f3661;
+  background-color: #0f3661;
+  border-radius: 5px;
+}
+
+.custom-navbar {
+  padding: 10px 30px;
+  background: linear-gradient(white, #f1f1f1);
+}
+
+.custom-navbar-dropdown {
+  padding: 5px;
+  margin-top: 5px;
+  background: linear-gradient(white, #f1f1f1);
+  top: 60px;
+}
+
+.custom-img-logo {
+  width: 70px;
+  transition-duration: .8s;
+}
+
+.custom-company-name {
+  padding-left: 40px;
+  transition-duration: .8s;
+}
+
+/* end of navbar */
+/* end of header */
+/* news */
+.fromLeft {
+  animation-name: fromLeft;
+  animation-duration: 5s;
+}
+
+.fromRight {
+  animation-name: fromRight;
+  animation-duration: 5s;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fromRight {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* end of news */
+/* contact */
+.chairman {
+  background: linear-gradient(105deg, rgba(21, 31, 32, 0.568) 0%, rgba(21, 31, 32, 0.95) 100%, transparent 100%), url(../..//..//images/home3.JPG) center center no-repeat/cover;
+  background-attachment: fixed;
+}
+
+.chairman .chairman-content-box > p {
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+}
+
+.fromUp {
+  animation-name: fromUp;
+  animation-duration: 5s;
+}
+
+.fromDown {
+  animation-name: fromDown;
+  animation-duration: 5s;
+}
+
+@keyframes fromUp {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fromDown {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* end of chairman */
+/* product */
+.products .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -40px;
+}
+
+/* The colour of the indicators */
+.products .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.products .carousel-indicators .active {
+  background: #707070;
+}
+
+/* The controlsy */
+.products .carousel-control {
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
+}
+
+.products .carousel-control.right {
+  right: -12px;
+}
+
+/* end of product */
+/* footer */
+footer {
+  background: linear-gradient(rgba(4, 28, 56, 0.8), rgba(4, 28, 56, 0.9)), url(../..//..//images/them-blue1.jpg) center center/cover;
+}
+
+.footer-link {
+  color: #eee;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.footer-link:hover {
+  color: #70aed2;
+  text-decoration: none;
+}
+
+/* end of footer */
+@media (max-width: 991px) {
+  .company-name {
+    padding-left: 0px;
+    transition-duration: .8s;
+  }
+
+  .header-img {
+    margin-top: 0px;
+    height: 85vh;
+  }
+}
+@media (min-width: 992px) {
+  .login-nav, .drop-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=homepage.css.map */

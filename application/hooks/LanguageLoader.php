@@ -8,9 +8,9 @@ class LanguageLoader {
         $site_lang = $ci->session->userdata('site_lang');
 
         if ($site_lang) {
-            $ci->lang->load('home', $ci->session->userdata('site_lang'));
+            $ci->lang->load('navigation', $ci->session->userdata('site_lang'));
         } else {
-            $ci->lang->load('home', 'ar'); // default language = arabic
+            $ci->lang->load('navigation', 'ar'); // default language = arabic
         }
     }
 

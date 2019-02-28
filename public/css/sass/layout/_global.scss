@@ -1,0 +1,30 @@
+// fonts
+
+// Arabic Fonts 
+// 'Markazi Text', serif
+/*
+@import url(https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&amp;subset=arabic);
+
+// 'Cairo', sans-serif
+@import url(https://fonts.googleapis.com/css?family=Cairo:400,600,700,900&amp;subset=arabic);
+// Droid Arabic Kufi
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); 
+// 'droid arabic naskh', sans-serif;
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css); 
+
+// 'Tajawal', sans-serif
+@import url(https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800,900&amp;subset=arabic);
+
+//'Roboto', sans-serif;  
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700);
+
+// 'Ubuntu', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,700);
+
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(255, 255 ,255, .3) , rgba(255, 255 ,255, .4)), url(../..//..//images/them-gray1.jpg)no-repeat center center / cover;
+  background-attachment: fixed;
+}

@@ -1,10 +1,134 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 11, 2019, 9:13:00 AM
-    Author     : dev7
-*/
+/* header */
+.header-img{
+  margin-top: 40px;
+  height: 85vh;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner2.jpg) no-repeat center center / cover;
+}
+/* General */
 
+/* for hide element */
+.hide-ele{
+  display: none;
+}
+
+/* UNDER LINE HEADER */
+.sec-title h2 .sec-title-border {
+  width: 130px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #032a54;
+  right: 0;
+  height: 0;
+  margin: auto;
+}
+
+.sec-title h2 .sec-title-border span {
+  width: 9px;
+  height: 9px;
+  position: relative;
+  display: inline-block;
+  top: -24px;
+  right: 0;
+  margin: 0 -3px;
+}
+.sec-title h2 .sec-title-border span::before {
+  background: #fff;
+  border: 1px solid #032a54;
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+}
+
+/* navbar */
+.nav-top{
+  top: 100px;
+}
+.nav-menu{
+  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
+  padding: 20px 20px;
+  /* transition: all .2s; */
+}
+
+.img-logo{
+  width: 110px;
+  transition-duration: .8s;
+}
+
+.company-name{  
+  padding-left: 90px;
+  transition-duration: .8s;
+}
+.nav-menu-dropdown{
+  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
+  padding: 10px;
+  top: 47px;
+}
+
+.menu-item{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #3c4043;
+  transition: color .5s;
+}
+
+.nav-active{
+  color: #70aed2;
+}
+
+.menu-item:hover{
+  color: #70aed2
+}
+
+.line1, .line2, .line3{
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all .4s;
+}
+
+.change .line1{
+  transform: rotate(-45deg) translate(-5px,6.5px);
+}
+
+.change .line2{
+  opacity: 0;
+}
+
+.change .line3{
+  transform: rotate(45deg) translate(-5px,-6.1px);
+}
+
+.custom-nav{
+  border: 1px solid #0f3661;
+  background-color: #0f3661;
+  border-radius: 5px;
+}
+
+.custom-navbar{
+  padding: 10px 30px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(241, 241, 241));
+}
+
+.custom-navbar-dropdown{
+  padding: 5px ;
+  margin-top: 5px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(241, 241, 241));
+  top: 60px;
+}
+
+.custom-img-logo{
+  width: 70px;
+  transition-duration: .8s;
+}
+
+.custom-company-name{  
+  padding-left: 40px;
+  transition-duration: .8s;
+}
+/* end of navbar */
+/* end of header */

@@ -1,0 +1,141 @@
+/* news */
+
+.fromLeft{
+  animation-name: fromLeft;
+  animation-duration: 5s;
+}
+
+
+.fromRight{
+  animation-name: fromRight;
+  animation-duration: 5s;
+}
+
+@keyframes fromLeft{
+
+  0%{
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+
+}
+
+@keyframes fromRight{
+
+  0%{
+    transform: translateX(50px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* end of news */
+
+/* contact */
+
+.chairman {
+  background: linear-gradient(105deg,
+  
+  rgba(21, 31, 32, 0.568) 0%, 
+  rgba(21,31,32,.95) 100% ,
+  transparent 100%) , 
+  url(../..//..//images/home3.JPG) center center no-repeat /cover;
+  background-attachment: fixed;
+}
+
+.chairman .chairman-content-box > p {
+	border: 1px solid #ddd;
+	margin-bottom: 25px;
+	padding: 15px 25px;
+}
+
+.fromUp{
+  animation-name: fromUp;
+  animation-duration: 5s;
+}
+
+.fromDown{
+  animation-name: fromDown;
+  animation-duration: 5s;
+}
+
+@keyframes fromUp{
+
+  0%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+
+}
+
+@keyframes fromDown{
+
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* end of chairman */
+
+
+/* product */
+
+.products .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.products .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.products .carousel-indicators .active {
+background: #707070;
+}
+
+/* The controlsy */
+.products .carousel-control {
+	  left: -12px;
+    height: 40px;
+	  width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+
+
+.products .carousel-control.right {
+	right: -12px;
+}
+/* end of product */
+
+
+

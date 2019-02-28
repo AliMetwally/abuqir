@@ -1,10 +1,16 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 11, 2019, 9:12:12 AM
-    Author     : dev7
-*/
+$baseColor: #0056b3;
+
+// fonts
+// arabic
+$markazi : 'Markazi Text', serif;
+$cairo : 'Cairo', sans-serif;
+$tajawal : 'Tajawal', sans-serif;
+$naskh:'droid arabic naskh', sans-serif;
+$kufi: 'Droid Arabic Kufi', sans-serif;
+
+// english
+$roboto : 'Roboto', sans-serif; 
+$ubuntu : 'Ubuntu', sans-serif;
+
+$arFont: $cairo;
 

@@ -1,0 +1,16 @@
+
+@media (max-width: 991px) {
+  .company-name{  
+    padding-left: 0px;
+    transition-duration: .8s;
+  }
+  .header-img{
+    margin-top: 0px;
+    height: 85vh;    
+  }
+} 
+@media (min-width: 992px) {
+  .login-nav, .drop-nav{
+    display:none;
+  }
+}

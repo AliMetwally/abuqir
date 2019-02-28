@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACA,WAAW,EAAE,mBAAmB",
+"sources": ["../sass/layout/rtl_reset.scss"],
+"names": [],
+"file": "rtl_reset.css"
+}
