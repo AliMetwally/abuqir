@@ -148,11 +148,11 @@
         <footer class="bg-dark px-5">
             <div class="container-fluid">
                 <div class="row text-light py-4">
-                    <div class="col-lg-4 col-sm-4  pb-3">
+                    <div class="col-12 col-sm-4 col-lg-4 pb-3">
                         <h5 class="pb-3 font-weight-bold"><?= lang('about')?></h5>
                         <p><?= lang('about_statement')?></p>
                     </div>
-                    <div class="col-lg-4 col-4  pb-3">
+                    <div class="col-12 col-sm-4 col-lg-4 pb-3">
                         <h5 class="pb-3 font-weight-bold"><?= lang('visit')?></h5>
                         <ul class="list-unstyled">
                             <li>
@@ -175,7 +175,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 col-sm-4 pb-3">
+                    <div class="col-12 col-sm-4 col-lg-4 pb-3">
                         <h5 class="pb-3 font-weight-bold"><?= lang('contact')?></h5>                        
                         <ul class="list-unstyled">
 
