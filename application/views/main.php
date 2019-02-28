@@ -80,8 +80,11 @@
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x"></i></a>
 =======
+=======
+>>>>>>> parent of 43b624c... translate template
                         <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
 >>>>>>> parent of 43b624c... translate template
                     </div>
