@@ -87,8 +87,8 @@
                 <a href="#" class="navbar-brand text-light text-uppercase hide-ele">
                     <img class="img-fluid img-logo d-none d-lg-block" width="100px" height="130px" style="position: absolute;top: -9px;left: 0;"
                          src="<?= base_url() ?>public/images/logo2.png" alt="">
-                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-primary">AbuQir
-                        <span class="h5 text-muted Fert-text"> Fertilizers</span>
+                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-primary"><?= lang('abuqir')?>
+                        <span class="h5 text-muted Fert-text"> <?= lang('fertilizers')?></span>
                     </span>
                 </a>
                 <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
