@@ -70,7 +70,7 @@
         <header>
             <div class="container-fluid logo-bar" style="position: absolute;">
                 <div class="container d-flex  justify-content-around">
-                    <div><a href="#">
+                    <div><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
                             <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-primary">AbuQir
                                 <span class="h5 text-muted Fert-text"> Fertilizers</span>
@@ -79,7 +79,7 @@
                     <div class="d-flex align-self-center">
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
                         <a class="text-muted nav-link menu-item h5" href="#"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
-                        <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
+                        <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -149,56 +149,44 @@
     <footer class="bg-dark px-5">
         <div class="container-fluid">
             <div class="row text-light py-4">
-                <div class="col-lg-4 col-sm-4  pb-3">
+                <div class="col-12 col-sm-4 col-lg-4 pb-3">
                     <h5 class="pb-3 font-weight-bold">About US</h5>
                     <p>We work efficiently, safety and environmentally responsible manner to produce our products at
                         the quality required by our customer and carryout investments to maximize returns.</p>
                 </div>
-                <div class="col-lg-4 col-4  pb-3">
+                <div class="col-12 col-sm-4 col-lg-4 pb-3">
                     <h5 class="pb-3 font-weight-bold">visit</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Home</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>Home</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>About Us</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>About Us</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Our Media</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>Our Media</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Social Responsibility</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>Social Responsibility</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Investors Relations</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>Investors Relations</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link"><i class="fas fa-check mr-2"></i>Contact</a>
+                            <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-sm-4 pb-3">
+                <div class="col-12 col-sm-4 col-lg-4 pb-3">
                     <h5 class="pb-3 font-weight-bold">Stay Connecting</h5>
-                    <!-- <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta nobis
-                        natus magni!
-                        Expedita iure ducimus voluptates cumque earum maiores.</p>
-                    <form action="" class="mb-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Email Address">
-                            <div class="input-group-append">
-                                <button type="button" class="btn btn-danger text-white text-uppercase font-weight-bold">Sign
-                                    Up</button>
-                            </div>
-                        </div>
-                    </form> -->
                     <ul class="list-unstyled">
 
-                        <li class="list-item mb-3"><i class="fas fa-home"></i> <small>Address: EL-Tabia- Rashid Road</small></li>
-                        <li class="liste-item mb-3"><i class="fas fa-globe" style="margin-left: 1px;margin-right: 6px;"></i><small>Alexandria,
+                        <li class="list-item mb-3"><i class="fa fa-home"></i> <small>Address: EL-Tabia- Rashid Road</small></li>
+                        <li class="liste-item mb-3"><i class="fa fa-globe" style="margin-left: 1px;margin-right: 6px;"></i><small>Alexandria,
                                 Egypt</small></li>
-                        <li class="list-item mb-3"><i class="fas fa-mobile" style="margin-left: 4px;margin-right: 7px;"></i><small>Mobile
+                        <li class="list-item mb-3"><i class="fa fa-mobile" style="margin-left: 4px;margin-right: 7px;"></i><small>Mobile
                                 : (201) 001-625632</small></li>
-                        <li class="list-item mb-3"><i class="fas fa-phone" style="margin-left: 1px;margin-right: 6px;"></i><small>Phone
+                        <li class="list-item mb-3"><i class="fa fa-phone" style="margin-left: 1px;margin-right: 6px;"></i><small>Phone
                                 : (203) 560-3053</small></li>
                     </ul>
                 </div>
