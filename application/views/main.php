@@ -194,6 +194,7 @@
             </div>
         </footer>
 
-
+        <script src="<?= base_url()?>/public/js/main.js">
+        </script>
     </body>
 </html>
