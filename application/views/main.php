@@ -19,8 +19,7 @@
             <!--- LOAD FILES -->            
             <link rel="stylesheet" href="<?= base_url() ?>public/css/bootstrap.min.css">
 
-            <?php if ($this->session->site_lang === 'ar') : ?>
-                <link rel="stylesheet" href="<?= base_url() ?>public/css/bootstrap-rtl.min.css">
+            <?php if ($this->session->site_lang === 'ar') : ?>                
 
             <?php endif; ?>    
 
