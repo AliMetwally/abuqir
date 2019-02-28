@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col m-4  text-center">
                     <div class="sec-title mb-20">
-                        <h2 class="text-muted">Our <span class="title-span text-primary">News</span>
+                        <h2 class="text-muted"><?= lang('title_span')?> <span class="title-span text-primary"><?= lang('news_title')?></span>
                             <span class="sec-title-border">
                                 <span></span>
                                 <span></span>
@@ -116,14 +116,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 text-white text-center chairman-text mb-3 hide-ele">
-                    <h1>Chairman Message</h1>
+                    <h1><?= lang('chairman_title')?></h1>
                     <div class="chairman-content-box ">
-                        <p class="lead">I have the pleasure to share with you Abu Qir Fertilizers company's website
-                            space,
-                            the company is one of the most important nitrogenous fertilizers industrial companies in
-                            the
-                            Middle East and around the world, I have had the honor to be the chairman of Abu Qir
-                            Fertilizers & Chemical Industries Co.</p>
+                        <p class="lead">
+                            <?= lang('chairman_text')?>
+                        </p>
                         <a href="" class="btn btn-outline-light">read more</a>
                     </div>
 
@@ -144,7 +141,7 @@
             <div class="row">
                 <div class="col m-4  text-center">
                     <div class="sec-title mb-20">
-                        <h2 class="text-muted">Our <span class="title-span text-primary">Products</span>
+                        <h2 class="text-muted"><?= lang('title_span')?> <span class="title-span text-primary"> <?= lang('products_title')?></span>
                             <span class="sec-title-border">
                                 <span></span>
                                 <span></span>
