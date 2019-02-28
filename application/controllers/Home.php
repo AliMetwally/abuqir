@@ -8,9 +8,10 @@ class Home  extends CI_Controller{
     }
     
     public function index(){
-        $data['content'] = $this->load->view('sass', '', true);
+        $data['content'] = $this->load->view('pages/v_home', '', true);
         $data['custom_css'] = 'homepage.css';        
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'home.js';
         $this->load->view('main', $data);
     }
     
