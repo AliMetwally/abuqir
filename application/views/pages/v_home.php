@@ -40,69 +40,33 @@
                     </div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            
+                            <?php
+                            $i = 1;
+                            foreach ($topNews as $news):                                
+                            if ($i % 3 == 1):
+                            ?>
+                            <div class="carousel-item <?= $i == 1? 'active':'' ?>" >                            
+                            <?php endif;?>
+                            
                                 <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
+                                    <img src="http://placehold.it/200x200/" class="mr-3 " alt="...">
+                                    <!--<img src='<?= base_url("uploads/press-news/$news->image")?>' class="mr-3 " alt="...">-->
                                     <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
+                                        <h5 class="mt-0"><?= $news->title?></h5>
                                     </div>
                                 </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="carousel-item">
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            <?php if (($i / 3) * ($i % 3) == 0): ?>
+                            </div> <!-- end of slice -->
+                            <?php endif;?>
+                             
+                            <?php 
+                        
+                                $i++;
+                            endforeach;?>
+                            
+                            
                         </div>
                     </div>
                 </div>

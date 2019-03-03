@@ -20,6 +20,7 @@ class Home  extends CI_Controller{
         // get news header 
         $v_data['last_news_head'] = $this->media->lastNewsTitle();
         $v_data['newsCoverContent'] = $this->media->newsCoverContent($news_id);
+        $v_data['topNews'] = $this->media->topNews(); 
         //----------------------------------------------------------------------
         // scripts css, js
         $data['custom_css'] = 'homepage.css';        
