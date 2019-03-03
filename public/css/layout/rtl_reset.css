@@ -1,4 +1,14 @@
 body {
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.carousel-item {
+  float: left;
+  margin-left: 0%;
+}
 
 /*# sourceMappingURL=rtl_reset.css.map */
