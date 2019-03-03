@@ -20,7 +20,7 @@
             <link rel="stylesheet" href="<?= base_url() ?>public/css/bootstrap.min.css">
 
             <?php if ($this->session->site_lang === 'ar') : ?>                
-            <link rel="stylesheet" href="<?= base_url() ?>public/css/bootstrap-rtl.min.css">
+            <!-- <link rel="stylesheet" href="<?= base_url() ?>public/css/bootstrap-rtl.min.css"> -->
             <?php endif; ?>    
 
             <link rel="stylesheet" href="<?= base_url() ?>public/css/font-awesome.min.css"/>
@@ -69,7 +69,7 @@
         <header>
             <div class="container-fluid logo-bar" style="position: absolute;">
                 <div class="container d-flex  justify-content-around">
-                    <div><a href="#">
+                    <div><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
                             <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-primary text-uppercase"><?= lang('abuqir')?>
                                 <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers')?></span>
@@ -186,7 +186,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row copy-right">
                     <div class="col text-center text-light border-top pt-3">
                         <p>&copy; 2019 Copyright, All Rights Reserved</p>
                     </div>

@@ -2,13 +2,24 @@ body {
   font-family: "Cairo", sans-serif;
 }
 
-.text-right {
-  text-align: right !important;
+.row {
+  text-align: right;
 }
 
-.carousel-item {
-  float: left;
-  margin-left: 0%;
+.media {
+  text-align: right;
+}
+
+.media-body {
+  margin: 0 5px;
+}
+
+p {
+  text-align: right;
+}
+
+.copy-right p {
+  text-align: center !important;
 }
 
 /*# sourceMappingURL=rtl_reset.css.map */

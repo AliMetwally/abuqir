@@ -21,8 +21,8 @@
 
             <div class="row py-3">
                 <div class="col-lg-7 card-news hide-ele">
-                    <div class="card my-5">
-                        <img src="http://placehold.it/300x200/" class="d-flex card-img-top mr-3" alt="...">
+                    <div class="card border-primary my-5">
+                        <img src="http://placehold.it/300x200/" class="card-img-top mr-3" widht="300px" hight="200px" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -166,22 +166,22 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
@@ -193,22 +193,22 @@
 
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
-                                    <div class="col-md-3 mb-3">
+                                    <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>

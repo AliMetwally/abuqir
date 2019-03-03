@@ -2,11 +2,21 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-.text-right {
-    text-align: right!important;
+.row{
+    text-align: right;
+}
+.media{
+    text-align: right;
 }
 
-.carousel-item {
-    float: left;
-    margin-left: 0%;
+.media-body{
+    margin: 0 5px;
 }
+
+p{
+    text-align: right;
+}
+
+.copy-right p{
+    text-align: center!important;
+  }
