@@ -1,4 +1,5 @@
-    <!-- news -->
+
+<!-- news -->
     <section class="bg-white py-4">
         <div class="container">
             <!-- title -->
@@ -22,12 +23,11 @@
             <div class="row py-3">
                 <div class="col-lg-7 card-news hide-ele">
                     <div class="card my-5">
-                        <img src="http://placehold.it/300x200/" class="d-flex card-img-top mr-3" alt="...">
+                        <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                            <h5 class="card-title"><?= $last_news_head->title?></h5>
+                            <p class="card-text"><?= $newsCoverContent->content?></p>
+                            <a href="#" class="btn btn-outline-primary"><?= lang('btn_read_more')?></a>
                         </div>
                     </div>
                 </div>
@@ -121,12 +121,12 @@
                         <p class="lead">
                             <?= lang('chairman_text')?>
                         </p>
-                        <a href="" class="btn btn-outline-light">read more</a>
+                        <a href="" class="btn btn-outline-light"><?= lang('btn_read_more')?></a>
                     </div>
 
                 </div>
                 <div class="col-lg-5 text-center order-lg-first">
-                    <img src="public/images/chairman1.png" class="chairman-img hide-ele">
+                    <img src="<?= base_url()?>public/images/chairman1.png" class="chairman-img hide-ele">
                 </div>
             </div>
         </div>

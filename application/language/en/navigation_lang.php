@@ -5,12 +5,12 @@ $lang['abuqir'] = 'abuqir';
 $lang['fertilizers'] = 'fertilizers';
 
 # navigation
-$lang['home_link'] = 'home';
-$lang['about_link'] = 'about us';
-$lang['media_link'] = 'media';
+$lang['home_link'] = 'Home';
+$lang['about_link'] = 'About Us';
+$lang['media_link'] = 'Media';
 $lang['reponsibility_link'] = 'Social Resposibility';
-$lang['investors_link'] = 'investors relations';
-$lang['contact_link'] = 'contact';
+$lang['investors_link'] = 'Investors Relations';
+$lang['contact_link'] = 'Contact';
 
 # footer headers 
 $lang['contact'] = 'Stay Connecting';
