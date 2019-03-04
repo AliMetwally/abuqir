@@ -30,8 +30,15 @@ p {
   text-align: right;
 }
 
-.copy-right p {
+footer .copy-right p {
   text-align: center !important;
+}
+footer li {
+  direction: rtl;
+}
+footer i {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
 }
 
 /*# sourceMappingURL=rtl_reset.css.map */
