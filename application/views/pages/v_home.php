@@ -1,4 +1,5 @@
-    <!-- news -->
+
+<!-- news -->
     <section class="bg-white py-4">
         <div class="container">
             <!-- title -->
@@ -23,11 +24,12 @@
                 <div class="col-lg-7 card-news hide-ele">
                     <div class="card border-primary my-5">
                         <img src="http://placehold.it/300x200/" class="card-img-top mr-3" widht="300px" hight="200px" alt="...">
+                    <div class="card my-5">
+                        <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                            <h5 class="card-title"><?= $last_news_head->title?></h5>
+                            <p class="card-text"><?= $newsCoverContent->content?></p>
+                            <a href="#" class="btn btn-outline-primary"><?= lang('btn_read_more')?></a>
                         </div>
                     </div>
                 </div>
@@ -40,69 +42,33 @@
                     </div>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            
+                            <?php
+                            $i = 1;
+                            foreach ($topNews as $news):                                
+                            if ($i % 3 == 1):
+                            ?>
+                            <div class="carousel-item <?= $i == 1? 'active':'' ?>" >                            
+                            <?php endif;?>
+                            
                                 <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
+                                    <img src="http://placehold.it/200x200/" class="mr-3 " alt="...">
+                                    <!--<img src='<?= base_url("uploads/press-news/$news->image")?>' class="mr-3 " alt="...">-->
                                     <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
+                                        <h5 class="mt-0"><?= $news->title?></h5>
                                     </div>
                                 </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="carousel-item">
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-
-                                <div class="media my-3">
-                                    <img src="http://placehold.it/150x150/" class="mr-3 " alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                            Iusto ab esse fugiat minima cupiditate totam praesentium ut mollitia
-                                            ipsam
-                                            maxime.</h5>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            <?php if (($i / 3) * ($i % 3) == 0): ?>
+                            </div> <!-- end of slice -->
+                            <?php endif;?>
+                             
+                            <?php 
+                        
+                                $i++;
+                            endforeach;?>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -121,12 +87,12 @@
                         <p class="lead">
                             <?= lang('chairman_text')?>
                         </p>
-                        <a href="" class="btn btn-outline-light">read more</a>
+                        <a href="" class="btn btn-outline-light"><?= lang('btn_read_more')?></a>
                     </div>
 
                 </div>
                 <div class="col-lg-5 text-center order-lg-first">
-                    <img src="public/images/chairman1.png" class="chairman-img hide-ele">
+                    <img src="<?= base_url()?>public/images/chairman1.png" class="chairman-img hide-ele">
                 </div>
             </div>
         </div>
