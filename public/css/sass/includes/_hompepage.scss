@@ -1,10 +1,28 @@
 /* news */
 
+.img-slide{
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem!important;
+  margin-left: 0;
+}
+
+.news-link a{
+  color: #0f3661!important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.news-link a:hover{
+  color: #0f3661!important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .fromLeft{
   animation-name: fromLeft;
   animation-duration: 5s;
 }
-
 
 .fromRight{
   animation-name: fromRight;

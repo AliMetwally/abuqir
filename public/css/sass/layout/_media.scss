@@ -8,9 +8,17 @@
     margin-top: 0px;
     height: 85vh;    
   }
+  .img-latest{
+    height: 100%;
+  }
 } 
 @media (min-width: 992px) {
   .login-nav, .drop-nav{
     display:none;
+  }
+
+  .img-latest{
+    width: 100%;
+    height: 330px;
   }
 }

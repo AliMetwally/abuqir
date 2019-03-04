@@ -1,40 +1,53 @@
 
+//this file was created to add some actions and effects to navbar on template page
+//created by Karim Fathy
+
+
 $(function () {
+    //get window size 
     var window_size;
     window_size = $(this).width();
 
+    //get window position when scrolling
+    var pos;
+    $(window).scroll(function () {
+        pos = $(this).scrollTop();
+    });
+
+
+    // actions when window resizing
     $(window).on("resize", function () {
         window_size = $(this).width();
         if (window_size >= 975) {
             $(".navbar-brand").addClass("hide-ele");
             $(".logo-bar").removeClass("hide-ele");
-            $(".navbar").addClass("nav-top");
-            // $(".drop-nav").removeClass("hide-ele");
+            if(pos >=200 ){
+                $(".navbar").removeClass("nav-top");
+            } else {
+                $(".navbar").addClass("nav-top");
+            }
         } else {
             $(".navbar-brand").removeClass("hide-ele");
             $(".logo-bar").addClass("hide-ele");
             $(".navbar").removeClass("nav-top");
-            // $(".drop-nav").removeClass("hide-ele");
         }
+        console.log(pos);
     });
 
+    // action when window loaded
     $(window).on("load", function () {
         if (window_size >= 975) {
             $(".navbar-brand").addClass("hide-ele");
             $(".logo-bar").removeClass("hide-ele");
             $(".navbar").addClass("nav-top");
-            // $(".navbar").addClass("fixed-top");
-            // $(".drop-nav").removeClass("hide-ele");
         } else {
             $(".navbar-brand").removeClass("hide-ele");
             $(".logo-bar").addClass("hide-ele");
             $(".navbar").removeClass("nav-top");
-            // $(".navbar").removeClass("fixed-top");
-            // $(".drop-nav").removeClass("hide-ele");
         }
-        console.log(window_size);
     })
 
+    // add or remove class change on small size
     $(".nav-button").click(function () {
         $(".nav-button").toggleClass('change');
     });
@@ -49,8 +62,8 @@ $(function () {
         $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
     });
 
+    //action when scrolling pages
     $(window).scroll(function () {
-
         var pos = $(this).scrollTop();
         if (pos >= 200) {
             $(".nav-menu").addClass("custom-navbar");
@@ -75,14 +88,10 @@ $(function () {
             if (window_size >= 992) {
                 $(".navbar-brand").addClass("hide-ele");
                 $(".navbar").addClass("nav-top");
-                // $(".drop-nav").removeClass("hide-ele");
             } else {
                 $(".navbar-brand").removeClass("hide-ele");
                 $(".navbar").removeClass("nav-top");
-                // $(".drop-nav").addClass("hide-ele");
             }
-
-            // });
         }        
     });
 

@@ -19,7 +19,7 @@
 
 */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
   background-attachment: fixed;
 }
@@ -84,12 +84,12 @@ body {
 
 .img-logo {
   width: 110px;
-  transition-duration: .8s;
+  transition-duration: 0.8s;
 }
 
 .company-name {
   padding-left: 90px;
-  transition-duration: .8s;
+  transition-duration: 0.8s;
 }
 
 .nav-menu-dropdown {
@@ -102,7 +102,7 @@ body {
   font-size: 13px;
   letter-spacing: 1px;
   color: #3c4043;
-  transition: color .5s;
+  transition: color 0.5s;
 }
 
 .nav-active {
@@ -117,7 +117,7 @@ body {
   width: 23px;
   height: 3px;
   margin: 5px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .change .line1 {
@@ -152,17 +152,36 @@ body {
 
 .custom-img-logo {
   width: 70px;
-  transition-duration: .8s;
+  transition-duration: 0.8s;
 }
 
 .custom-company-name {
   padding-left: 40px;
-  transition-duration: .8s;
+  transition-duration: 0.8s;
 }
 
 /* end of navbar */
 /* end of header */
 /* news */
+.img-slide {
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem !important;
+  margin-left: 0;
+}
+
+.news-link a {
+  color: #0f3661 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.news-link a:hover {
+  color: #0f3661 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .fromLeft {
   animation-name: fromLeft;
   animation-duration: 5s;
@@ -280,7 +299,7 @@ footer {
 .footer-link {
   color: #eee;
   font-size: 13px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .footer-link:hover {
@@ -292,17 +311,26 @@ footer {
 @media (max-width: 991px) {
   .company-name {
     padding-left: 0px;
-    transition-duration: .8s;
+    transition-duration: 0.8s;
   }
 
   .header-img {
     margin-top: 0px;
     height: 85vh;
   }
+
+  .img-latest {
+    height: 100%;
+  }
 }
 @media (min-width: 992px) {
   .login-nav, .drop-nav {
     display: none;
+  }
+
+  .img-latest {
+    width: 100%;
+    height: 330px;
   }
 }
 
