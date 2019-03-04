@@ -1,6 +1,6 @@
 
 <!-- news -->
-    <section class="bg-white py-4">
+<section class="bg-white py-4">
         <div class="container">
             <!-- title -->
             <div class="row">
@@ -22,13 +22,11 @@
 
             <div class="row py-3">
                 <div class="col-lg-7 card-news hide-ele">
-                    <div class="card border-primary my-5">
-                        <img src="http://placehold.it/300x200/" class="card-img-top mr-3" widht="300px" hight="200px" alt="...">
-                    <div class="card my-5">
-                        <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3" alt="...">
+                    <div class="card my-5 border-primary">
+                        <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><?= $last_news_head->title?></h5>
-                            <p class="card-text"><?= $newsCoverContent->content?></p>
+                            <p class="card-text text-muted"><?= $newsCoverContent->content?></p>
                             <a href="#" class="btn btn-outline-primary"><?= lang('btn_read_more')?></a>
                         </div>
                     </div>
@@ -48,17 +46,16 @@
                             foreach ($topNews as $news):                                
                             if ($i % 3 == 1):
                             ?>
-                            <div class="carousel-item <?= $i == 1? 'active':'' ?>" >                            
+                            <div class="carousel-item <?= $i == 1? 'active':'' ?> news-link" >                            
                             <?php endif;?>
-                            
+                                <a href="#">
                                 <div class="media my-3">
-                                    <img src="http://placehold.it/200x200/" class="mr-3 " alt="...">
-                                    <!--<img src='<?= base_url("uploads/press-news/$news->image")?>' class="mr-3 " alt="...">-->
+                                    <img src='<?= base_url("uploads/press-news/$news->image")?>' class="border-primary img-slide" alt="...">
                                     <div class="media-body">
-                                        <h5 class="mt-0"><?= $news->title?></h5>
+                                        <p class="mt-0 font-weight-bold"><?= $news->title?></p>
                                     </div>
                                 </div>
-                            
+                                </a>
                             <?php if (($i / 3) * ($i % 3) == 0): ?>
                             </div> <!-- end of slice -->
                             <?php endif;?>
@@ -118,7 +115,7 @@
                 </div>
             </div>
             <!-- end of title -->
-            <div class="row">
+            <div class="">
                 <div class="col-md-12">
                     <div id="ProductCarousel" class="carousel slide" data-ride="carousel">
 
@@ -131,7 +128,7 @@
                         <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="row">
+                                <div class="row text-center">
                                     <div class="col-12 col-md-3 mb-3">
                                         <a href="#">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
