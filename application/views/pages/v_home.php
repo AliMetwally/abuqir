@@ -98,7 +98,7 @@
 
     <!-- products -->
 
-    <section class="py-5">
+    <section class="py-5 products">
 	<div class="container">
 		<!-- title -->
 		<div class="row">

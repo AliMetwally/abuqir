@@ -58,5 +58,8 @@ footer .phone-ftr {
     flex-direction: row-reverse !important;
   }
 }
+.products .row, .products p {
+  text-align: center;
+}
 
 /*# sourceMappingURL=rtl_reset.css.map */
