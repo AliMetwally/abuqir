@@ -162,101 +162,6 @@ body {
 
 /* end of navbar */
 /* end of header */
-/* news */
-.img-slide {
-  width: 150px;
-  height: 150px;
-  margin-right: 1rem !important;
-  margin-left: 0;
-}
-
-.news-link a {
-  color: #0f3661 !important;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.news-link a:hover {
-  color: #0f3661 !important;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.fromLeft {
-  animation-name: fromLeft;
-  animation-duration: 5s;
-}
-
-.fromRight {
-  animation-name: fromRight;
-  animation-duration: 5s;
-}
-
-@keyframes fromLeft {
-  0% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes fromRight {
-  0% {
-    transform: translateX(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-/* end of news */
-/* chairman */
-.chairman {
-  background: linear-gradient(105deg, rgba(21, 31, 32, 0.568) 0%, rgba(21, 31, 32, 0.95) 100%, transparent 100%), url(../..//..//images/home3.JPG) center center no-repeat/cover;
-  background-attachment: fixed;
-}
-
-.chairman .chairman-content-box > p {
-  border: 1px solid #ddd;
-  margin-bottom: 25px;
-  padding: 15px 25px;
-}
-
-.fromUp {
-  animation-name: fromUp;
-  animation-duration: 5s;
-}
-
-.fromDown {
-  animation-name: fromDown;
-  animation-duration: 5s;
-}
-
-@keyframes fromUp {
-  0% {
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes fromDown {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-/* end of chairman */
-/* product */
 .porduct-bg img {
   background-size: 300px 350px !important;
   border-radius: 10px;
@@ -308,7 +213,6 @@ body {
   transform: scaleX(1);
 }
 
-/* end of product */
 /* footer */
 footer {
   background: linear-gradient(rgba(4, 28, 56, 0.8), rgba(4, 28, 56, 0.9)), url(../..//..//images/them-blue1.jpg) center center/cover;
@@ -377,4 +281,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=homepage.css.map */
+/*# sourceMappingURL=productpage.css.map */

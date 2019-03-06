@@ -32,6 +32,15 @@ class Home  extends CI_Controller{
         $this->load->view('main', $data);
     }
     
+    public function testproduct(){
+        // scripts css, js
+        $data['custom_css'] = 'productpage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'home.js';
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_products',true, true);
+        $this->load->view('main', $data);
+    }
     
     public function testmodel(){
         

@@ -98,96 +98,68 @@
 
     <!-- products -->
 
-    <section class="products m-4 text-center">
-        <div class="container">
-            <!-- title -->
-            <div class="row">
-                <div class="col m-4  text-center">
-                    <div class="sec-title mb-20">
-                        <h2 class="text-muted"><?= lang('title_span')?> <span class="title-span text-primary"> <?= lang('products_title')?></span>
-                            <span class="sec-title-border">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <!-- end of title -->
-            <div class="">
-                <div class="col-md-12">
-                    <div id="ProductCarousel" class="carousel slide" data-ride="carousel">
-
-
-                        <div class="text-right mb-3">
-                            <a class="btn btn-secondary text-light" href="#ProductCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                            <a class="btn btn-secondary text-light" href="#ProductCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row text-center">
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-                        </div>
-                        <!--.carousel-inner-->
-                    </div>
-                    <!--.Carousel-->
-
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="py-5">
+	<div class="container">
+		<!-- title -->
+		<div class="row">
+			<div class="col m-4  text-center">
+				<div class="sec-title mb-20">
+					<h2 class="text-muted">Our <span class="title-span text-primary">Product</span>
+						<span class="sec-title-border">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+		<!-- end of title -->
+		<div class="row">
+			<div class="col-12 col-lg-4 col-md-6">
+				<div class="product-box porduct-bg border-dark">
+					<img src="<?php echo base_url()?>public/images/1.jpg" width="300px" height="350px" alt="">
+					<div class="product-box-overlay">
+						<div class="display-table">
+							<div class="display-tablecell">								
+								<h4>Product Name</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, delectus?</p>
+								<a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4 col-md-6">
+				<div class="product-box porduct-bg border-dark">
+					<img src="<?php echo base_url()?>public/images/1.jpg" width="300px" height="350px" alt="">
+					<div class="product-box-overlay">
+						<div class="display-table">
+							<div class="display-tablecell">
+								<h4>Product Name</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, delectus?</p>
+								<a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4 col-md-6">
+				<div class="product-box porduct-bg border-dark">
+					<img src="<?php echo base_url()?>public/images/1.jpg" width="300px" height="350px" alt="">
+					<div class="product-box-overlay">
+						<div class="display-table">
+							<div class="display-tablecell">
+								<h4>Product Name</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, delectus?</p>
+								<a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
     <!-- end of products -->
