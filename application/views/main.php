@@ -152,22 +152,22 @@
                         <h5 class="pb-3 font-weight-bold"><?= lang('visit')?></h5>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('home_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('about_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('media_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('media_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('reponsibility_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('investors_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2"></i><?= lang('contact_link')?></a>
                             </li>
                         </ul>
                     </div>
@@ -175,10 +175,10 @@
                         <h5 class="pb-3 font-weight-bold"><?= lang('contact')?></h5>                        
                         <ul class="list-unstyled">
 
-                            <li class="list-item mb-3"><i class="fa fa-home address-ftr"></i><small><?= lang('address')?></small></li>
-                            <li class="liste-item mb-3"><i class="fa fa-globe state-ftr"></i><small><?= lang('state')?></small></li>
-                            <li class="list-item mb-3"><i class="fa fa-mobile mobile-ftr"></i><small><?= lang('mobile')?></small></li>
-                            <li class="list-item mb-3"><i class="fa fa-phone phone-ftr"></i><small><?= lang('phone')?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-home"></i> <small><?= lang('address')?></small></li>
+                            <li class="liste-item mb-3"><i class="fa fa-globe" style="margin-left: 1px;margin-right: 6px;"></i><small><?= lang('state')?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-mobile" style="margin-left: 4px;margin-right: 7px;"></i><small><?= lang('mobile')?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-phone" style="margin-left: 1px;margin-right: 6px;"></i><small><?= lang('phone')?></small></li>
                         </ul>
                     </div>
                 </div>
