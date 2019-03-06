@@ -2,7 +2,9 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-
+.navbar-nav{
+    flex-direction: row-reverse!important;
+}
 
 .row{
     text-align: right;
@@ -63,6 +65,7 @@ footer{
         margin-right: 1px!important;
         margin-left: 13px!important;
       }
+<<<<<<< HEAD
 }
 
 @media (min-width: 992px) {
@@ -75,4 +78,6 @@ footer{
     .row,p{
         text-align: center;
     }
+=======
+>>>>>>> parent of 3b007e7... update on css
 }
