@@ -32,6 +32,40 @@ body {
 }
 
 /* General */
+/* main color */
+.text-main-color {
+  color: #0f367a;
+}
+
+.bg-main {
+  background-color: #0f367a !important;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #0f367a;
+  border-color: #0f367a;
+}
+
+.btn-outline-main {
+  color: #0f367a;
+  border-color: #0f367a;
+}
+
+.btn-outline-main:hover {
+  color: #fff;
+  background-color: #0f367a;
+  border-color: #0f367a;
+}
+
+.btn-outline-main.focus, .btn-outline-main:focus {
+  box-shadow: 0 0 0 0.2rem rgba(15, 54, 97, 0.5);
+}
+
+.border-main {
+  border-color: #0f367a;
+}
+
 /* for hide element */
 .hide-ele {
   display: none;
@@ -100,8 +134,7 @@ body {
 
 .menu-item {
   font-size: 13px;
-  letter-spacing: 1px;
-  color: #3c4043;
+  color: #0f367a;
   transition: color 0.5s;
 }
 

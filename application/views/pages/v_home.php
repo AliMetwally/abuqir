@@ -6,7 +6,7 @@
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
-                        <?= lang('title_span')?> <span class="title-span text-primary">
+                        <?= lang('title_span')?> <span class="title-span text-main-color">
                             <?= lang('news_title')?></span>
                         <span class="sec-title-border">
                             <span></span>
@@ -23,7 +23,7 @@
 
         <div class="row py-3">
             <div class="col-lg-7 card-news hide-ele">
-                <div class="card my-5 border-primary">
+                <div class="card my-5 border-main">
                     <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest"
                         alt="...">
                     <div class="card-body">
@@ -33,15 +33,15 @@
                         <p class="card-text text-muted">
                             <?= $newsCoverContent->content?>
                         </p>
-                        <a href="#" class="btn btn-outline-primary">
+                        <a href="#" class="btn btn-outline-main">
                             <?= lang('btn_read_more')?></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 my-5 slide-news hide-ele" style="top: -54px;">
                 <div class="text-right">
-                    <a class="btn btn-secondary text-light" href="#carouselExampleControls" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                    <a class="btn btn-secondary text-light" href="#carouselExampleControls" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                    <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                    <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="next"><i class="fa fa-chevron-right"></i></a>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -55,7 +55,7 @@
                             <?php endif;?>
                             <a href="#">
                                 <div class="media my-3">
-                                    <img src='<?= base_url("uploads/press-news/$news->image")?>' class="border-primary img-slide"
+                                    <img src='<?= base_url("uploads/press-news/$news->image")?>' class="border-main img-slide"
                                         alt="...">
                                     <div class="media-body">
                                         <p class="mt-0 font-weight-bold">
@@ -116,7 +116,7 @@
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
-                        <?= lang('title_span')?> <span class="title-span text-primary">
+                        <?= lang('title_span')?> <span class="title-span text-main-color">
                             <?= lang('products_title')?></span>
                         <span class="sec-title-border">
                             <span></span>
@@ -134,8 +134,8 @@
 
 
                     <div class="text-right mb-3">
-                        <a class="btn btn-secondary text-light" href="#ProductCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                        <a class="btn btn-secondary text-light" href="#ProductCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                        <a class="btn btn-main text-light" href="#ProductCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                        <a class="btn btn-main text-light" href="#ProductCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
                     </div>
 
                     <!-- Carousel items -->

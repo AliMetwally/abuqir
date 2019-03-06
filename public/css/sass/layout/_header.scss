@@ -5,7 +5,36 @@
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner2.jpg) no-repeat center center / cover;
 }
 /* General */
+/* main color */
+.text-main-color{
+  color: $baseColor;
+}
 
+.bg-main {
+  background-color: $baseColor!important;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: $baseColor;
+  border-color: $baseColor;
+}
+
+.btn-outline-main {
+  color: $baseColor;
+  border-color: $baseColor;
+}
+.btn-outline-main:hover{
+  color:#fff;
+  background-color:$baseColor;
+  border-color:$baseColor;
+}
+.btn-outline-main.focus,.btn-outline-main:focus{
+  box-shadow:0 0 0 .2rem rgba(15,54,97,.5);
+}
+.border-main{
+  border-color: $baseColor; 
+}
 /* for hide element */
 .hide-ele{
   display: none;
@@ -71,8 +100,7 @@
 
 .menu-item{
   font-size: 13px;
-  letter-spacing: 1px;
-  color: #3c4043;
+  color: $baseColor;
   transition: color .5s;
 }
 

@@ -65,16 +65,16 @@
         <header>
             <div class="container-fluid logo-bar" style="position: absolute;">
                 <div class="container d-flex  justify-content-around">
-                    <div><a href="#" class="nav-link">
+                    <div class="ml-4"><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
-                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-primary text-uppercase"><?= lang('abuqir')?>
+                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir')?>
                                 <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers')?></span>
                         </a>
                     </div>
-                    <div class="d-flex align-self-center">
+                    <div class="d-flex align-self-center mr-5">
                         <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/ar')?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
                         <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/en')?>"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
-                        <a class="nav-link menu-item text-primary" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
+                        <a class="nav-link menu-item text-main-color" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
                     </div>
                 </div>
             </div>
@@ -83,14 +83,14 @@
                 <a href="#" class="navbar-brand text-light text-uppercase hide-ele">
                     <img class="img-fluid img-logo d-none d-lg-block" width="100px" height="130px" style="position: absolute;top: -9px;left: 0;"
                          src="<?= base_url() ?>public/images/logo2.png" alt="">
-                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-primary"><?= lang('abuqir')?>
+                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color"><?= lang('abuqir')?>
                         <span class="h5 text-muted Fert-text"> <?= lang('fertilizers')?></span>
                     </span>
                 </a>
                 <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <div class="bg-primary line1"></div>
-                    <div class="bg-primary line2"></div>
-                    <div class="bg-primary line3"></div>
+                    <div class="bg-main line1"></div>
+                    <div class="bg-main line2"></div>
+                    <div class="bg-main line3"></div>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center text-uppercase font-weight-bold" id="myNavbar">
                     <ul class="navbar-nav custom-nav">
