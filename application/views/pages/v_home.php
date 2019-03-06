@@ -149,6 +149,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -163,6 +164,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -177,6 +179,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -191,6 +194,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -212,6 +216,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -226,6 +231,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
@@ -240,6 +246,7 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h4>Product Name</h4>
+                                                    <h5>Specifications</h5>
                                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
                                                     <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
                                                 </div>
