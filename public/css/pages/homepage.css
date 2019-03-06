@@ -290,54 +290,6 @@ body {
   right: -12px;
 }
 
-.porduct-bg img {
-  border: 1px solid #0f3661;
-}
-
-.product-box {
-  position: relative;
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.product-box-overlay {
-  position: absolute;
-  left: 0;
-  padding: 17px;
-  top: 0;
-  transform: scaleX(0);
-  height: 100%;
-  width: 100%;
-  transition: all 0.4s;
-  color: #fff;
-  text-align: center;
-  background: rgba(15, 54, 97, 0.75);
-}
-
-.product-box-overlay a {
-  color: #fff;
-}
-
-.portfolio-box-overlay h4 {
-  color: #fff;
-}
-
-.product-box-overlay p {
-  margin: 12px 0;
-  color: #fff;
-}
-
-.product-box:hover .product-box-overlay {
-  transform: scaleX(1);
-}
-
-.products .img-thumbnail {
-  padding: 0;
-  border-radius: 0;
-}
-
 /* end of product */
 /* footer */
 footer {
@@ -353,31 +305,6 @@ footer {
 .footer-link:hover {
   color: #70aed2;
   text-decoration: none;
-}
-
-.mr-2-ftr {
-  margin-right: 0.5rem !important;
-  margin-left: 0 !important;
-}
-
-.address-ftr {
-  margin-left: 0px;
-  margin-right: 5px;
-}
-
-.state-ftr {
-  margin-right: 6px;
-  margin-left: 0px;
-}
-
-.mobile-ftr {
-  margin-right: 8px;
-  margin-left: 3px;
-}
-
-.phone-ftr {
-  margin-right: 5px;
-  margin-left: 0px;
 }
 
 /* end of footer */
