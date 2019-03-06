@@ -2,10 +2,6 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-.navbar-nav{
-    flex-direction: row-reverse!important;
-}
-
 .row{
     text-align: right;
 }
@@ -45,3 +41,10 @@ footer{
         margin-left: .5rem!important;
     }
 }
+
+@media (min-width: 992px) {
+    .navbar-nav{
+        flex-direction: row-reverse!important;
+    }    
+  }
+

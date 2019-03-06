@@ -290,6 +290,54 @@ body {
   right: -12px;
 }
 
+.porduct-bg img {
+  border: 1px solid #0f3661;
+}
+
+.product-box {
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-box-overlay {
+  position: absolute;
+  left: 0;
+  padding: 17px;
+  top: 0;
+  transform: scaleX(0);
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  color: #fff;
+  text-align: center;
+  background: rgba(15, 54, 97, 0.75);
+}
+
+.product-box-overlay a {
+  color: #fff;
+}
+
+.portfolio-box-overlay h4 {
+  color: #fff;
+}
+
+.product-box-overlay p {
+  margin: 12px 0;
+  color: #fff;
+}
+
+.product-box:hover .product-box-overlay {
+  transform: scaleX(1);
+}
+
+.products .img-thumbnail {
+  padding: 0;
+  border-radius: 0;
+}
+
 /* end of product */
 /* footer */
 footer {
