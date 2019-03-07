@@ -156,11 +156,11 @@
                                             <div class="display-table">
                                                 <div class="display-tablecell">
                                                     <h5><?= $products['product']->product_name?></h5>
-                                                    <h5><?= lang('specs')?></h5>
+                                                    <h5 class="mt-3"><?= lang('specs')?></h5>
                                                     <?php
                                                     foreach($products['spec']  as $spec):
                                                     ?>
-                                                    <p><small><?= $spec->spec_name?></small></p>
+                                                    <p><small><i class="fa <?= $this->session->site_lang === 'ar'? 'fa-angle-double-left':'fa-angle-double-right'?>" aria-hidden="true"></i> <?= $spec->spec_name?></small></p>
                                                     <?php endforeach;?>
                                                 </div>
                                             </div>
