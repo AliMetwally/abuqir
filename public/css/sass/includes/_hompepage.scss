@@ -118,7 +118,9 @@
 
 
 /* product */
-
+.products p{
+  text-align: left;
+}
 .products .carousel-indicators {
 	left: 0;
 	top: auto;
@@ -176,7 +178,7 @@ background: #707070;
   transition: all 0.4s;
   color: #fff;
   text-align: center;
-  background: rgba(15, 54, 97,0.75);
+  background: rgba(15, 54, 97,0.9);
 }
 .product-box-overlay a {
   // border-radius: 5px;

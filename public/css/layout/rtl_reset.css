@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  text-align: right;
+  text-align: right !important;
 }
 
 footer .copy-right p {

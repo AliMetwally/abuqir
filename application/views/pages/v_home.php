@@ -55,7 +55,7 @@
                             <?php endif;?>
                             <a href="#">
                                 <div class="media my-3">
-                                    <img src='<?= base_url("uploads/press-news/$news->image")?>' class="border-main img-slide"
+                                    <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
                                         alt="...">
                                     <div class="media-body">
                                         <p class="mt-0 font-weight-bold">
@@ -140,138 +140,43 @@
 
                     <!-- Carousel items -->
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                    <?php
+                            $i = 1;
+                            foreach ($products_specs as $products):                                
+                            if ($i % 4 == 1):
+                               
+                            ?>
+                        <div class="carousel-item  <?= $i == 1? 'active':'' ?>">
                             <div class="row text-center">
+                            <?php endif;?> 
                                 <div class="col-12 col-md-6 col-lg-3 mb-3">
                                     <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
+                                        <img src="<?php echo base_url('public/images/products/'.$products['product']->product_id.'.jpg')?>" class="img-thumbnail" alt="">
                                         <div class="product-box-overlay">
                                             <div class="display-table">
                                                 <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
+                                                    <h5><?= $products['product']->product_name?></h5>
+                                                    <h5><?= lang('specs')?></h5>
+                                                    <?php
+                                                    foreach($products['spec']  as $spec):
+                                                    ?>
+                                                    <p><small><?= $spec->spec_name?></small></p>
+                                                    <?php endforeach;?>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php if (($i / 4) * ($i % 4) == 0): ?>
                             </div>
                             <!--.row-->
                         </div>
+                            <?php endif;?>
+                            <?php 
+                        
+                                $i++;
+                            endforeach;?>
                         <!--.item-->
-
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-3 mb-3">
-                                    <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url()?>public/images/products/1.jpg" class="img-thumbnail" alt="">
-                                        <div class="product-box-overlay">
-                                            <div class="display-table">
-                                                <div class="display-tablecell">
-                                                    <h4>Product Name</h4>
-                                                    <h5>Specifications</h5>
-                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ducimus incidunt sapiente dicta. Numquam ratione porro odio sunt veniam repellendus.</p>
-                                                    <a href="#" class="btn btn-outline-light theme-btn6">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
-                        </div>
                         <!--.item-->
                     </div>
                     <!--.carousel-inner-->
@@ -282,5 +187,4 @@
         </div>
     </div>
 </section>
-
 <!-- end of products -->

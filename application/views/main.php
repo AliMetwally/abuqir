@@ -64,7 +64,7 @@
         <!-- header -->
         <header>
             <div class="container-fluid logo-bar" style="position: absolute;">
-                <div class="container d-flex  justify-content-around">
+                <div class="container d-flex justify-content-around">
                     <div class="ml-4"><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
                             <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir')?>
