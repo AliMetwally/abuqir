@@ -26,9 +26,9 @@ body {
 
 /* header */
 .header-img {
-  margin-top: 40px;
-  height: 85vh;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../..//..//images/banner2.jpg) no-repeat center center/cover;
+  margin-top: 80px;
+  height: 80vh;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../..//..//images/banner1.jpg) no-repeat center center/cover;
 }
 
 /* General */
@@ -133,17 +133,17 @@ body {
 }
 
 .menu-item {
-  font-size: 13px;
+  font-size: 16px;
   color: #0f367a;
   transition: color 0.5s;
 }
 
 .nav-active {
-  color: #70aed2;
+  color: #0079bf;
 }
 
 .menu-item:hover {
-  color: #70aed2;
+  color: #0079bf;
 }
 
 .line1, .line2, .line3 {
@@ -196,20 +196,22 @@ body {
 /* end of navbar */
 /* end of header */
 /* news */
-.img-slide {
+.news {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.news .img-slide {
   width: 150px;
   height: 150px;
   margin-right: 1rem !important;
   margin-left: 0;
 }
-
-.news-link a {
+.news .news-link a {
   color: #0f3661 !important;
   text-decoration: none;
   background-color: transparent;
 }
-
-.news-link a:hover {
+.news .news-link a:hover {
   color: #0f3661 !important;
   text-decoration: none;
   background-color: transparent;
@@ -351,6 +353,7 @@ body {
   color: #fff;
   text-align: center;
   background: rgba(15, 54, 97, 0.9);
+  border: 2px solid #fff;
 }
 
 .product-box-overlay a {
@@ -377,6 +380,27 @@ body {
 
 /* end of product */
 /* footer */
+.top-page .back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  z-index: 1;
+}
+.top-page .btn-main {
+  border: 1px solid #fff;
+}
+.top-page .back-to-top:hover {
+  color: #eee;
+}
+
 footer {
   background: linear-gradient(rgba(4, 28, 56, 0.8), rgba(4, 28, 56, 0.9)), url(../..//..//images/them-blue1.jpg) center center/cover;
 }

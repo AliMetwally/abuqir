@@ -1,5 +1,5 @@
 <!-- news -->
-<section class="bg-white py-4">
+<section class="news bg-white py-4">
     <div class="container">
         <!-- title -->
         <div class="row">

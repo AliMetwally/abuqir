@@ -1,8 +1,8 @@
 /* header */
 .header-img{
-  margin-top: 40px;
-  height: 85vh;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner2.jpg) no-repeat center center / cover;
+  margin-top: 80px;
+  height: 80vh;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner1.jpg) no-repeat center center / cover;
 }
 /* General */
 /* main color */
@@ -99,17 +99,17 @@
 }
 
 .menu-item{
-  font-size: 13px;
+  font-size: 16px;
   color: $baseColor;
   transition: color .5s;
 }
 
 .nav-active{
-  color: #70aed2;
+  color: #0079bf;
 }
 
 .menu-item:hover{
-  color: #70aed2
+  color: #0079bf
 }
 
 .line1, .line2, .line3{

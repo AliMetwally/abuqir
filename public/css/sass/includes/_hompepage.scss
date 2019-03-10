@@ -1,24 +1,26 @@
 /* news */
+.news{
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, .7)),url(../..//..//images/them-gray1.jpg) no-repeat center center / cover;
+  background-attachment: fixed;
+  .img-slide{
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem!important;
+    margin-left: 0;
+  }
 
-.img-slide{
-  width: 150px;
-  height: 150px;
-  margin-right: 1rem!important;
-  margin-left: 0;
+  .news-link a{
+    color: #0f3661!important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .news-link a:hover{
+    color: #0f3661!important;
+    text-decoration: none;
+    background-color: transparent;
+  }
 }
-
-.news-link a{
-  color: #0f3661!important;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.news-link a:hover{
-  color: #0f3661!important;
-  text-decoration: none;
-  background-color: transparent;
-}
-
 .fromLeft{
   animation-name: fromLeft;
   animation-duration: 5s;
@@ -179,6 +181,7 @@ background: #707070;
   color: #fff;
   text-align: center;
   background: rgba(15, 54, 97,0.9);
+  border: 2px solid #fff;
 }
 .product-box-overlay a {
   // border-radius: 5px;

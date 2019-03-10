@@ -72,16 +72,10 @@ $(function () {
             $(".img-logo").addClass("custom-img-logo");
             $(".company-name").addClass("custom-company-name");
             $(".nav-menu-dropdown").addClass("custom-navbar-dropdown");
-            $(".navbar-nav .menu-item").removeClass("text-white");
-            $(".navbar-nav").removeClass("custom-nav");
-            $(".nav-menu-dropdown").removeClass("custom-nav");
             $(".navbar-brand").removeClass("hide-ele");
         } else {
             $(".nav-menu").removeClass("custom-navbar");
             $(".navbar").removeClass("fixed-top");
-            $(".navbar-nav").addClass("custom-nav");
-            $(".nav-menu-dropdown").addClass("custom-nav");
-            $(".navbar-nav .menu-item").addClass("text-white");
             $(".img-logo").removeClass("custom-img-logo");
             $(".company-name").removeClass("custom-company-name");
             $(".nav-menu-dropdown").removeClass("custom-navbar-dropdown");
@@ -95,6 +89,25 @@ $(function () {
         }        
     });
 
+
+    // button back to top
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
+        }
+    });
+    // scroll body to 0px on click
+    $('#back-to-top').click(function () {
+        $('#back-to-top').tooltip('hide');
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+    
+    $('#back-to-top').tooltip('show');
 });
 
 
