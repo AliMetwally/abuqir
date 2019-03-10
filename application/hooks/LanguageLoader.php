@@ -18,6 +18,8 @@ class LanguageLoader {
         
         if($controller == 'home' && $method == 'index' ){
             $ci->lang->load('home', $ci->session->userdata('site_lang'));
+        } else  if($controller == 'contact' && $method == 'index' ){
+            $ci->lang->load('contact', $ci->session->userdata('site_lang'));
         }
     }
 

@@ -95,22 +95,22 @@
                 <div class="collapse navbar-collapse justify-content-center text-uppercase font-weight-bold" id="myNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-active"><?= lang('home_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-home"><?= lang('home_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item"><?= lang('about_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-about"><?= lang('about_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item"><?= lang('media_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-media"><?= lang('media_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item"><?= lang('reponsibility_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item"><?= lang('investors_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-investors"><?= lang('investors_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item"><?= lang('contact_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-contact"><?= lang('contact_link')?></a>
                         </li>
                         </li>
                         <li class="nav-item dropdown drop-nav">

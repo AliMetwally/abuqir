@@ -1,4 +1,10 @@
 $(function () {
+    // Add active class to homepage link in navbar
+    $(window).on("load",function(){
+        $(".nav-home").addClass("nav-active");
+    });
+
+    //Add animation on news section
     $(window).scroll(function () {
         var pos = $(this).scrollTop();
         if (pos >= 300) {
@@ -11,7 +17,7 @@ $(function () {
         }
     });
 
-
+    //Add animation on chairman section
     $(window).scroll(function () {
         var pos = $(this).scrollTop();
         if (pos >= 800) {

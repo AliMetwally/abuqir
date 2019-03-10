@@ -11,7 +11,7 @@ class Home  extends CI_Controller{
     
     /*
      * View : v_home
-     * model : media
+     * model : media - product
      * Translation : home_lang
      */
     public function index(){        
