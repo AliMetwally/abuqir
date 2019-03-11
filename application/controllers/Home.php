@@ -45,4 +45,19 @@ class Home  extends CI_Controller{
         $data['content'] = $this->load->view('pages/v_home', $v_data, true);
         $this->load->view('main', $data);
     }    
+
+
+    public function contact(){
+        //----------------------------------------------------------------------
+        // scripts css, js
+        $data['custom_css'] = 'contactpage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'contact.js';
+        
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_contact',true, true);
+        $this->load->view('main', $data);
+      
+    }
+
 }

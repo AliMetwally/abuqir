@@ -31,17 +31,17 @@ $lang['plant_fax1'] = "(203) 560-3032";
 
 
 #Office
-$lang['Office'] = "Office";
-$lang['alex_Office'] = "Alexandria Office";
-$lang['cairo_Office'] = "Cairo Office";
-$lang['address_Office'] = "Address";
-$lang['address_Office_alex'] = "Address: 95 - 26 July Road - Selsela's Tower";
-$lang['address_Office_cairo'] = "العنوان";
-$lang['phone_Office'] = "Phone ";
-$lang['phone_Office_alex'] = "تليفون";
-$lang['phone_Office_cairo'] = "تليفون";
-$lang['fax_Office'] = "Fax";
-$lang['fax_Office_alex'] = "فاكس";
-$lang['fax_Office_cairo'] = "فاكس";
+$lang['office'] = "Office";
+$lang['alex_office'] = "Alexandria Office";
+$lang['cairo_office'] = "Cairo Office";
+$lang['address_office'] = "Address";
+$lang['address_office_alex'] = "Address: 95 - 26 July Road - Selsela's Tower";
+$lang['address_office_cairo'] = "5 Sherif El-Soghayar St";
+$lang['phone_office'] = "Phone ";
+$lang['phone_office_alex'] = "(203) 487-9911";
+$lang['phone_office_cairo'] = "(202) 393-4176";
+$lang['fax_office'] = "Fax";
+$lang['fax_office_alex'] = "(203) 484-7229";
+$lang['fax_office_cairo'] = "(202) 393-4176";
 
 

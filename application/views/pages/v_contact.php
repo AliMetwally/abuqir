@@ -41,21 +41,20 @@
                 </div>
                 <div class="card text-dark bg-white mb-3 border-main">
                     <div class="card-header bg-main border-main text-white">
-                        <h4>المكتب</h4>
+                        <h4><?= lang('office')?></h4>
                     </div>
-                    <div class="card-body">
-                        <h5 class="mb-3">مكتب اسكندرية</h5>
+                    <div class="card-body mb-1">
+                        <h5 class="mb-3"><?= lang('alex_office')?></h5>
                         <ul class="list-group unstyled">
-                            <p><i class="fa fa-home px-3"></i>العنوان: <span class="arabic-number"> ٩٥</span> - طريق <span class="arabic-number">٢٦</span> يوليو - برج السلسة  </p>
-                            <p><i class="fa fa-phone px-3"></i>تليفون : <span class="arabic-number">٠٠٢٠٣٤٨٧٩٩١١</span></p>
-                            <p><i class="fa fa-fax px-3"></i>فاكس: <span class="arabic-number">٠٠٢٠٣٤٨٤٧٢٢٩</span></p>
+                            <p><i class="fa fa-home px-3"></i><?= lang('address_office')?>: <?= lang('address_office_alex')?> </p>
+                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <span class="arabic-number"><?= lang('phone_office_alex')?></span></p>
+                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <?= lang('fax_office_alex')?></p>
                         </ul>
-                        <h5 class="mb-3">مكتب القاهرة</h5>
+                        <h5 class="mb-3"><?= lang('cairo_office')?></h5>
                         <ul class="list-group unstyled">
-                            <p><i class="fa fa-home px-3"></i>العنوان: <span class="arabic-number">٥</span> شارع شريف الصغير.  </p>
-                            <p><i class="fa fa-phone px-3"></i>تليفون : <span class="arabic-number">٠٠٢٠٢٣٩٣٤١٧٦</span></p>
-                            <p><i class="fa fa-fax px-3"></i>فاكس: <span class="arabic-number">٠٠٢٠٢٣٩٣٤١٧٦</span> </p>
-                        </ul>
+                            <p><i class="fa fa-home px-3"></i><?= lang('address_office')?>: <?= lang('address_office_cairo')?> </p>
+                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <span class="arabic-number"><?= lang('phone_office_cairo')?></span></p>
+                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <?= lang('fax_office_cairo')?></p>
                     </div>
                 </div>
             </div>
@@ -105,7 +104,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtMesage"><?= lang('txt_mesage')?></label>
-                                <textarea class="form-control" rows="9" id="txtMesage" name="txtMesage" data-bv-field="txtMesage"></textarea>
+                                <textarea class="form-control" rows="7" id="txtMesage" name="txtMesage" data-bv-field="txtMesage"></textarea>
                             </div>
                             <button type="submit" class="btn btn-main text-white">Submit</button>
                         </form>
@@ -114,7 +113,10 @@
             </div>
         </div>
         <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13640.96066479133!2d30.113470357495533!3d31.269451371596578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5d70e043f5a2b%3A0xd101b0cce7ca2a89!2sAbuqir+fertilizers!5e0!3m2!1sar!2seg!4v1418747946109" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
+         <div class="col-12">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13640.96066479133!2d30.113470357495533!3d31.269451371596578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5d70e043f5a2b%3A0xd101b0cce7ca2a89!2sAbuqir+fertilizers!5e0!3m2!1sar!2seg!4v1418747946109" width="100%" height="300px" frameborder="0" style="border:0"></iframe>
+         </div>   
+        
         </div>
     </div>
 </section>

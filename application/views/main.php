@@ -95,7 +95,7 @@
                 <div class="collapse navbar-collapse justify-content-center text-uppercase font-weight-bold" id="myNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-home"><?= lang('home_link')?></a>
+                            <a href="<?= base_url('/home')?>" class="nav-link m-2 menu-item nav-home"><?= lang('home_link')?></a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link m-2 menu-item nav-about"><?= lang('about_link')?></a>
@@ -110,7 +110,7 @@
                             <a href="" class="nav-link m-2 menu-item nav-investors"><?= lang('investors_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-contact"><?= lang('contact_link')?></a>
+                            <a href="<?= base_url('/contact')?>" class="nav-link m-2 menu-item nav-contact"><?= lang('contact_link')?></a>
                         </li>
                         </li>
                         <li class="nav-item dropdown drop-nav">
@@ -152,7 +152,7 @@
                         <h5 class="pb-3 font-weight-bold"><?= lang('visit')?></h5>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link')?></a>
+                                <a href="<?= base_url('/home')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link')?></a>
                             </li>
                             <li>
                                 <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link')?></a>
@@ -167,7 +167,7 @@
                                 <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link')?></a>
+                                <a href="<?= base_url('/contact')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link')?></a>
                             </li>
                         </ul>
                     </div>

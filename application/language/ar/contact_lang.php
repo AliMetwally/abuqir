@@ -31,15 +31,15 @@ $lang['plant_fax1'] = "٠٠٢٠٣٥٦٠٣٠٣٢";
 
 
 #Office
-$lang['Office'] = "المكتب";
-$lang['alex_Office'] = "مكتب الاسكندرية";
-$lang['cairo_Office'] = "مكتب القاهرة";
-$lang['address_Office'] = "العنوان";
-$lang['address_Office_alex'] = "العنوان";
-$lang['address_Office_cairo'] = "العنوان";
-$lang['phone_Office'] = "تليفون";
-$lang['phone_Office_alex'] = "تليفون";
-$lang['phone_Office_cairo'] = "تليفون";
-$lang['fax_Office'] = "فاكس";
-$lang['fax_Office_alex'] = "فاكس";
-$lang['fax_Office_cairo'] = "فاكس";
+$lang['office'] = "المكتب";
+$lang['alex_office'] = "مكتب الاسكندرية";
+$lang['cairo_office'] = "مكتب القاهرة";
+$lang['address_office'] = "العنوان";
+$lang['address_office_alex'] = "٩٥ - طريق ٢٦ يوليو - برج السلسة";
+$lang['address_office_cairo'] = "٥ شارع شريف الصغير";
+$lang['phone_office'] = "تليفون";
+$lang['phone_office_alex'] = "٠٠٢٠٣٤٨٧٩٩١١";
+$lang['phone_office_cairo'] = "٠٠٢٠٢٣٩٣٤١٧٦";
+$lang['fax_office'] = "فاكس";
+$lang['fax_office_alex'] = "٠٠٢٠٣٤٨٤٧٢٢٩";
+$lang['fax_office_cairo'] = "٠٠٢٠٢٣٩٣٤١٧٦";

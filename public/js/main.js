@@ -9,7 +9,7 @@ $(function () {
     window_size = $(this).width();
 
     //get window position when scrolling
-    var pos;
+    var pos = "";
     $(window).scroll(function () {
         pos = $(this).scrollTop();
     });
@@ -17,34 +17,44 @@ $(function () {
 
     // actions when window resizing
     $(window).on("resize", function () {
-        window_size = $(this).width();
-        if (window_size >= 975) {
-            $(".navbar-brand").addClass("hide-ele");
+      var  size = $(this).width();
+        if (size >= 975) {
             $(".logo-bar").removeClass("hide-ele");
             if(pos >=200 ){
+                $(".navbar-brand").removeClass("hide-ele");
                 $(".navbar").removeClass("nav-top");
+                $(".navbar").addClass("fixed-top");
             } else {
+                $(".navbar-brand").addClass("hide-ele");
                 $(".navbar").addClass("nav-top");
+                $(".navbar").removeClass("fixed-top");
             }
         } else {
-            $(".navbar-brand").removeClass("hide-ele");
             $(".logo-bar").addClass("hide-ele");
             $(".navbar").removeClass("nav-top");
+            $(".navbar-brand").removeClass("hide-ele");
         }
-        console.log(pos);
+        
     });
 
     // action when window loaded
     $(window).on("load", function () {
+        window_size = $(this).width();
         if (window_size >= 975) {
+            pos = $(this).scrollTop();
+            if(pos < 200 ){
             $(".navbar-brand").addClass("hide-ele");
+            } else {
+                $(".navbar-brand").removeClass("hide-ele");    
+            }
             $(".logo-bar").removeClass("hide-ele");
-            $(".navbar").addClass("nav-top");
         } else {
             $(".navbar-brand").removeClass("hide-ele");
             $(".logo-bar").addClass("hide-ele");
             $(".navbar").removeClass("nav-top");
-        }
+        }  
+        console.log(window_size);
+        console.log(pos);
     })
 
     // add or remove class change on small size
@@ -64,7 +74,7 @@ $(function () {
 
     //action when scrolling pages
     $(window).scroll(function () {
-        var pos = $(this).scrollTop();
+        window_size = $(this).width();
         if (pos >= 200) {
             $(".nav-menu").addClass("custom-navbar");
             $(".navbar").removeClass("nav-top");
@@ -98,6 +108,8 @@ $(function () {
             $('#back-to-top').fadeOut();
         }
     });
+
+    
     // scroll body to 0px on click
     $('#back-to-top').click(function () {
         $('#back-to-top').tooltip('hide');
@@ -107,7 +119,6 @@ $(function () {
         return false;
     });
     
-    $('#back-to-top').tooltip('show');
 });
 
 
