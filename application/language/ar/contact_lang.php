@@ -19,6 +19,7 @@ $lang['valid_mail'] = "رجاء إدخال البريد الالكترونى";
 $lang['valid_type'] = "رجاء إختيار نوع الرسالة";
 $lang['valid_sector'] = "رجاء اختيار وجهة الرسالة";
 $lang['valid_mesage'] = "رجاء كتابة الرسالة";
+$lang['dir'] = "rtl";
 
 #Contact Info
 $lang['plants'] = "المصانع";

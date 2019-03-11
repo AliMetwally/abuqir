@@ -68,7 +68,7 @@
                             <div class="form-group">
                                 <label for="txtname"><?= lang('txt_name')?></label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="txtname" required>
+                                    <input dir="<?= lang('dir')?>" type="text" class="form-control" id="txtname" required>
                                     <div class="invalid-feedback">
                                             <?= lang('valid_name')?>
                                     </div>
@@ -76,7 +76,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtcompany"><?= lang('txt_company')?></label>
-                                <input type="text" class="form-control" id="txtcompany">
+                                <input dir="<?= lang('dir')?>" type="text" class="form-control" id="txtcompany">
                             </div>
                             <div class="form-group">
                                 <label for="txtEmail"><?= lang('txt_email')?></label>
@@ -91,7 +91,7 @@
                                 <div class="form-group col-md-6">
                                     <label for="messageType"><?= lang('message_type')?></label>
                                     <div class="input-group">
-                                        <select name="message_types" class="form-control" id="messageType" data-bv-field="message_types" required>
+                                        <select  dir="<?= lang('dir')?>" name="message_types" class="form-control" id="messageType" data-bv-field="message_types" required>
                                             <option value=""></option>
                                             <option value="1">Inquiry</option>
                                             <option value="2">Proposal</option>
@@ -107,7 +107,7 @@
                                 <div class="form-group col-md-6">
                                     <label for="contactSector"><?= lang('contact_sector')?></label>
                                     <div class="input-group">
-                                        <select name="contact_sector" class="form-control" id="contactSector" data-bv-field="contact_sector" required>
+                                        <select  dir="<?= lang('dir')?>" name="contact_sector" class="form-control" id="contactSector" data-bv-field="contact_sector" required>
                                             <option value=""></option>
                                             <option value="1">IT</option>
                                             <option value="2">Human Resource</option>
@@ -125,7 +125,7 @@
                             <div class="form-group">
                                 <label for="txtMesage"><?= lang('txt_mesage')?></label>
                                 <div class="input-group">
-                                    <textarea class="form-control" rows="7" id="txtMesage" name="txtMesage" data-bv-field="txtMesage" required></textarea>                                    
+                                    <textarea dir="<?= lang('dir')?>"  class="form-control" rows="7" id="txtMesage" name="txtMesage" data-bv-field="txtMesage" required></textarea>                                    
                                     <div class="invalid-feedback">
                                             <?= lang('valid_mesage')?>
                                     </div>

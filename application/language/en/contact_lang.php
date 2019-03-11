@@ -19,6 +19,7 @@ $lang['valid_mail'] = "Please enter your Email.";
 $lang['valid_type'] = "Please choose your message type.";
 $lang['valid_sector'] = "Please choose your contact sector.";
 $lang['valid_mesage'] = "Please enter your message.";
+$lang['dir'] = "ltr";
 
 
 
