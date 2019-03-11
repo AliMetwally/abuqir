@@ -27,15 +27,15 @@
                     <div class="card-body">
                         <ul class="list-group unstyled">
                             <p><i class="fa fa-home px-3"></i><?= lang('plant_address')?> </p>
-                            <p><i class="fa fa-phone px-3"></i><?= lang('plant_phone')?> : <span class="arabic-number"><?= lang('plant_phone1')?></span>
+                            <p><i class="fa fa-phone px-3"></i><?= lang('plant_phone')?> : <small><span class="arabic-number"><?= lang('plant_phone1')?></span>
                                 / <span class="arabic-number"><?= lang('plant_phone2')?></span>
-                                / <span class="arabic-number"><?= lang('plant_phone3')?></span> </p>
+                                / <span class="arabic-number"><?= lang('plant_phone3')?></span></small></p>
                             <p><i class="fa fa-mobile fa-2x px-3"></i><?= lang('plant_mobile')?> :
-                                <span class="arabic-number"><?= lang('plant_mobile1')?></span>
+                            <small><span class="arabic-number"><?= lang('plant_mobile1')?></span>
                                 / <span class="arabic-number"><?= lang('plant_mobile2')?> </span>
                                 / <span class="arabic-number"><?= lang('plant_mobile3')?> </span>
-                            </p>
-                            <p><i class="fa fa-fax px-3"></i><?= lang('plant_fax')?>: <span class="arabic-number"><?= lang('plant_fax1')?></span> </p>
+                            </small></p>
+                            <p><i class="fa fa-fax px-3"></i><?= lang('plant_fax')?>: <small><span class="arabic-number"><?= lang('plant_fax1')?></span> </small></p>
                         </ul>
                     </div>
                 </div>
@@ -47,14 +47,14 @@
                         <h5 class="mb-3"><?= lang('alex_office')?></h5>
                         <ul class="list-group unstyled">
                             <p><i class="fa fa-home px-3"></i><?= lang('address_office')?>: <?= lang('address_office_alex')?> </p>
-                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <span class="arabic-number"><?= lang('phone_office_alex')?></span></p>
-                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <?= lang('fax_office_alex')?></p>
+                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <small><span class="arabic-number"><?= lang('phone_office_alex')?></span></small></p>
+                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <small><?= lang('fax_office_alex')?></small></p>
                         </ul>
                         <h5 class="mb-3"><?= lang('cairo_office')?></h5>
                         <ul class="list-group unstyled">
                             <p><i class="fa fa-home px-3"></i><?= lang('address_office')?>: <?= lang('address_office_cairo')?> </p>
-                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <span class="arabic-number"><?= lang('phone_office_cairo')?></span></p>
-                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <?= lang('fax_office_cairo')?></p>
+                            <p><i class="fa fa-phone px-3"></i><?= lang('phone_office')?>: <small><span class="arabic-number"><?= lang('phone_office_cairo')?></span></small></p>
+                            <p><i class="fa fa-fax px-3"></i><?= lang('fax_office')?>: <small><?= lang('fax_office_cairo')?></small></p>
                     </div>
                 </div>
             </div>
@@ -64,10 +64,15 @@
                         <h4><?= lang('form_title')?></h4>
                     </div>
                     <div class="card-body text-dark">
-                        <form>
+                        <form class="needs-validation" novalidate>
                             <div class="form-group">
                                 <label for="txtname"><?= lang('txt_name')?></label>
-                                <input type="text" class="form-control" id="txtname">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="txtname" required>
+                                    <div class="invalid-feedback">
+                                            <?= lang('valid_name')?>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="txtcompany"><?= lang('txt_company')?></label>
@@ -75,36 +80,56 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtEmail"><?= lang('txt_email')?></label>
-                                <input type="email" class="form-control" id="txtEmail">
+                                <div class="input-group">                                    
+                                    <input type="email" class="form-control" id="txtEmail" required>
+                                    <div class="invalid-feedback">
+                                            <?= lang('valid_mail')?>
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="messageType"><?= lang('message_type')?></label>
-                                    <select name="message_types" class="form-control" id="messageType" data-bv-field="message_types">
-                                        <option value="0"></option>
-                                        <option value="1">Inquiry</option>
-                                        <option value="2">Proposal</option>
-                                        <option value="3">Complaint</option>
-                                        <option value="4">Thanks</option>
-                                        <option value="5">Other</option>
-                                    </select>
+                                    <div class="input-group">
+                                        <select name="message_types" class="form-control" id="messageType" data-bv-field="message_types" required>
+                                            <option value=""></option>
+                                            <option value="1">Inquiry</option>
+                                            <option value="2">Proposal</option>
+                                            <option value="3">Complaint</option>
+                                            <option value="4">Thanks</option>
+                                            <option value="5">Other</option>
+                                        </select>
+                                    <div class="invalid-feedback">
+                                            <?= lang('valid_type')?>
+                                    </div>
+                                    </div>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="contactSector"><?= lang('contact_sector')?></label>
-                                    <select name="contact_sector" class="form-control" id="contactSector" data-bv-field="contact_sector">
-                                        <option value="0"></option>
-                                        <option value="1">IT</option>
-                                        <option value="2">Human Resource</option>
-                                        <option value="3">Purchasing</option>
-                                        <option value="4">Finance</option>
-                                        <option value="5">Marketing</option>
-                                        <option value="6">General</option>
-                                    </select>
+                                    <div class="input-group">
+                                        <select name="contact_sector" class="form-control" id="contactSector" data-bv-field="contact_sector" required>
+                                            <option value=""></option>
+                                            <option value="1">IT</option>
+                                            <option value="2">Human Resource</option>
+                                            <option value="3">Purchasing</option>
+                                            <option value="4">Finance</option>
+                                            <option value="5">Marketing</option>
+                                            <option value="6">General</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            <?= lang('valid_sector')?>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="txtMesage"><?= lang('txt_mesage')?></label>
-                                <textarea class="form-control" rows="7" id="txtMesage" name="txtMesage" data-bv-field="txtMesage"></textarea>
+                                <div class="input-group">
+                                    <textarea class="form-control" rows="7" id="txtMesage" name="txtMesage" data-bv-field="txtMesage" required></textarea>                                    
+                                    <div class="invalid-feedback">
+                                            <?= lang('valid_mesage')?>
+                                    </div>
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-main text-white">Submit</button>
                         </form>

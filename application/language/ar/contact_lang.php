@@ -14,6 +14,11 @@ $lang['message_type'] = "نوع الرسالة";
 $lang['contact_sector'] = "وجهة الرسالة";
 $lang['txt_mesage'] = "الرسالة";
 $lang['btn_main'] = 'إرسال';
+$lang['valid_name'] = "رجاء إدخال الاسم";
+$lang['valid_mail'] = "رجاء إدخال البريد الالكترونى";
+$lang['valid_type'] = "رجاء إختيار نوع الرسالة";
+$lang['valid_sector'] = "رجاء اختيار وجهة الرسالة";
+$lang['valid_mesage'] = "رجاء كتابة الرسالة";
 
 #Contact Info
 $lang['plants'] = "المصانع";
