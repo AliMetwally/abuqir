@@ -16,20 +16,6 @@
     display: none;
 }
 
-.emp-social{
-    background: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.9)), url(../..//..//images/them-blue1.jpg) no-repeat center center / cover;
-    background-attachment: fixed;
-    span{
-    position: absolute;
-}
-
-.emp-social-silder{
-    left: -400px;
-}
-.emp-social-content{
-    left: -1200px;
-
-}
 
 .carousel{    
     border: 2px solid #0f367a;
@@ -59,4 +45,70 @@
     opacity: .9;
     // transition: opacity .15s ease;
 }
+
+.emp-social{
+    background: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.9)), url(../..//..//images/them-blue1.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+span{
+    position: absolute;
+}
+
+.emp-social-silder{
+    left: -400px;
+}
+.emp-social-content{
+    left: -1200px;
+
+}
+
 } 
+
+.social-area{
+    .ul.nav.nav-tabs {
+        border: none;
+    }
+    .nav-tabs li {
+        width: 50%;
+        text-align: center;
+        background: #f1f1f1;
+        font-size: 16px;
+    }
+    .nav-tabs {
+        margin-top: 20px;
+    }
+    .nav-tabs li a {
+        background: #f1f1f1;
+        display: inline-block;
+        width: 100%;
+        padding: 8px;
+        color: #666666;
+    }
+    .tab-content {
+        padding: 15px;
+        border: 1px solid #d6dadf;
+        border-top: 0;
+    }
+    .tab-content h4 {
+        margin-bottom: 6px;
+    }
+    .nav-tabs li a:hover,.nav-tabs li a.active {
+        background: #0F3661;
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    .area-text,.social-area-slider{
+        display: none;
+    }
+}
+
+.social-city{
+    .city-slider{
+        left: -700px;
+    }
+    .city-text{
+        right: -600px;    
+    }
+}

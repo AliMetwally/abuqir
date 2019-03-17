@@ -17,5 +17,15 @@ $(function(){
             $(".emp-social-content" ).animate({ "left": "0" }, 2000 );
         }
 
+        if(s_pos >= 600){
+            $(".social-area-slider").fadeIn(3000);
+            $(".area-text" ).fadeIn(3000);
+        }
+
+        if(s_pos >=900){
+            
+            $(".city-slider" ).animate({ "left": "0" }, 1200);
+            $(".city-text" ).animate({ "right": "0" }, 2000 );
+        }
     });
 })
