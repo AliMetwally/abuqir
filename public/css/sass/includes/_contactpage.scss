@@ -11,22 +11,3 @@
     background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .7)),url(../..//..//images/them-gray1.jpg) no-repeat center center / cover;
     background-attachment: fixed;
 }
-
-@media (min-width: 992px) {
-    .breadcrumb{
-        margin-top: 80px;
-        margin-bottom: 0;
-        height: 300px;
-        font-size: 16px;
-        font-weight: bold;
-    }
-}
-
-@media (max-width: 991px) {
-    .contact{
-        // margin-top: 80px;
-    }
-    .breadcrumb{
-        display: none;
-    }
-}

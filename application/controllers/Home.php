@@ -10,9 +10,9 @@ class Home  extends CI_Controller{
     }
     
     /*
-     * View : v_home
+     * View : v_home - v_contact - v_social_responsibiltiy
      * model : media - product
-     * Translation : home_lang
+     * Translation : home_lang - contact_lang
      */
     public function index(){        
         // ---------------------------------------------------------------------
@@ -56,6 +56,20 @@ class Home  extends CI_Controller{
         
         // load the view as string 
         $data['content'] = $this->load->view('pages/v_contact',true, true);
+        $this->load->view('main', $data);
+      
+    }
+
+
+    public function socialresponsibiltiy(){
+        //----------------------------------------------------------------------
+        // scripts css, js
+        $data['custom_css'] = 'socialresponsibilitypage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'socialresponsibiltiy.js';
+        
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_social_responsibiltiy',true, true);
         $this->load->view('main', $data);
       
     }

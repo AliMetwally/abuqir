@@ -20,6 +20,8 @@ class LanguageLoader {
             $ci->lang->load('home', $ci->session->userdata('site_lang'));
         } else  if($controller == 'home' && $method == 'contact' ){
             $ci->lang->load('contact', $ci->session->userdata('site_lang'));
+        } else  if($controller == 'home' && $method == 'socialresponsibiltiy' ){
+            $ci->lang->load('social_responsibiltiy', $ci->session->userdata('site_lang'));
         }
     }
 

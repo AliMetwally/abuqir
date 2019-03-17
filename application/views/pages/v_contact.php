@@ -131,7 +131,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-main text-white">Submit</button>
+                            <button type="submit" class="btn btn-main text-white"><?= lang('btn_main')?></button>
                         </form>
                     </div>
                 </div>

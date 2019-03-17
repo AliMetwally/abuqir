@@ -188,6 +188,7 @@ body {
 
 /* end of navbar */
 /* end of header */
+/*social responsibilty*/
 .header-img {
   display: none;
 }
@@ -197,10 +198,53 @@ body {
   border-radius: 0;
 }
 
-/* contact */
-.contact {
+.social-responsibilty {
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
   background-attachment: fixed;
+}
+
+.title-p {
+  display: none;
+}
+
+.emp-social {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(../..//..//images/them-blue1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.emp-social span {
+  position: absolute;
+}
+.emp-social .emp-social-silder {
+  left: -400px;
+}
+.emp-social .emp-social-content {
+  left: -1200px;
+}
+.emp-social .carousel {
+  border: 2px solid #0f367a;
+}
+.emp-social .carousel-control-prev {
+  left: 20px;
+  border: 1px solid #EEE;
+  width: 50px;
+  border-radius: 100%;
+  top: 50%;
+  height: 50px;
+  opacity: 0.3;
+}
+.emp-social .carousel-control-next {
+  right: 20px;
+  border: 1px solid #EEE;
+  width: 50px;
+  border-radius: 100%;
+  top: 50%;
+  height: 50px;
+  opacity: 0.3;
+}
+.emp-social .carousel-control-prev:hover, .emp-social .carousel-control-next:hover {
+  background-color: #0f367a;
+  display: flex;
+  opacity: 0.9;
 }
 
 /* footer */
@@ -304,4 +348,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=contactpage.css.map */
+/*# sourceMappingURL=socialresponsibilitypage.css.map */
