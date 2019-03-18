@@ -33,3 +33,11 @@ $lang['area-content'] = "<p class=\"text-justify\"><i class=\"fa fa fa-hand-o-ri
 # social city 
 $lang['city-title'] = "The Company made the following basic infrastructure projects";
 $lang['city-content'] = "<p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>El Maamoura – Rashid Road</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>El Khat El Wastany</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>Ali Maher – Khorshid Road</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>El Maadia Road</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>El Mallaha – Seiouf Road</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-right px-2\"></i>El Maamoura – El Islah Road</p>";
+
+# social environment  
+$lang['env_title_span'] = "Environmental ";
+$lang['env_title'] = "Responsibility";
+$lang['internal_head'] = "Internally";
+$lang['internal_content'] = "<p>Installation of environmental monitoring stations and spread it around all parts of the plants to measure the pollution rate of in the air</p><p>Wastewater Treatment and Reuse Project</p><p>Project for the elimination of nitrogen oxides and interrupt its access to the atmosphere</p><p>Convert carbon dioxide to liquid in tanks and sell it to companies that fill it in cylinders and export it</p><p>Desalination unit project</p><p>Urban Harmony within the company</p>";
+$lang['external_head'] = "Externally";
+$lang['external_content'] = "<p>Contracting with the governorate to clean company surrounding area</p><p>Urban Harmony</p><p>Cooperation protocol with the Faculty of Science in various topics that serve the environment</p><p>Cooperation protocol with the Governorate of Elbeheira for garbage recycling project and Women breadwinners small projects</p>";

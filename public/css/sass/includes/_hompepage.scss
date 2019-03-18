@@ -85,44 +85,6 @@
 	padding: 15px 25px;
 }
 
-.fromUp{
-  animation-name: fromUp;
-  animation-duration: 5s;
-}
-
-.fromDown{
-  animation-name: fromDown;
-  animation-duration: 5s;
-}
-
-@keyframes fromUp{
-
-  0%{
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-
-  100%{
-    transform: translateY(0);
-    opacity: 1;
-  }
-  
-
-}
-
-@keyframes fromDown{
-
-  0%{
-    transform: translateY(50px);
-    opacity: 0;
-  }
-
-  100%{
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 /* end of chairman */
 
 

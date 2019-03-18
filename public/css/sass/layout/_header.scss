@@ -1,5 +1,45 @@
 
 /* General */
+/* animations */
+.fromUp{
+  animation-name: fromUp;
+  animation-duration: 2s;
+}
+
+.fromDown{
+  animation-name: fromDown;
+  animation-duration: 2s;
+}
+
+@keyframes fromUp{
+
+  0%{
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+
+}
+
+@keyframes fromDown{
+
+  0%{
+    transform: translateY(400px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* end for animations */
 /* main color */
 .text-main-color{
   color: $baseColor;

@@ -104,11 +104,12 @@ span{
     }
 }
 
-.social-city{
-    .city-slider{
-        left: -700px;
+.social-environment{
+    .card-header{
+        background-color: #0F3661;
     }
-    .city-text{
-        right: -600px;    
+    .btn.btn-link{
+        text-decoration: none;
+        color: white;
     }
 }

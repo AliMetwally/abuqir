@@ -10,7 +10,7 @@ $lang['about_link'] = 'من نحن';
 $lang['media_link'] = 'المركز الاعلامي';
 $lang['reponsibility_link'] = 'المسئولية المجتمعية';
 $lang['investors_link'] = 'علاقات المستثمرين';
-$lang['contact_link'] = 'نواصل معنا';
+$lang['contact_link'] = 'تواصل معنا';
 
 # footer headers 
 $lang['contact'] = 'بيانات الاتصال';

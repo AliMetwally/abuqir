@@ -104,7 +104,7 @@
                             <a href="" class="nav-link m-2 menu-item nav-media"><?= lang('media_link')?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link')?></a>
+                            <a href="<?= base_url('/socialresponsibiltiy')?>" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link')?></a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link m-2 menu-item nav-investors"><?= lang('investors_link')?></a>
@@ -161,7 +161,7 @@
                                 <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('media_link')?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link')?></a>
+                                <a href="<?= base_url('/socialresponsibiltiy')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link')?></a>
                             </li>
                             <li>
                                 <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link')?></a>

@@ -33,3 +33,11 @@ $lang['area-content'] = "<p class=\"text-justify\"><i class=\"fa fa fa-hand-o-le
 # social city 
 $lang['city-title'] = "مسئولية الشركة تجاه المحافظة التى تنتمى إليها";
 $lang['city-content'] = "<p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>طريق المعمورة - رشيد</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>الخط الوسطاني</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>طريق علي ماهر حتى خورشيد</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>طريق المعدية</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>طريق الملاحة حتى السيوف</p><p class=\"text-justify\"><i class=\"fa fa fa-hand-o-left px-2\"></i>طريق المعمورة - الإصلاح</p>";
+
+# social environment
+$lang['env_title_span'] = "حماية";
+$lang['env_title'] = "البيئة";
+$lang['internal_head'] = "داخل الشركة";
+$lang['internal_content'] = "<p>إنشاء محطات رصد بيئى داخل المصانع ومنتشرة على كافة أنحاء المصانع لقياس نسبة التلوث فى الهواء داخل الشركة</p><p>إنشاء مشروع معالجة مياة الصرف وإعادة استخدامها</p><p>انشاء مشروع للقضاء على الأكاسيد النيتروجينية وعدم وصولها للجو</p><p>تحويل مخرج أول وثانى أكسيد الكربون الى تنك وبيعه الى إحدى الشركات التى تقوم بتعبئته فى إسطوانات وتقوم بتصديره</p><p>مشروع وحدة إزالة الأملاح</p><p>الإهتمام بالتنسيق الحضارى داخل الشركة</p>";
+$lang['external_head'] = "خارج الشركة";
+$lang['external_content'] = "<p>التعاقد مع المحافظة لنظافة المنطقة المحيطة بالشركة</p><p>الإهتمام بالتنسيق الحضارى</p><p>عقد بروتكول تعاون مع كلية العلوم فى مختلف الموضوعات التى تخدم البيئة</p><p>عقد بروتوكول تعاون مع محافظة البحيرة لإنشاء مشروع تدوير القمامة وإنشاء مشروعات صغيرة للمرأة المعيلة</p>";
