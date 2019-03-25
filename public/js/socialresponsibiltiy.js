@@ -2,8 +2,8 @@ $(function(){
     $(window).on("load",function(){
         $(".emp-social-silder" ).hide();
         $(".emp-social-content" ).hide();
+        $(".nav-reponsibility").addClass("nav-active");
     });
-
     $(window).scroll(function(){
         var s_pos = $(this).scrollTop();
         if(s_pos >= 10){

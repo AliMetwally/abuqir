@@ -44,12 +44,37 @@ class Media extends CI_Model {
     /*
      * This function return leatest top 9 news     *
      */    
-    public function topNews(){
+    public function topNews($limit){
         $table = 'news';
         $title = $this->lang == 'ar'? 'title_ar as title': 'title_en as title';
         $columns = "news_id,news_date,image , $title";
         $where = ' is_visible = 1 ';        
-        $this->db->limit(9, 1);
+        $this->db->limit($limit, 1);
+        $query = $this->model_db->read($table, $columns, $where, 'news_id DESC');
+        return $query;
+    }
+
+    /*
+     * This function return count of news
+     */
+    public function countNews(){
+        $table = 'news';
+        $columns = 'count(*) as news_count';
+        $where = ' is_visible = 1 ';   
+        $query = $this->model_db->getSingleRow($table, $columns, $where);
+        return $query->news_count;
+    }
+
+    /*
+     * This function return all news     *
+     */    
+    public function allNews($limit,$start){
+        $table = 'news a, news_contents b ';
+        $title = $this->lang == 'ar'? 'SUBSTRING_INDEX(TRIM(a.title_ar), \' \', 9) as title': 'SUBSTRING_INDEX(TRIM(a.title_en), \' \', 9) as title';
+        $content = $this->lang == 'ar'? 'SUBSTRING_INDEX(TRIM(b.content_text_ar), \' \', 10) as content': 'SUBSTRING_INDEX(TRIM(b.content_text_en), \' \', 10)  as content';
+        $columns = "a.news_id,a.news_date,a.image , $title,$content";
+        $where = ' a.is_visible = 1 and b.content_id = 1 and a.news_id = b.news_id';         
+        $this->db->limit($limit, $start);
         $query = $this->model_db->read($table, $columns, $where, 'news_id DESC');
         return $query;
     }

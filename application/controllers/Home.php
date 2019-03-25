@@ -10,7 +10,7 @@ class Home  extends CI_Controller{
     }
     
     /*
-     * View : v_home - v_contact - v_social_responsibiltiy
+     * View : v_home - v_contact - v_social_responsibiltiy - v_news
      * model : media - product
      * Translation : home_lang - contact_lang
      */
@@ -21,7 +21,7 @@ class Home  extends CI_Controller{
         // get news header 
         $v_data['last_news_head'] = $this->media->lastNewsTitle();
         $v_data['newsCoverContent'] = $this->media->newsCoverContent($news_id);
-        $v_data['topNews'] = $this->media->topNews(); 
+        $v_data['topNews'] = $this->media->topNews(9); 
 
         // ---------------------------------------------------------------------
         // get product data
@@ -73,5 +73,60 @@ class Home  extends CI_Controller{
         $this->load->view('main', $data);
       
     }
+    
+    public function news(){
+        //----------------------------------------------------------------------
+        // libraries        
+        $this->load->library('pagination');
+        // scripts css, js
+        $data['custom_css'] = 'newspage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'news.js';
+        // get news data
+        // $v_data['allNews'] = $this->media->allNews();   
+        $config['base_url'] = base_url('news/');        
+        $config['total_rows'] = $this->media->countNews();      
+        $config['per_page'] = 8;        
+        $config['uri_segment'] = 2;        
+        $config['full_tag_open'] = '<ul class="pagination">';        
+        $config['full_tag_close'] = '</ul>';  
+        $config['attributes'] = array('class' => 'page-link');   
+        $config['first_link'] = 'First';        
+        $config['last_link'] = 'Last';   
+        $config['first_tag_open'] = '<li>';        
+        $config['first_tag_close'] = '</li>';        
+        $config['prev_link'] = '&laquo';        
+        $config['prev_tag_open'] = '<li class="prev">';        
+        $config['prev_tag_close'] = '</li>';        
+        $config['next_link'] = '&raquo';        
+        $config['next_tag_open'] = '<li>';        
+        $config['next_tag_close'] = '</li>';        
+        $config['last_tag_open'] = '<li>';        
+        $config['last_tag_close'] = '</li>';        
+        $config['cur_tag_open'] = '<li class="page-item active"><a href="#" class="page-link">';        
+        $config['cur_tag_close'] = '<span class="sr-only">(current)</span></a></li>';        
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
 
+        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 0;
+        $this->pagination->initialize($config);        
+        $v_data['pagination'] = $this->pagination->create_links();     
+        $v_data['allNews'] = $this->media->allNews($config["per_page"], $page);       
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_news',$v_data, true);
+        $this->load->view('main', $data);
+      
+    }
+
+    public function newsDetails(){
+        // scripts css, js
+        $data['custom_css'] = 'newspage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'news.js';
+        //get news data
+        $v_data['topNews'] = $this->media->topNews(3); 
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_news_details',$v_data, true);
+        $this->load->view('main', $data);
+    }
 }

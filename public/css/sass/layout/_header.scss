@@ -1,5 +1,6 @@
 
 /* General */
+
 /* animations */
 .fromUp{
   animation-name: fromUp;
@@ -40,6 +41,7 @@
 }
 
 /* end for animations */
+
 /* main color */
 .text-main-color{
   color: $baseColor;
@@ -49,6 +51,15 @@
   background-color: $baseColor!important;
 }
 
+.border-main{
+  border-color: $baseColor; 
+}
+/* end for main color */
+
+/* buttons*/
+.btn{  
+  border-radius: 0;
+}
 .btn-main {
   color: #fff;
   background-color: $baseColor;
@@ -67,9 +78,8 @@
 .btn-outline-main.focus,.btn-outline-main:focus{
   box-shadow:0 0 0 .2rem rgba(15,54,97,.5);
 }
-.border-main{
-  border-color: $baseColor; 
-}
+/* end for main color*/
+
 /* for hide element */
 .hide-ele{
   display: none;
@@ -107,15 +117,18 @@
   width: 100%;
   transform: rotate(45deg);
 }
+/* end for under line header*/
+
+/* end for general*/
+
+/* header*/
 
 /* navbar */
 .nav-top{
   top: 100px;
 }
 .nav-menu{
-  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
   padding: 20px 20px;
-  /* transition: all .2s; */
 }
 
 .img-logo{
@@ -128,7 +141,6 @@
   transition-duration: .8s;
 }
 .nav-menu-dropdown{
-  /* background: linear-gradient(rgba(190,194,97,.5),rgba(190,194,97,.5)); */
   padding: 10px;
   top: 47px;
 }
@@ -194,4 +206,5 @@
   transition-duration: .8s;
 }
 /* end of navbar */
+
 /* end of header */
