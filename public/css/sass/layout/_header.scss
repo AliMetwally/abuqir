@@ -1,3 +1,19 @@
+/*Navigation*/
+.dropdown-item{
+    font-size: 14px;
+}
+.dropdown-item:hover{
+    background-color: $baseColor;
+    color: #fff;    
+    padding-left: 2rem;
+    transition: padding-left 1s;
+}
+
+.dropdown-menu{
+    width: 250px;
+}
+/*End Navigation*/
+
 
 /* General */
 

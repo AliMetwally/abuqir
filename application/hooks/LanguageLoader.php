@@ -22,7 +22,10 @@ class LanguageLoader {
             $ci->lang->load('contact', $ci->session->userdata('site_lang'));
         } else  if($controller == 'home' && $method == 'socialresponsibiltiy' ){
             $ci->lang->load('social_responsibiltiy', $ci->session->userdata('site_lang'));
+        }else  if($controller == 'investors' ){
+            $ci->lang->load('investors', $ci->session->userdata('site_lang'));
         }
+         
     }
 
 }

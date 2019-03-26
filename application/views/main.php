@@ -67,13 +67,13 @@
                 <div class="container d-flex justify-content-around">
                     <div class="ml-4"><a href="#" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
-                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir')?>
-                                <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers')?></span>
+                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir') ?>
+                                <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers') ?></span>
                         </a>
                     </div>
                     <div class="d-flex align-self-center mr-5">
-                        <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/ar')?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
-                        <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/en')?>"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
+                        <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/ar') ?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt=""></a>
+                        <a class="text-muted nav-link menu-item h5" href="<?php echo base_url('LangSwitch/switchLanguage/en') ?>"><img src="<?= base_url() ?>public/images/iconfinder_GB.png"></a>
                         <a class="nav-link menu-item text-main-color" href="" ><i class="fa fa-user-circle-o fa-2x pb-3"></i></a>
                     </div>
                 </div>
@@ -83,8 +83,8 @@
                 <a href="#" class="navbar-brand text-light text-uppercase hide-ele">
                     <img class="img-fluid img-logo d-none d-lg-block" width="100px" height="130px" style="position: absolute;top: -9px;left: 0;"
                          src="<?= base_url() ?>public/images/logo2.png" alt="">
-                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color"><?= lang('abuqir')?>
-                        <span class="h5 text-muted Fert-text"> <?= lang('fertilizers')?></span>
+                    <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color"><?= lang('abuqir') ?>
+                        <span class="h5 text-muted Fert-text"> <?= lang('fertilizers') ?></span>
                     </span>
                 </a>
                 <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -95,31 +95,45 @@
                 <div class="collapse navbar-collapse justify-content-center text-uppercase font-weight-bold" id="myNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="<?= base_url('/home')?>" class="nav-link m-2 menu-item nav-home"><?= lang('home_link')?></a>
+                            <a href="<?= base_url('/home') ?>" class="nav-link m-2 menu-item nav-home"><?= lang('home_link') ?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-about"><?= lang('about_link')?></a>
+                            <a href="" class="nav-link m-2 menu-item nav-about"><?= lang('about_link') ?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('/news')?>" class="nav-link m-2 menu-item nav-media"><?= lang('media_link')?></a>
+                            <a href="<?= base_url('/news') ?>" class="nav-link m-2 menu-item nav-media"><?= lang('media_link') ?></a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('/socialresponsibiltiy')?>" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link')?></a>
+                            <a href="<?= base_url('/socialresponsibiltiy') ?>" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link') ?></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle m-2 menu-item nav-investors" id="navbarDropdown"
+                               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= lang('investors_link') ?></a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="<?= base_url('/investors/brief')?>"><?= lang('brief_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/shareholders')?>"><?= lang('shareholders_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/board')?>"><?= lang('board_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/audit')?>"><?= lang('audit_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/finantial')?>"><?= lang('finantial_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/summary')?>"><?= lang('summary_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/association')?>"><?= lang('association_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/distibutions')?>"><?= lang('distibutions_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/budget')?>"><?= lang('budget_link') ?></a>                                
+                                <a class="dropdown-item" href="<?= base_url('/investors/events')?>"><?= lang('events_link') ?></a>                                
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-investors"><?= lang('investors_link')?></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('/contact')?>" class="nav-link m-2 menu-item nav-contact"><?= lang('contact_link')?></a>
+                            <a href="<?= base_url('/contact') ?>" class="nav-link m-2 menu-item nav-contact"><?= lang('contact_link') ?></a>
                         </li>
                         </li>
                         <li class="nav-item dropdown drop-nav">
                             <a href="#" class="nav-link m-2 menu-item" data-toggle="dropdown" href="#" role="button"
                                aria-haspopup="true" aria-expanded="false"><i class="fa fa-flag fa-2x pb-2"></i></a>
                             <div class="dropdown-menu dropdown-menu-right nav-menu-dropdown custom-nav">
-                                <a class="nav-link menu-item" href="<?php echo base_url('LangSwitch/switchLanguage/ar')?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt="">
+                                <a class="nav-link menu-item" href="<?php echo base_url('LangSwitch/switchLanguage/ar') ?>"><img src="<?= base_url() ?>public/images/iconfinder_EGY.png" alt="">
                                     عربى</a>
-                                <a class="nav-link menu-item py-2" href="<?php echo base_url('LangSwitch/switchLanguage/en')?>" style="width: 110px;"><img src="<?= base_url() ?>public/images/iconfinder_GB.png">
+                                <a class="nav-link menu-item py-2" href="<?php echo base_url('LangSwitch/switchLanguage/en') ?>" style="width: 110px;"><img src="<?= base_url() ?>public/images/iconfinder_GB.png">
                                     english</a>
                             </div>
                         </li>
@@ -139,46 +153,46 @@
         <!-- end of header -->
 
         <?= empty($content) ? '' : $content ?>
-      
+
         <!-- footer -->
         <footer class="bg-dark px-5">
             <div class="container-fluid">
                 <div class="row text-light py-4">
                     <div class="col-12 col-sm-4 col-lg-4 pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('about')?></h5>
-                        <p><?= lang('about_statement')?></p>
+                        <h5 class="pb-3 font-weight-bold"><?= lang('about') ?></h5>
+                        <p><?= lang('about_statement') ?></p>
                     </div>
                     <div class="col-12 col-sm-4 col-lg-4 pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('visit')?></h5>
+                        <h5 class="pb-3 font-weight-bold"><?= lang('visit') ?></h5>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="<?= base_url('/home')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link')?></a>
+                                <a href="<?= base_url('/home') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link') ?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link') ?></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('/news')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('media_link')?></a>
+                                <a href="<?= base_url('/news') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('media_link') ?></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('/socialresponsibiltiy')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link')?></a>
+                                <a href="<?= base_url('/socialresponsibiltiy') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link') ?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link')?></a>
+                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link') ?></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('/contact')?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link')?></a>
+                                <a href="<?= base_url('/contact') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link') ?></a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-12 col-sm-4 col-lg-4 pb-3">
-                        <h5 class="pb-3 font-weight-bold"><?= lang('contact')?></h5>                        
+                        <h5 class="pb-3 font-weight-bold"><?= lang('contact') ?></h5>                        
                         <ul class="list-unstyled">
 
-                            <li class="list-item mb-3"><i class="fa fa-home address-ftr"></i><small><?= lang('address')?></small></li>
-                            <li class="liste-item mb-3"><i class="fa fa-globe state-ftr"></i><small><?= lang('state')?></small></li>
-                            <li class="list-item mb-3"><i class="fa fa-mobile mobile-ftr"></i><small><?= lang('mobile')?></small></li>
-                            <li class="list-item mb-3"><i class="fa fa-phone phone-ftr"></i><small><?= lang('phone')?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-home address-ftr"></i><small><?= lang('address') ?></small></li>
+                            <li class="liste-item mb-3"><i class="fa fa-globe state-ftr"></i><small><?= lang('state') ?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-mobile mobile-ftr"></i><small><?= lang('mobile') ?></small></li>
+                            <li class="list-item mb-3"><i class="fa fa-phone phone-ftr"></i><small><?= lang('phone') ?></small></li>
                         </ul>
                     </div>
                 </div>
@@ -189,12 +203,12 @@
                 </div>
             </div>
         </footer>
-          <!-- back to top -->
-          <div class="top-page">
+        <!-- back to top -->
+        <div class="top-page">
             <a id="back-to-top" href="#" class="btn btn-main btn-lg back-to-top" role="button" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up"></span></a>
-          </div>
+        </div>
         <!-- end for back to top -->
-        <script src="<?= base_url()?>/public/js/main.js">
+        <script src="<?= base_url() ?>/public/js/main.js">
         </script>
     </body>
 </html>

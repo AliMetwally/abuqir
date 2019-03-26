@@ -249,14 +249,8 @@ body {
 }
 
 .breadcrumb {
-  background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/Breadcrumb.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/investors.jpg) no-repeat center center/cover;
   border-radius: 0;
-}
-
-/* contact */
-.contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
 }
 
 /* footer */
@@ -364,4 +358,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=contactpage.css.map */
+/*# sourceMappingURL=investors.css.map */

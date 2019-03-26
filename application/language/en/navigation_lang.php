@@ -26,3 +26,16 @@ $lang['phone'] = 'Phone : (203) 560-3053';
 
 # about us footer statment 
 $lang['about_statement'] = 'We work efficiently, safety and environmentally responsible manner to produce our products at the quality required by our customer and carryout investments to maximize returns.';
+
+
+# investors sub menu
+$lang['brief_link'] = 'Company Purpose';
+$lang['shareholders_link'] = 'Contributors';
+$lang['board_link'] = 'Board of directors';
+$lang['audit_link'] = 'The Audit committee forms';
+$lang['finantial_link'] = 'Financial Statements';
+$lang['summary_link'] = "Board of Directors' Summary";
+$lang['association_link'] = 'General Assembly Minutes';
+$lang['distibutions_link'] = 'Dividend Payment';
+$lang['budget_link'] = 'Planning Budgets';
+$lang['events_link'] = 'Main Events';

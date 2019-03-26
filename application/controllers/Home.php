@@ -42,7 +42,7 @@ class Home  extends CI_Controller{
         $data['custom_js'] = 'home.js';
         
         // load the view as string 
-        $data['content'] = $this->load->view('pages/v_home', $v_data, true);
+        $data['content'] = $this->load->view('pages/v_home', true, true);
         $this->load->view('main', $data);
     }    
 

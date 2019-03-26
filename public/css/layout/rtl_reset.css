@@ -54,6 +54,18 @@ footer .phone-ftr {
   margin-left: 13px !important;
 }
 
+/*Nanigation*/
+.nav-item.dropdown .dropdown-item {
+  text-align: right;
+}
+
+.dropdown-item:hover {
+  /*padding-left: 0 !important;*/
+  padding-right: 2rem;
+  transition: padding-right 1s;
+}
+
+/*End Navigation*/
 @media (min-width: 992px) {
   .navbar-nav {
     flex-direction: row-reverse !important;

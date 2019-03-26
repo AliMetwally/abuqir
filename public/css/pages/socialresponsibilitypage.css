@@ -24,6 +24,23 @@ body {
   background-attachment: fixed;
 }
 
+/*Navigation*/
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background-color: #0F3661;
+  color: #fff;
+  padding-left: 2rem;
+  transition: padding-left 1s;
+}
+
+.dropdown-menu {
+  width: 250px;
+}
+
+/*End Navigation*/
 /* General */
 /* animations */
 .fromUp {
@@ -417,6 +434,10 @@ footer {
 
   .breadcrumb {
     display: none;
+  }
+
+  .dropdown-menu {
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
