@@ -39,3 +39,11 @@ $lang['association_link'] = 'General Assembly Minutes';
 $lang['distibutions_link'] = 'Dividend Payment';
 $lang['budget_link'] = 'Planning Budgets';
 $lang['events_link'] = 'Main Events';
+
+# about sub menu
+$lang['about_comp_link'] = 'Abuqir in brief';
+$lang['about_mission_link'] = 'Mission & Vission';
+$lang['about_policy_link'] = 'Policy';
+$lang['about_plants_link'] = 'Plants';
+$lang['about_projects_link'] = 'New Projects';
+$lang['about_cert_link'] = 'Certificates';

@@ -24,6 +24,8 @@ class LanguageLoader {
             $ci->lang->load('social_responsibiltiy', $ci->session->userdata('site_lang'));
         }else  if($controller == 'investors' ){
             $ci->lang->load('investors', $ci->session->userdata('site_lang'));
+        }else  if($controller == 'about' ){
+            $ci->lang->load('about', $ci->session->userdata('site_lang'));
         }
          
     }

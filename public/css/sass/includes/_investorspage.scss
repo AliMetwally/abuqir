@@ -7,4 +7,17 @@
     border-radius: 0;
 }
 
+.brief{
+    background-color: #fff;    
+    padding: 2rem;
 
+    table{
+        background-color: #f7f7f7;
+        
+        tbody tr td:first-child { 
+            width: 25%;
+                color: $baseColor;
+                font-weight: bold;
+        }
+    }
+}

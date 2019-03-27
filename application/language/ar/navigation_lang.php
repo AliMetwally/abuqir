@@ -40,4 +40,11 @@ $lang['distibutions_link'] = 'التوزيعات';
 $lang['budget_link'] = 'الموازنات التخطيطية';
 $lang['events_link'] = 'الاحداث الجوهرية';
         
-        
+
+# about sub menu
+$lang['about_comp_link'] = 'نبذة عن الشركة';
+$lang['about_mission_link'] = 'الرؤية والرسالة';
+$lang['about_policy_link'] = 'سياستنا';
+$lang['about_plants_link'] = 'المسانع';
+$lang['about_projects_link'] = 'المشاريع التوسعية';
+$lang['about_cert_link'] = 'الشهادات المعتمدة';

@@ -54,6 +54,15 @@ footer .phone-ftr {
   margin-left: 13px !important;
 }
 
+/*Investors*/
+/*brief page*/
+.brief {
+  text-align: right;
+  direction: rtl;
+}
+
+/*end brief page*/
+/*End Investors*/
 /*Nanigation*/
 .nav-item.dropdown .dropdown-item {
   text-align: right;

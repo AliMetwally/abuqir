@@ -97,8 +97,18 @@
                         <li class="nav-item">
                             <a href="<?= base_url('/home') ?>" class="nav-link m-2 menu-item nav-home"><?= lang('home_link') ?></a>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link m-2 menu-item nav-about"><?= lang('about_link') ?></a>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle m-2 menu-item nav-about" id="aboutDropdown"
+                               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><?= lang('about_link') ?></a>
+                                
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="<?= base_url('/about/about_comp')?>"><?= lang('about_comp_link') ?></a>
+                                <a class="dropdown-item" href="<?= base_url('/about/mission')?>"><?= lang('about_mission_link') ?></a>
+                                <a class="dropdown-item" href="<?= base_url('/about/policy')?>"><?= lang('about_policy_link') ?></a>
+                                <a class="dropdown-item" href="<?= base_url('/about/plants')?>"><?= lang('about_plants_link') ?></a>
+                                <a class="dropdown-item" href="<?= base_url('/about/projects')?>"><?= lang('about_projects_link') ?></a>
+                                <a class="dropdown-item" href="<?= base_url('/about/certificates')?>"><?= lang('about_cert_link') ?></a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('/news') ?>" class="nav-link m-2 menu-item nav-media"><?= lang('media_link') ?></a>
@@ -107,10 +117,10 @@
                             <a href="<?= base_url('/socialresponsibiltiy') ?>" class="nav-link m-2 menu-item nav-reponsibility"><?= lang('reponsibility_link') ?></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle m-2 menu-item nav-investors" id="navbarDropdown"
+                            <a href="" class="nav-link dropdown-toggle m-2 menu-item nav-investors" id="investorsDropdown"
                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= lang('investors_link') ?></a>
 
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="investorsDropdown">
                                 <a class="dropdown-item" href="<?= base_url('/investors/brief')?>"><?= lang('brief_link') ?></a>                                
                                 <a class="dropdown-item" href="<?= base_url('/investors/shareholders')?>"><?= lang('shareholders_link') ?></a>                                
                                 <a class="dropdown-item" href="<?= base_url('/investors/board')?>"><?= lang('board_link') ?></a>                                
