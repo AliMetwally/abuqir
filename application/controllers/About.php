@@ -3,7 +3,7 @@
 class About extends CI_Controller {
     public function __construct() {
         parent::__construct();
-        
+        $this->load->model('m_about_projects');
     }
     
     
@@ -52,8 +52,30 @@ class About extends CI_Controller {
     public function projects(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
-        
-        $data['content'] = $this->load->view('pages/about/v_projects','', true);
+        // get project data
+        $v_data['projects'] = $this->m_about_projects->get_projects();
+        $data['content'] = $this->load->view('pages/about/v_projects',$v_data, true);
+        $this->load->view('main', $data);
+    }
+    //
+
+    public function Project_details() {   
+        $data['custom_css'] = 'about.css'; 
+        $data['custom_js'] = 'main.js';
+        // get project data 
+        $project_id = $this->uri->segment(3);
+        $v_data['project'] = $this->m_about_projects->get_projects_name($project_id);
+        $headers = $this->m_about_projects->get_projects_header($project_id);
+        $index1 = 0;
+        foreach ($headers as $header) {
+            $all[$index1] = array(
+                 "head" =>$header,
+                 "content" => $this->m_about_projects->get_projects_content($header->project_id,$header->head_id)
+            );
+            $index1++;
+        }
+        $v_data['projects'] = $all;
+        $data['content'] = $this->load->view('pages/about/v_project_details',$v_data, true);
         $this->load->view('main', $data);
     }
     //
