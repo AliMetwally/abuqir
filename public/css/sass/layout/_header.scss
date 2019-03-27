@@ -102,7 +102,7 @@
 }
 
 /* UNDER LINE HEADER */
-.sec-title h2 .sec-title-border {
+.sec-title h2 .sec-title-border,.sec-title h4 .sec-title-border {
   width: 130px;
   position: absolute;
   bottom: 0;
@@ -113,21 +113,33 @@
   margin: auto;
 }
 
-.sec-title h2 .sec-title-border span {
+.sec-title h2 .sec-title-border span,.sec-title h4 .sec-title-border span {
   width: 9px;
   height: 9px;
   position: relative;
   display: inline-block;
   top: -24px;
   right: 0;
-  margin: 0 -3px;
+  margin: 0 -2px;
 }
-.sec-title h2 .sec-title-border span::before {
+.sec-title h2 .sec-title-border span::before{
   background: #fff;
   border: 1px solid #032a54;
   content: "";
   position: absolute;
   top: -3px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+}
+
+.sec-title h4 .sec-title-border span::before {
+  background: #fff;
+  border: 1px solid #032a54;
+  content: "";
+  position: absolute;
+  top: 5px;
   left: 0;
   height: 100%;
   width: 100%;

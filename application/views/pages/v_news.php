@@ -42,7 +42,7 @@
                                 <p class="small">
                                     <?= $news->content?>
                                 </p>
-                                <a href="blog-details.html" class="btn btn-outline-main">Read More</a>
+                                <a href="<?php echo base_url('home/newsDetails/').$news->news_id ;?>" class="btn btn-outline-main">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -54,26 +54,6 @@
                         
                         $i++;
                         endforeach;?>
-            <!-- <div class="col-12 col-lg-6">
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <div class="news-thumbnail">
-                                <a href="#"><img class="d-block w-100" src="http://abuqir.net/assets/images/press-news/2018/20181000201.jpg" alt="blog"></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="news-details m-3">
-                                <a href="#">
-                                    <h4 class="news-title">Abu Qir fertilizers participates in the</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et.</p>
-                                <a href="blog-details.html" class="btn btn-outline-main">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>

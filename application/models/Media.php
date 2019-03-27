@@ -78,5 +78,31 @@ class Media extends CI_Model {
         $query = $this->model_db->read($table, $columns, $where, 'news_id DESC');
         return $query;
     }
+    
+     /*
+     * This function return news header    *
+     */    
+    public function newsHead($n_id){
+        $table   = 'news a';
+        $title   = $this->lang == 'ar'? 'a.title_ar as title': 'a.title_en as title';
+        $columns = "a.news_id,a.news_date,a.image ,$title";
+        $where   = ' a.is_visible = 1 and a.news_id = '.$n_id;         
+        // $this->db->limit($limit, $start);
+        $query = $this->model_db->getSingleRow($table, $columns, $where);
+        return $query;
+    }
+
+    /*
+     * This function return news details    *
+     */    
+    public function newsDetails($n_id){
+        $table   = 'news a, news_contents b ';
+        $content = $this->lang == 'ar'? 'b.content_text_ar as content': 'b.content_text_en as content';
+        $columns = "a.news_id,a.news_date,a.image ,$content,b.content_image";
+        $where   = ' a.is_visible = 1 and a.news_id = b.news_id and a.news_id = '.$n_id;         
+        // $this->db->limit($limit, $start);
+        $query = $this->model_db->read($table, $columns, $where, 'a.news_id ,b.content_id ');
+        return $query;
+    }
 } // end of file
 

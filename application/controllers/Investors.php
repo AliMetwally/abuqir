@@ -34,7 +34,8 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_shareholders','', true);
+        $v_data['shareholdes'] = $this->m_finantial->get_shareholders();
+        $data['content'] = $this->load->view('pages/investors/v_shareholders',$v_data, true);
         $this->load->view('main', $data);
     }
     

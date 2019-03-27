@@ -15,3 +15,11 @@ $lang['btn_read_more'] = 'Read more';
 # Products
 
 $lang['specs'] = 'Specifications';
+
+# Social Responsibilty
+$lang['social_title'] = 'Corporate ';
+$lang['social_order_img'] = 'order-first';
+$lang['social_span'] = 'Social Responsibility';
+$lang['social_p'] = "Company’s evaluation is no longer based only on their profitability or financial position, but nowadays new targets appeared on the scene.
+The most important is the social responsibility towards employees and the surrounding area and the community as a whole, also internal and external environmental responsibility.";
+$lang['social_btn'] = "Read More";

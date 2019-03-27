@@ -100,7 +100,7 @@ body {
   display: none; }
 
 /* UNDER LINE HEADER */
-.sec-title h2 .sec-title-border {
+.sec-title h2 .sec-title-border, .sec-title h4 .sec-title-border {
   width: 130px;
   position: absolute;
   bottom: 0;
@@ -110,14 +110,14 @@ body {
   height: 0;
   margin: auto; }
 
-.sec-title h2 .sec-title-border span {
+.sec-title h2 .sec-title-border span, .sec-title h4 .sec-title-border span {
   width: 9px;
   height: 9px;
   position: relative;
   display: inline-block;
   top: -24px;
   right: 0;
-  margin: 0 -3px; }
+  margin: 0 -2px; }
 
 .sec-title h2 .sec-title-border span::before {
   background: #fff;
@@ -125,6 +125,17 @@ body {
   content: "";
   position: absolute;
   top: -3px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg); }
+
+.sec-title h4 .sec-title-border span::before {
+  background: #fff;
+  border: 1px solid #032a54;
+  content: "";
+  position: absolute;
+  top: 5px;
   left: 0;
   height: 100%;
   width: 100%;
@@ -210,16 +221,28 @@ body {
   background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/investors.jpg) no-repeat center center/cover;
   border-radius: 0; }
 
-.brief {
+.investor-table {
   background-color: #fff;
   padding: 2rem; }
-  .brief table {
+  .investor-table table {
     background-color: #f7f7f7; }
-    .brief table tbody tr td:first-child {
+    .investor-table table tbody tr td:first-child {
       width: 25%;
       color: #0F3661;
       font-weight: bold; }
 
+.shareholders-table table tbody tr td:first-child {
+  width: 50%; }
+
+/*
+.shareholders-table{
+    table{
+        tbody tr td:first-child { 
+            width: 50%;
+        }
+    }
+}
+*/
 /* footer */
 .top-page .back-to-top {
   cursor: pointer;

@@ -21,7 +21,7 @@
         <!-- end of title -->
 
 
-        <div class="row brief">
+        <div class="row investor-table">
             <div class="col-md-12">
                 <table class="table table-striped">
                     <tbody>

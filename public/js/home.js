@@ -23,7 +23,19 @@ $(function () {
             $(".chairman-img").removeClass("hide-ele");
             $(".chairman-text").addClass("fromUp");
             $(".chairman-text").removeClass("hide-ele");
+        }
+        if (pos >= 1600) {
+            $(".repons-text").addClass("fromDown");
+            $(".repons-text").removeClass("hide-ele");
+            $(".repons-img").addClass("fromDown");
+            $(".repons-img").removeClass("hide-ele");
+        }
 
+        if (pos >= 2500) {
+            $(".safty-txt").addClass("animated bounceInUp");
+            $(".safty-txt").removeClass("hide-ele");
+            $(".safty-img").addClass("animated jackInTheBox");
+            $(".safty-img").removeClass("hide-ele");
         }
     });
 });

@@ -7,7 +7,7 @@
     border-radius: 0;
 }
 
-.brief{
+.investor-table{
     background-color: #fff;    
     padding: 2rem;
 
@@ -21,3 +21,17 @@
         }
     }
 }
+
+.shareholders-table table tbody tr td:first-child{
+    width: 50%;
+}
+
+/*
+.shareholders-table{
+    table{
+        tbody tr td:first-child { 
+            width: 50%;
+        }
+    }
+}
+*/

@@ -187,4 +187,52 @@
         </div>
     </div>
 </section>
+<!-- social responsibilty -->
+<section class="repons bg-white py-4">
+    <div class="container">
+        <!-- title -->
+        <div class="row">
+            <div class="col m-4  text-center">
+                <div class="sec-title mb-20">
+                    <h2 class="text-muted">
+                    <?= lang('social_title')?><span class="title-span text-main-color">
+                             <?= lang('social_span')?></span>
+                        <span class="sec-title-border">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!-- end of title -->
+        <div class="row py-3 ">
+            <div class="col-lg-6 my-3 repons-text <?= lang('social_order_txt')?> hide-ele">
+                <h5><?= lang('social_p')?></h5>
+                <div class="mt-lg-5"><a href="<?= base_url('socialresponsibiltiy')?>" class="text-white btn btn-main"><?= lang('social_btn')?></a></div>
+                
+            </div>
+            <div class="col-lg-6 my-3 repons-img <?= lang('social_order_img')?>  hide-ele">
+                <img class="w-100" src="<?= base_url()?>public/images/Social-Responsibility.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end for social responsibilty -->
+<!-- safty -->
+<section class="safty my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 safty-img hide-ele">
+                <img class="w-100" src="<?= base_url()?>public/images/Safety-equipment.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 safty-txt hide-ele">
+                <h3 class="mb-md-4 my-4 my-md-0"> السلامة والصحة المهنية وحماية البيئة</h3>
+                <p class="lead">إنتهجت الشركة سياسة جديدة ومتطورة تتعلق بالسلامة والحماية والإستدامة من خلال تحديث سياسة الشركة فيما يتعلق بالسلامة والحماية والإستدامة وأيضاً تلتزم الشركة بإدارة انشطتها بالطريقة التي ترتقي بالمستوى الصحي للعاملين بها وبما يدفع الضرر عن العاملين بالشركة ومقاوليها وزائريها </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of safty -->
 <!-- end of products -->

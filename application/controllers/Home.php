@@ -42,7 +42,7 @@ class Home  extends CI_Controller{
         $data['custom_js'] = 'home.js';
         
         // load the view as string 
-        $data['content'] = $this->load->view('pages/v_home', true, true);
+        $data['content'] = $this->load->view('pages/v_home', $v_data, true);
         $this->load->view('main', $data);
     }    
 
@@ -118,15 +118,18 @@ class Home  extends CI_Controller{
       
     }
 
-    public function newsDetails(){
+     public function newsDetails($n_id){
         // scripts css, js
         $data['custom_css'] = 'newspage.css';        
         $data['custom_js'] = 'main.js';
         $data['custom_js'] = 'news.js';
         //get news data
+        $v_data['newsHead'] = $this->media->newsHead($n_id);
+        $v_data['newsDetail'] = $this->media->newsDetails($n_id);
         $v_data['topNews'] = $this->media->topNews(3); 
         // load the view as string 
         $data['content'] = $this->load->view('pages/v_news_details',$v_data, true);
         $this->load->view('main', $data);
     }
+
 }
