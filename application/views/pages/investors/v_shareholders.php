@@ -31,7 +31,7 @@
                         
                         <tr>
                             <td><?= $member->name?></td>
-                            <td><?= $member->ratio ?></td>
+                            <td><?= $member->ratio ?>%</td>
                         </tr>
                         
                         <?php 

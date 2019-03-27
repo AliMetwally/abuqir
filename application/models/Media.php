@@ -5,8 +5,8 @@ class Media extends CI_Model {
     private $lang;
     function __construct() {
         parent::__construct();
-        // $this->lang = $this->session->site_lang;
-        $this->lang = 'ar';
+         $this->lang = $this->session->site_lang;
+//        $this->lang = 'ar';
     }
     
     /*

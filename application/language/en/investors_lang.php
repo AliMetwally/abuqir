@@ -1,7 +1,7 @@
 <?php
 
-$lang['title_span'] = 'المستثمرين';
-$lang['contact_title'] = 'خدمات';
+$lang['brief_title_span'] = 'Purpose';
+$lang['brief_title'] = 'Company'; 
 
 #brief page
 
@@ -44,3 +44,51 @@ $lang['brief_contact_person_1_text'] = 'Accountant/Ali Abdulmuttalib';
 $lang['brief_contact_person_2_text'] = 'Accountant/Khalid Mustafa Sukkar';
 
 $lang['brief_email_label'] = 'Email';
+
+# ---------------------------------------------------------------------------
+# shareholdes page
+$lang['sharholders_title'] = 'Contributors'; 
+
+# ---------------------------------------------------------------------------
+# Board of Directories page
+$lang['directors_title'] = 'Board of Directors'; 
+
+# ---------------------------------------------------------------------------
+# Audit page
+$lang['audit_title'] = 'The Audit Committee Forms'; 
+
+# ---------------------------------------------------------------------------
+# Finantial Stetments page
+$lang['no_files'] = 'Data not available';
+$lang['finantial_title'] = 'Financial Statements'; 
+
+# ---------------------------------------------------------------------------
+# Summary page
+$lang['summary_title'] = "Board of Directors' Summary"; 
+
+# ---------------------------------------------------------------------------
+# association page
+$lang['association_title'] = "Associations"; 
+
+# ---------------------------------------------------------------------------
+# Budgets page
+$lang['budget_title'] = "Planning Budgets"; 
+
+# ---------------------------------------------------------------------------
+# Events page
+$lang['events_title'] = "Main Events"; 
+
+# ---------------------------------------------------------------------------
+# distibutions page
+$lang['distibutions_title'] = "التوزيعات"; 
+$lang['assemblies_title'] = "General Assemblies"; 
+$lang['coupons_title'] = "Coupons"; 
+$lang['free_title'] = "Free Distributions"; 
+
+
+$lang['coupon_value'] = "Coupons Value (EGP)";
+$lang['coupon_number'] = "Coupons Number	";
+$lang['coupon_date'] = "Coupons Date";
+
+$lang['destributions_free'] = "Distribution";
+$lang['destributions_date'] = "Date of Distribution";

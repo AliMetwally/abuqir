@@ -234,15 +234,12 @@ body {
 .shareholders-table table tbody tr td:first-child {
   width: 50%; }
 
-/*
-.shareholders-table{
-    table{
-        tbody tr td:first-child { 
-            width: 50%;
-        }
-    }
-}
-*/
+.files {
+  background-color: #f7f7f7;
+  padding: 2rem 0; }
+  .files ul li {
+    padding-bottom: 5px; }
+
 /* footer */
 .top-page .back-to-top {
   cursor: pointer;

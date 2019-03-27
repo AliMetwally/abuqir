@@ -43,7 +43,8 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_board','', true);
+        $v_data['directors'] = $this->m_finantial->get_directors();
+        $data['content'] = $this->load->view('pages/investors/v_board',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -51,7 +52,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_audit','', true);
+        $v_data['members'] = $this->m_finantial->get_members();
+        
+        $data['content'] = $this->load->view('pages/investors/v_audit',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -59,7 +62,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_finantial','', true);
+        $v_data['files'] = $this->m_finantial->get_statments();
+        
+        $data['content'] = $this->load->view('pages/investors/v_finantial',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -67,7 +72,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_summary','', true);
+        $v_data['files'] = $this->m_finantial->get_finantial();
+        
+        $data['content'] = $this->load->view('pages/investors/v_summary',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -75,7 +82,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_association','', true);
+        $v_data['files'] = $this->m_finantial->get_associations();
+        
+        $data['content'] = $this->load->view('pages/investors/v_association',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -83,7 +92,11 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_distibutions','', true);
+        $v_data['public_associations'] = $this->m_finantial->get_public_associations();
+        $v_data['coupons'] = $this->m_finantial->get_coupons();
+        $v_data['free_coupons'] = $this->m_finantial->get_free_coupons();
+        
+        $data['content'] = $this->load->view('pages/investors/v_distibutions',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -91,7 +104,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_budget','', true);
+        $v_data['files'] = $this->m_finantial->get_budgets();
+        
+        $data['content'] = $this->load->view('pages/investors/v_budget',$v_data, true);
         $this->load->view('main', $data);
     }
     
@@ -99,7 +114,9 @@ class Investors extends CI_Controller{
         $data['custom_css'] = 'investors.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/investors/v_events','', true);
+        $v_data['files'] = $this->m_finantial->get_events();
+        
+        $data['content'] = $this->load->view('pages/investors/v_events',$v_data, true);
         $this->load->view('main', $data);
     }
 }
