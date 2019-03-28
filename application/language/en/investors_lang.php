@@ -68,7 +68,7 @@ $lang['summary_title'] = "Board of Directors' Summary";
 
 # ---------------------------------------------------------------------------
 # association page
-$lang['association_title'] = "Associations"; 
+$lang['association_title'] = "General Assembly"; 
 
 # ---------------------------------------------------------------------------
 # Budgets page
