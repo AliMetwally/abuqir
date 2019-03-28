@@ -18,6 +18,10 @@
 /* General */
 
 /* animations */
+.animated {
+  animation-duration: 1.7s!important;
+}
+
 .fromUp{
   animation-name: fromUp;
   animation-duration: 2s;

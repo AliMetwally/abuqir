@@ -15,6 +15,7 @@ class Home  extends CI_Controller{
      * Translation : home_lang - contact_lang
      */
     public function index(){        
+        $this->load->helper('directory');
         // ---------------------------------------------------------------------
         // get news data 
         $news_id = $this->media->lastNewsTitle()->news_id; // news_id
@@ -22,7 +23,7 @@ class Home  extends CI_Controller{
         $v_data['last_news_head'] = $this->media->lastNewsTitle();
         $v_data['newsCoverContent'] = $this->media->newsCoverContent($news_id);
         $v_data['topNews'] = $this->media->topNews(9); 
-
+        $v_data['gallary_images'] = directory_map('./public/images/gallery/');
         // ---------------------------------------------------------------------
         // get product data
         $index = 0;

@@ -31,11 +31,23 @@ $(function () {
             $(".repons-img").removeClass("hide-ele");
         }
 
-        if (pos >= 2500) {
+        if (pos >= 2600) {
             $(".safty-txt").addClass("animated bounceInUp");
             $(".safty-txt").removeClass("hide-ele");
             $(".safty-img").addClass("animated jackInTheBox");
             $(".safty-img").removeClass("hide-ele");
         }
     });
+
+    // gallery
+      $('#galleryCarousel').carousel({
+        interval:2000
+      });
+      $('. galleryCarousel.carousel .carousel-item').each(function(){
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+      });
 });
