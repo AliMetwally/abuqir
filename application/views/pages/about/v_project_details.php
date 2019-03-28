@@ -32,23 +32,21 @@
                 </div>
             <?php endif;?>
         </div>
-            <blockquote class="blockquote text-right py-3">
-                <h3><?= $project->project_name_ar?></h3>
-            </blockquote>
-        <div class="row pb-5">  
-            <div class="col-lg-12">
+          
+        <div class="card border-light py-3 <?= lang('text_dir')?>">
+            <div class="card-header bg-transparent">
+                <h4><?= $project->project_name_ar?></h4>
+            </div>
                 <?php foreach ($projects as $pro) :?>
                     <?php if($pro['content']):?>
-                        <ul class="list-unstyled">
-                            <h3 class="project_head pt-3"><?= $pro['head']->head_name_ar?></h3>
-                            <hr>
+                        <div class="card-body">
+                            <h5 class="card-title bg-main py-3 px-2 text-white"><?= $pro['head']->head_name_ar?></h5>
                                 <?php foreach($pro['content']  as $con):?>
-                                <p><?=  $pro['head']->head_id == 1? '' :"<i class=\"fa fa-arrow-circle-left fa-1x\">" ?></i> <?= $con->content_ar?></p>
+                                    <p class="card-text px-2"><?=  $pro['head']->head_id == 1? '' :"<i class=\"fa fa-arrow-circle-left fa-1x text-main-color\">" ?></i> <?= $con->content_ar?></p>
                                 <?php endforeach;?>
-                        </ul>
+                        </div>
                     <?php endif;?>
                 <?php endforeach;?>
-            </div>          
         </div>
     </div>
 </section>

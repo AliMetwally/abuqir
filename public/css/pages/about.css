@@ -221,6 +221,7 @@ body {
   background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/investors.jpg) no-repeat center center/cover;
   border-radius: 0; }
 
+/* new projects */
 .new-projects {
   background: linear-gradient(rgba(255, 255, 255, 0.9), white), url(../..//..//images/new_projects/3/1.jpg) no-repeat center center/cover;
   border-radius: 0; }
@@ -303,6 +304,7 @@ body {
   color: #666;
   margin-top: 30px; }
 
+/* end for new project */
 /* footer */
 .top-page .back-to-top {
   cursor: pointer;

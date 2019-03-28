@@ -236,9 +236,11 @@ body {
 
 .files {
   background-color: #f7f7f7;
-  padding: 2rem 0; }
-  .files ul li {
-    padding-bottom: 5px; }
+  padding: 2rem 0;
+}
+.files ul li {
+  padding-bottom: 5px;
+}
 
 /* footer */
 .top-page .back-to-top {

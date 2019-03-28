@@ -1,6 +1,7 @@
 <?php
 
 #New Projects
+$lang['text_dir'] = "text-right";
 $lang['project_title'] = "مشروعات الشركة";
 $lang['project_span'] = "المستقبلية";
 $lang['project_p'] = "يتيح الدمج بين المصانع الحالية والمشروعات الجديدة للشركة توفر تنوعاً كبيراً فى المنتجات
