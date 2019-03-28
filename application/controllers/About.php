@@ -41,10 +41,13 @@ class About extends CI_Controller {
     
     //
     public function plants(){
+        $this->load->helper('directory');
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
         
-        $data['content'] = $this->load->view('pages/about/v_plants','', true);
+        $v_data['images'] = directory_map('./public/images/plants/'); 
+        
+        $data['content'] = $this->load->view('pages/about/v_plants',$v_data, true);
         $this->load->view('main', $data);
     }
     //

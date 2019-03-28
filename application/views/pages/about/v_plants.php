@@ -20,6 +20,9 @@
         </div>
         <!-- end of title -->
         
+        <pre>
+            <?php echo print_r($images); ?>
+        </pre>
         
     </div>
 </section>
