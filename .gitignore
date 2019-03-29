@@ -18,3 +18,5 @@ application/logs/*
 
 uploads/press-news/
 afc1.sql
+
+public/images/gallary
