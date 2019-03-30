@@ -15,6 +15,24 @@ $lang['vision_head'] ="Our Vision";
 # about_camp
 $lang['about_title'] ="Abuqir In";
 $lang['about_span'] ="Brife";
+$lang['p1']= "On 20 July 1976 Abu Qir Fertilizers Company was founded by the ministerial decree 374 of the year 1976 according to the law 60 of the year 1971 and law 111 of the year 1975";
+$lang['p2']= "On 20 April 1980 the company was declared as an Egyptian shareholding company according to the ministerial decree of Minister of economy and foreign trade and international cooperation number 107 of the year 1980 and according to the law 43 of the year 1974";
+$lang['p3']= "The company is regulated by the law 97 of the year 1983";
+$lang['p4']= "On 15 May 1996 the ministerial committee of the public sector companies and the privatization program had agreed that the company will be regulated by the law 159 of the year 1981 an this was approved by the general assembly of the company on 16 May 1996";
+$lang['p5']= "The capital of the company is 100% Egyptian";
+$lang['p6']= "The company is a pioneer of producing and marketing nitrogen fertilizers and liquid and mixed fertilizers in Egypt and Africa in terms of production rates and the diversity of the products.";
+$lang['p7']= "In 1979 Abu Qir 1 Factory was inaugurated to produce regular Urea Fertilizers with a production capacity of 1550 tons/day then increase efficiency of plant to achieved 1750 ton/day.";
+$lang['p8']= "In the year 1991 Abu Qir 2 Factory was inaugurated to produce ammonium nitrate Fertilizers with a production capacity of 2400 tons/day";
+$lang['p9']= "In 1998 Abu Qir 3 Factory was inaugurated to produce granulated Urea Fertilizers with a production capacity of 1750 tons/day then increase efficiency of plant to achieved 1925 ton/day.";
+$lang['p10']= "In 2004 Urea magnesium fertilizer was produced in Abu Qir 3 Factory";
+$lang['p11']= "In 2004 Urea sulfate fertilizer was produced in Abu Qir 3 Factory";
+$lang['p12']= "In 2005 Urea zinc fertilizer was produced in Abu Qir 1 Factory";
+$lang['p13']= "In 2005 the mixed fertilizers factory was inaugurated to produce mixed fertilizers with a production capacity of 1000 tons/day";
+$lang['p14']= "In 2006 the liquid fertilizers factory was inaugurated to produce urea ammonium nitrate solution (UAN) with a production capacity of 1000 tons/day then increase efficiency of plant to achieved 2400 ton/day.";
+$lang['p15']= "In 2012 the production capacity of the liquid fertilizers factory was increased to be 2000 tons/day";
+$lang['p16']= "In 2014 Eurofert and Nitrofert Fertilizers was produced";
+$lang['p17']= "In 2018 increase efficiency of ammonia plant in Abu Qir 3 to increase ammonia production from 1200 ton/day to 1230 ton/day.";
+$lang['p18']= "In 2019 Plastic Factory was inaugurated to produce fertilizers Plastic Bags with a production capacity of 40 mn bag/year.";
 
 # policy
 $lang['policy_title'] = "Our";
