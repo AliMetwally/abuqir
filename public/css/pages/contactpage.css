@@ -109,7 +109,7 @@ body {
 }
 
 .btn-outline-main:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #0F3661;
   border-color: #0F3661;
 }

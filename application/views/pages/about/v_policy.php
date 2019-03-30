@@ -7,8 +7,8 @@
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
-                    <?= lang('contact_title')?> <span class="title-span text-main-color">
-                        <?= lang('title_span')?> </span>
+                    <?= lang('policy_title')?> <span class="title-span text-main-color">
+                        <?= lang('policy_span')?> </span>
                         <span class="sec-title-border">
                             <span></span>
                             <span></span>
@@ -19,7 +19,11 @@
             </div>
         </div>
         <!-- end of title -->
-        
+        <div class="row">
+            <div class="col-12">
+                <img class="d-block w-100" src="<?= base_url('public/images/policy.jpg')?>" alt="">
+            </div>
+        </div>
         
     </div>
 </section>

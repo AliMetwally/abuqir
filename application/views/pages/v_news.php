@@ -6,8 +6,8 @@
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
-                        Our <span class="title-span text-main-color">
-                            News</span>
+                        <?= lang('news_title')?> <span class="title-span text-main-color">
+                        <?= lang('news_span')?></span>
                         <span class="sec-title-border">
                             <span></span>
                             <span></span>
@@ -42,7 +42,7 @@
                                 <p class="small">
                                     <?= $news->content?>
                                 </p>
-                                <a href="<?php echo base_url('home/newsDetails/').$news->news_id ;?>" class="btn btn-outline-main">Read More</a>
+                                <a href="<?php echo base_url('home/newsDetails/').$news->news_id ;?>" class="btn btn-outline-main"><?= lang('news_btn')?></a>
                             </div>
                         </div>
                     </div>
