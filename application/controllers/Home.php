@@ -133,4 +133,12 @@ class Home  extends CI_Controller{
         $this->load->view('main', $data);
     }
 
+    public function chairmanWord(){
+        // scripts css, js
+        $data['custom_css'] = 'homepage.css';        
+        $data['custom_js'] = 'main.js';
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_chairman','', true);
+        $this->load->view('main', $data);
+    }
 }

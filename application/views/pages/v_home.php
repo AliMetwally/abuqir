@@ -94,7 +94,7 @@
                     <p class="lead">
                         <?= lang('chairman_text')?>
                     </p>
-                    <a href="" class="btn btn-outline-light">
+                    <a href="<?= base_url('home/chairmanWord')?>" class="btn btn-outline-light">
                         <?= lang('btn_read_more')?></a>
                 </div>
 
@@ -237,9 +237,9 @@
 </section>
 <!-- end of safty -->
 <!-- Gallery -->
-<section class="home-gallery bg-white py-5">
+<!-- <section class="home-gallery bg-white py-5"> -->
      <!-- title -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
@@ -255,8 +255,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
      <!-- end of title -->
      
-</section>
+<!-- </section> -->
 <!-- end for gallery -->
