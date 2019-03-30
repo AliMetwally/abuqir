@@ -1,6 +1,6 @@
 
 
-<section class="contact py-5 mt-md-5">
+<section class="plants py-5 mt-md-5">
     <div class="container bg-white">        
         <div class="row d-none d-md-block d-lg-block">
             <!--Carousel-->
@@ -9,7 +9,7 @@
                     <div class="carousel-inner">
                         <?php for ($i = 0; $i < count($images); $i++): ?>
                             <div class="carousel-item  <?= $i === 0 ? 'active' : '' ?>">
-                                <img src='<?= base_url("/public/images/plants/$images[$i]") ?>' class="d-block w-100" alt="...">
+                                <img src='<?= base_url("/public/images/plants/$images[$i]") ?>' class="d-block " width= "1400px" alt="...">
                             </div>
                         <?php endfor; ?>
                     </div>

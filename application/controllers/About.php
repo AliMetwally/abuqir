@@ -25,6 +25,7 @@ class About extends CI_Controller {
     public function mission(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about_mission.js';
         
         $data['content'] = $this->load->view('pages/about/v_mission','', true);
         $this->load->view('main', $data);

@@ -257,39 +257,6 @@
         </div>
     </div>
      <!-- end of title -->
-     <div class="galleryCarousel container">
-    <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
-        <div class="text-right mb-3">
-                            <a class="btn btn-main text-light" href="#galleryCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                            <a class="btn btn-main text-light" href="#galleryCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-        <div class="carousel-inner">
-        <?php
-            $i = 1;
-            foreach ($gallary_images as $images ):                                      
-            if ($i % 3 == 1):
-                               
-             ?>
-            <div class="carousel-item <?= $i == 1? 'active':'' ?>">
-                <div class="row">
-                    <?php endif;?> 
-                    <div class="col-12 col-sm-4"><img class="d-block w-100" src='<?= base_url("public/images/gallery/").$gallary_images[$i]?>' alt="1 slide"></div>              
-                
-                <?php if (($i / 3) * ($i % 3) == 0): ?>
-                </div>
-            <?php endif;?>
-            </div>
-                            <?php 
-                            endforeach;?>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-12 col-sm-4"><img class="d-block w-100" src="//placehold.it/1200x600/ccff00" alt="4 slide"></div>
-                    <div class="col-12 col-sm-4"><img class="d-block w-100" src="//placehold.it/1200x600/444" alt="5 slide"></div>
-                    <div class="col-12 col-sm-4"><img class="d-block w-100" src="//placehold.it/1200x600/ddd" alt="6 slide"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+     
 </section>
 <!-- end for gallery -->
