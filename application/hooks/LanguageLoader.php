@@ -30,6 +30,8 @@ class LanguageLoader {
             $ci->lang->load('news', $ci->session->userdata('site_lang'));
         }else  if($controller == 'home' && $method == 'chairmanWord' ){
             $ci->lang->load('home', $ci->session->userdata('site_lang'));
+        }else  if($controller == 'home' && $method == 'exports' ){
+            $ci->lang->load('exports', $ci->session->userdata('site_lang'));
         }
          
     }

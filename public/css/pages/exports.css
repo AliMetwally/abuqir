@@ -265,114 +265,15 @@ body {
 
 /* end of navbar */
 /* end of header */
-/*social responsibilty*/
 .header-img {
   display: none;
 }
 
 .breadcrumb {
-  background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/Breadcrumb.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/exports.jpg) no-repeat center center/cover;
   border-radius: 0;
-}
-
-.social-responsibilty {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
-}
-
-.title-p {
-  display: none;
-}
-
-.carousel {
-  border: 2px solid #0f367a;
-}
-
-.carousel-control-prev {
-  left: 20px;
-  border: 1px solid #EEE;
-  width: 50px;
-  border-radius: 100%;
-  top: 50%;
-  height: 50px;
-  opacity: 0.3;
-}
-
-.carousel-control-next {
-  right: 20px;
-  border: 1px solid #EEE;
-  width: 50px;
-  border-radius: 100%;
-  top: 50%;
-  height: 50px;
-  opacity: 0.3;
-}
-
-.carousel-control-prev:hover, .carousel-control-next:hover {
-  background-color: #0f367a;
-  display: flex;
-  opacity: 0.9;
-}
-
-.emp-social {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(../..//..//images/them-blue1.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
-}
-.emp-social span {
-  position: absolute;
-}
-.emp-social .emp-social-silder {
-  left: -400px;
-}
-.emp-social .emp-social-content {
-  left: -1200px;
-}
-
-.social-area .ul.nav.nav-tabs {
-  border: none;
-}
-.social-area .nav-tabs li {
-  width: 50%;
-  text-align: center;
-  background: #f1f1f1;
-  font-size: 16px;
-}
-.social-area .nav-tabs {
-  margin-top: 20px;
-}
-.social-area .nav-tabs li a {
-  background: #f1f1f1;
-  display: inline-block;
-  width: 100%;
-  padding: 8px;
-  color: #666666;
-}
-.social-area .tab-content {
-  padding: 15px;
-  border: 1px solid #d6dadf;
-  border-top: 0;
-}
-.social-area .tab-content h4 {
-  margin-bottom: 6px;
-}
-.social-area .nav-tabs li a:hover, .social-area .nav-tabs li a.active {
-  background: #0F3661;
-  color: #fff;
-}
-.social-area a {
-  text-decoration: none;
-  transition: 0.4s;
-}
-.social-area .area-text, .social-area .social-area-slider {
-  display: none;
-}
-
-.social-environment .card-header {
-  background-color: #0F3661;
-}
-.social-environment .btn.btn-link {
-  text-decoration: none;
-  color: white;
+  background-size: cover;
+  height: 500px !important;
 }
 
 /* footer */
@@ -484,4 +385,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=socialresponsibilitypage.css.map */
+/*# sourceMappingURL=exports.css.map */
