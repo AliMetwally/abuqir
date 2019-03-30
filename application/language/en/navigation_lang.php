@@ -7,6 +7,7 @@ $lang['fertilizers'] = 'fertilizers';
 # navigation
 $lang['home_link'] = 'Home';
 $lang['about_link'] = 'About Us';
+$lang['exports_link'] = 'Exports';
 $lang['media_link'] = 'Media';
 $lang['reponsibility_link'] = 'Social Resposibility';
 $lang['investors_link'] = 'Investors Relations';

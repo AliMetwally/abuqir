@@ -132,5 +132,15 @@ class Home  extends CI_Controller{
         $data['content'] = $this->load->view('pages/v_news_details',$v_data, true);
         $this->load->view('main', $data);
     }
+    
+    
+    public function exports(){
+        $data['custom_css'] = 'exports.css';        
+        $data['custom_js'] = 'main.js';
+        
+        
+        $data['content'] = $this->load->view('pages/v_exports','', true);
+        $this->load->view('main', $data);
+    }
 
 }

@@ -110,6 +110,11 @@
                                 <a class="dropdown-item" href="<?= base_url('/about/certificates')?>"><?= lang('about_cert_link') ?></a>
                             </div>
                         </li>
+                        <!--exports-->
+                        <li class="nav-item">
+                            <a href="<?= base_url('/exports') ?>" class="nav-link m-2 menu-item nav-home"><?= lang('exports_link') ?></a>
+                        </li>
+                        
                         <li class="nav-item">
                             <a href="<?= base_url('/news') ?>" class="nav-link m-2 menu-item nav-media"><?= lang('media_link') ?></a>
                         </li>

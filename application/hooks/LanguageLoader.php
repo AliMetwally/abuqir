@@ -26,6 +26,8 @@ class LanguageLoader {
             $ci->lang->load('investors', $ci->session->userdata('site_lang'));
         }else  if($controller == 'about' ){
             $ci->lang->load('about', $ci->session->userdata('site_lang'));
+        }else  if($controller == 'home' && $method == 'exports' ){
+            $ci->lang->load('exports', $ci->session->userdata('site_lang'));
         }
          
     }
