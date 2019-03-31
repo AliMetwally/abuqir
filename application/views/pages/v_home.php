@@ -24,7 +24,7 @@
         <div class="row py-3">
             <div class="col-lg-7 card-news hide-ele">
                 <div class="card my-5 border-main">
-                    <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest"
+                    <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest img-shadow"
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -151,7 +151,7 @@
                             <?php endif;?> 
                                 <div class="col-12 col-md-6 col-lg-3 mb-3">
                                     <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url('public/images/products/'.$products['product']->product_id.'.jpg')?>" class="img-thumbnail" alt="">
+                                        <img src="<?php echo base_url('public/images/products/'.$products['product']->product_id.'.jpg')?>" class="img-thumbnail img-shadow" alt="">
                                         <div class="product-box-overlay">
                                             <div class="display-table">
                                                 <div class="display-tablecell">
@@ -215,7 +215,7 @@
                 
             </div>
             <div class="col-lg-6 my-3 repons-img <?= lang('social_order_img')?>  hide-ele">
-                <img class="w-100" src="<?= base_url()?>public/images/Social-Responsibility.jpg" alt="">
+                <img class="w-100 img-shadow" src="<?= base_url()?>public/images/Social-Responsibility.jpg" alt="">
             </div>
         </div>
     </div>
@@ -225,12 +225,12 @@
 <section class="safty-home py-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 safty-img hide-ele">
-                <img class="w-100" src="<?= base_url()?>public/images/Safety-equipment.jpg" alt="">
+            <div class="col-12 col-lg-6 safty-img <?= lang('safty_order_img')?> hide-ele">
+                <img class="w-100 img-shadow" src="<?= base_url()?>public/images/Safety-equipment.jpg" alt="">
             </div>
-            <div class="col-12 col-md-6 safty-txt hide-ele">
-                <h3 class="mb-md-4 my-4 my-md-0"> السلامة والصحة المهنية وحماية البيئة</h3>
-                <p class="lead">إنتهجت الشركة سياسة جديدة ومتطورة تتعلق بالسلامة والحماية والإستدامة من خلال تحديث سياسة الشركة فيما يتعلق بالسلامة والحماية والإستدامة وأيضاً تلتزم الشركة بإدارة انشطتها بالطريقة التي ترتقي بالمستوى الصحي للعاملين بها وبما يدفع الضرر عن العاملين بالشركة ومقاوليها وزائريها </p>
+            <div class="col-12 col-lg-6 safty-txt <?= lang('safty_order_txt')?>  hide-ele">
+                <h3 class="mb-md-4 my-4 my-md-0"><?= lang('safty_head')?></h3>
+                <p class="lead"><?= lang('safty_p')?></p>
             </div>
         </div>
     </div>

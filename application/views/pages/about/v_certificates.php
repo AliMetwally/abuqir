@@ -27,9 +27,9 @@
                     <div class="row no-gutters ">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/14001.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/14001.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/14001.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                             <p class="card-text"><?= lang('ISO14001_1') ?></p>
                             <p class="card-text"><?= lang('ISO14001_2') ?></p>
                             <p class="card-text"><?= lang('ISO14001_3') ?></p>                        
@@ -45,9 +45,9 @@
                     <div class="row no-gutters ">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/9001.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/9001.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/9001.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('ISO9001_1') ?></p>
                         <p class="card-text"><?= lang('ISO9001_2') ?></p>
                         <p class="card-text"><?= lang('ISO9001_3') ?></p>                                         
@@ -63,9 +63,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/safty.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/safty.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/safty.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('18001_1') ?></p>
                         <p class="card-text"><?= lang('18001_2') ?></p>
                         <p class="card-text"><?= lang('18001_3') ?></p>                        
@@ -82,9 +82,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/European_chemicals_agency_logo.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="#" onclick='window.open("<?= base_url('uploads/REACH_certificates/REACH AMMONIA.pdf')?>"); ' class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="#" onclick='window.open("<?= base_url('uploads/REACH_certificates/REACH AMMONIA.pdf')?>"); ' class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('RECHA_1') ?></p>                                      
                         </div>
                     </div>
@@ -98,9 +98,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/egac_en.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/egac_en.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/egac_en.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('EGAC_1') ?></p>
                         <p class="card-text"><?= lang('EGAC_2') ?></p>
                         <p class="card-text"><?= lang('EGAC_3') ?></p>                                                        
@@ -117,9 +117,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/50001.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/50001.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/50001.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('Energy_1') ?></p>
                         <p class="card-text"><?= lang('Energy_2') ?></p>
                         <p class="card-text"><?= lang('Energy_3') ?></p>                                                                 
@@ -136,9 +136,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/28000.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/28000.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/28000.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('Supply_1') ?></p>
                         <p class="card-text"><?= lang('Supply_2') ?></p>
                         <p class="card-text"><?= lang('Supply_3') ?></p>                                                                                      
@@ -155,9 +155,9 @@
                     <div class="row no-gutters">
                         <div class="col-md-4">
                             <img style="height: 300px" src="<?= base_url('public/images/certificates/ifa.jpg') ?>" class="d-block w-100 card-img" alt="...">
-                            <a href="<?= base_url('public/images/certificates/ifa.jpg') ?>" class="w-100 btn btn-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+                            <a href="<?= base_url('public/images/certificates/ifa.jpg') ?>" class="w-100 btn btn-main bg-main"><?= lang('certificate_download') ?> <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
                         </div>
-                        <div class="col-md-8 px-2">
+                        <div class="col-md-8 px-2 mb-3 order-first order-md-last">
                         <p class="card-text"><?= lang('IFA_1') ?></p>
                         <p class="card-text"><?= lang('IFA_2') ?></p>
                         <p class="card-text"><?= lang('IFA_3') ?></p>                                                                                            

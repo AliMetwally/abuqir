@@ -7,10 +7,12 @@ $lang['project_span'] = "Projects";
 
 
 # mission
-$lang['mv_title'] ="Vision And";
-$lang['mv_span'] ="Mission";
+$lang['mv_span'] ="Vision And Mission";
 $lang['mission_head'] ="Our Mission";
 $lang['vision_head'] ="Our Vision";
+$lang['mission_p1'] = "We work efficiently and effectively in a safe and environmentally-responsible approach to produce our extensive diverse products at the utmost quality levels needed and expected by our customers. 
+We optimally exploit our resources and carryout our investments in a manner that satisfies our customers, maintains environmental sustainability, restricts operational risks, preserves our employees' lives and privileges, conserves our stakeholders' rights and maximizes our returns.";
+$lang['vision_p1'] = "Preserving Abu Qir's position as the pioneer in the production and marketing of several nitrogenous fertilizers, UAN and Bulk Blended Fertilizers in the local and international markets in conformity with international standards.";
 
 # about_camp
 $lang['about_title'] ="Abuqir In";

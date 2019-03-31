@@ -1,4 +1,11 @@
 $(function(){
+     
+    // Add active class to contactpage link in navbar
+    $(window).on("load",function(){
+        $(".nav-about").addClass("nav-active");
+    });
+
+    // About mission and vision
     $(window).scroll(function(){
         var pos = $(this).scrollTop();
         if(pos >= 200){
@@ -17,4 +24,4 @@ $(function(){
             $(".mission-3").addClass("animated delay-3s bounceInUp");
         }
     })
-})
+});

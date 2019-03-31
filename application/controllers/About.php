@@ -16,6 +16,7 @@ class About extends CI_Controller {
     public function about_comp(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         
         $data['content'] = $this->load->view('pages/about/v_about','', true);
         $this->load->view('main', $data);
@@ -25,7 +26,7 @@ class About extends CI_Controller {
     public function mission(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
-        $data['custom_js'] = 'about_mission.js';
+        $data['custom_js'] = 'about.js';
         
         $data['content'] = $this->load->view('pages/about/v_mission','', true);
         $this->load->view('main', $data);
@@ -35,6 +36,7 @@ class About extends CI_Controller {
     public function policy(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         
         $data['content'] = $this->load->view('pages/about/v_policy','', true);
         $this->load->view('main', $data);
@@ -45,6 +47,7 @@ class About extends CI_Controller {
         $this->load->helper('directory');
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         
         $v_data['images'] = directory_map('./public/images/plants/'); 
         
@@ -56,6 +59,7 @@ class About extends CI_Controller {
     public function projects(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         // get project data
         $v_data['projects'] = $this->m_about_projects->get_projects();
         $data['content'] = $this->load->view('pages/about/v_projects',$v_data, true);
@@ -66,6 +70,7 @@ class About extends CI_Controller {
     public function Project_details() {   
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         // get project data 
         $project_id = $this->uri->segment(3);
         $v_data['project'] = $this->m_about_projects->get_projects_name($project_id);
@@ -86,6 +91,7 @@ class About extends CI_Controller {
     public function certificates(){
         $data['custom_css'] = 'about.css'; 
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'about.js';
         
         $data['content'] = $this->load->view('pages/about/v_certificates','', true);
         $this->load->view('main', $data);

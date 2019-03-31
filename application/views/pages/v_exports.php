@@ -1,9 +1,9 @@
 <div class="breadcrumb"></div>
 
-<section class="contact py-5">
+<section class="contact py-3">
     <div class="container">
         <!-- title -->
-        <div class="row mb-5">
+        <div class="row mb-3">
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
@@ -28,7 +28,7 @@
             </div>
 
             <div class="col-12">
-                <div class="card border-light bg-white p-4 <?= lang('text_dir') ?>">
+                <div class="card border-light shadow bg-white p-4 <?= lang('text_dir') ?>">
                     
                     <div class="card-header bg-transparent">
                         <h4><?= lang('overview_head') ?></h4> <!-- plant name -->

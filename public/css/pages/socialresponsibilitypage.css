@@ -47,6 +47,10 @@ body {
 
 /*End Navigation*/
 /* General */
+.img-shadow {
+  box-shadow: 0 0 10px #0F3661;
+}
+
 /* animations */
 .animated {
   animation-duration: 1.7s !important;
@@ -89,7 +93,7 @@ body {
 }
 
 .bg-main {
-  background-color: #0F3661 !important;
+  background: linear-gradient(rgba(4, 28, 56, 0.8), rgba(4, 28, 56, 0.9)), url(../..//..//images/them-blue1.jpg) center center/cover;
 }
 
 .border-main {
@@ -103,9 +107,14 @@ body {
 }
 
 .btn-main {
-  color: #fff;
+  color: lightgrey;
   background-color: #0F3661;
   border-color: #0F3661;
+}
+
+.btn-main:hover {
+  color: white;
+  transition: color 0.15s ease-in-out;
 }
 
 .btn-outline-main {

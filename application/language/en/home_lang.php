@@ -24,6 +24,12 @@ $lang['social_p'] = "Company’s evaluation is no longer based only on their pro
 The most important is the social responsibility towards employees and the surrounding area and the community as a whole, also internal and external environmental responsibility.";
 $lang['social_btn'] = "Read More";
 
+# Safty
+$lang['safty_head'] = "Occupational Safety and Health and Environmental Protection";
+$lang['safty_p'] = "The company adopted new and evolving policies regarding safety, protection and environmental sustainability. The company is also committed to managing all its activities in a manner that maintains and develops a healthy work environment that abolishes any hazards for its employees, contractors, visitors and various stakeholders.";
+$lang['safty_order_img'] = 'order-lg-last order-first';
+
+
 #chairman word
 $lang['chair_title'] = "Chairman Message";
 $lang['chair_p'] = "I have the pleasure to share with you Abu Qir Fertilizers company's website space, the company is one of the most important nitrogenous fertilizers industrial companies in the Middle East and around the world, I have had the honor to be the chairman of Abu Qir Fertilizers & Chemical Industries Co. - that edifice industrial giant - to manage a distinctive team work who seeks to provide its best, in my turn, I'll do my best in order to maintain the company's leadership as the largest industrial edifice in the region.

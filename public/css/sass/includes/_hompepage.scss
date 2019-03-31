@@ -71,12 +71,7 @@
 /* contact */
 
 .chairman {
-  background: linear-gradient(105deg,
-  
-  rgba(21, 31, 32, 0.568) 0%, 
-  rgba(21,31,32,.95) 100% ,
-  transparent 100%) , 
-  url(../..//..//images/home3.JPG) center center no-repeat /cover;
+  background: linear-gradient(rgba(21, 31, 32, 0.5), rgba(21, 31, 32, 0.9)), url(../..//..//images/home3.JPG) no-repeat center center/cover;
   background-attachment: fixed;
 }
 
@@ -182,6 +177,7 @@ background: #707070;
 .safty-home{
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
   background-attachment: fixed;
+
 }
 /* end for safty */
 /* end of product */

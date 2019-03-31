@@ -24,10 +24,10 @@
                 </div>
             <?php endif; ?>
         </div>
-        <div class="row pb-3">
-            <div class="col-12 col-md-6 shadow bg-white">
+        <div class="row p-3">
+            <div class="col-12 col-md-6">
                 <!-- Start Plant abuqir 1-->
-                <div class="card  border-0 py-3 <?= lang('text_dir') ?>">
+                <div class="card shadow bg-white border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
                         <h4><?= lang('afc1_head')?></h4> <!-- plant name -->
                     </div>
@@ -51,9 +51,9 @@
                 </div>
                 <!--End Planet abuqir 1-->
             </div>    
-            <div class="col-12 col-md-6 shadow bg-white order-first">
+            <div class="col-12 col-md-6 order-first">
                 <!-- Start Plant abuqir 2-->
-                <div class="card border-0 py-3 <?= lang('text_dir') ?>">
+                <div class="card shadow bg-white border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
                         <h4><?= lang('afc2_head')?></h4> <!-- plant name -->
                     </div>
@@ -79,9 +79,9 @@
             </div>    
         </div>
         <div class="row pb-3">
-            <div class="col-12 col-md-6 shadow bg-white">
+            <div class="col-12 col-md-6">
                 <!-- Start Plant abuqir 3-->
-                <div class="card  border-0 py-3 <?= lang('text_dir') ?>">
+                <div class="card shadow bg-white border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
                         <h4><?= lang('afc3_head')?></h4> <!-- plant name -->
                     </div>
@@ -106,9 +106,9 @@
                 </div>
                 <!--End Planet abuqir 3-->
             </div>    
-            <div class="col-12 col-md-6 shadow bg-white order-first">
+            <div class="col-12 col-md-6 order-first">
                 <!-- Start Plant NPK-->
-                <div class="card border-0 py-3 <?= lang('text_dir') ?>">
+                <div class="card shadow bg-white border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
                         <h4><?= lang('NPK_head')?></h4> <!-- plant name -->
                     </div>
@@ -126,10 +126,10 @@
                 <!--End Planet NPK-->
             </div>    
         </div>
-        <div class="row">
-            <div class="col-12  shadow bg-white">
+        <div class="row pb-3">
+            <div class="col-12">
                 <!-- Start Plant UAN-->
-                <div class="card border-0 py-3 <?= lang('text_dir') ?>">
+                <div class="card shadow bg-white border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
                         <h4><?= lang('UAN_head')?></h4> <!-- plant name -->
                     </div>

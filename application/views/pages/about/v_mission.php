@@ -30,10 +30,7 @@
                     </div>
                     <div class="card-body text-white">
                         <blockquote class="blockquote mb-0">
-                            <p class="vision-1 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('vision_p1')?></p>
-                            <p class="vision-2 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('vision_p2')?></p>
-                            <p class="vision-3 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('vision_p3')?></p>
-                            <p class="vision-4 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('vision_p4')?></p>
+                            <p class="vision-1 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i> <?=lang('vision_p1')?></p>
                         </blockquote>
                     </div>
                 </div>
@@ -45,9 +42,7 @@
                     </div>
                     <div class="card-body text-white">
                         <blockquote class="blockquote mb-0">
-                            <p class="mission-1 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('mission_p1')?></p>
-                            <p class="mission-2 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('mission_p2')?></p>
-                            <p class="mission-3 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i><?=lang('mission_p3')?></p>
+                            <p class="mission-1 small font-weight-bold"><i class="fa fa-check-square-o" aria-hidden="true"></i> <?=lang('mission_p1')?></p>
                         </blockquote>
                     </div>
                 </div>
