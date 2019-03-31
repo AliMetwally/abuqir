@@ -65,10 +65,9 @@
         <header>
             <div class="container-fluid logo-bar" style="position: absolute;">
                 <div class="container d-flex justify-content-around">
-                    <div class="ml-4"><a href="#" class="nav-link">
+                    <div class="ml-4"><a href="<?= base_url('/home') ?>" class="nav-link">
                             <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded" alt="...">
-                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir') ?>
-                                <span class="h5 text-muted Fert-text text-uppercase"> <?= lang('fertilizers') ?></span>
+                            <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase"><?= lang('abuqir') ?></span>                                
                         </a>
                     </div>
                     <div class="d-flex align-self-center mr-5">
@@ -112,7 +111,7 @@
                         </li>
                         <!--exports-->
                         <li class="nav-item">
-                            <a href="<?= base_url('/exports') ?>" class="nav-link m-2 menu-item nav-home"><?= lang('exports_link') ?></a>
+                            <a href="<?= base_url('/exports') ?>" class="nav-link m-2 menu-item nav-exports"><?= lang('exports_link') ?></a>
                         </li>
                         
                         <li class="nav-item">
@@ -184,7 +183,7 @@
                                 <a href="<?= base_url('/home') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('home_link') ?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link') ?></a>
+                                <a href="<?= base_url('/company');?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('about_link') ?></a>
                             </li>
                             <li>
                                 <a href="<?= base_url('/news') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('media_link') ?></a>
@@ -193,7 +192,7 @@
                                 <a href="<?= base_url('/socialresponsibiltiy') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('reponsibility_link') ?></a>
                             </li>
                             <li>
-                                <a href="#" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link') ?></a>
+                                <a href="<?= base_url("/brief");?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('investors_link') ?></a>
                             </li>
                             <li>
                                 <a href="<?= base_url('/contact') ?>" class="footer-link"><i class="fa fa-check mr-2-ftr"></i><?= lang('contact_link') ?></a>

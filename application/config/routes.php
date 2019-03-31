@@ -51,6 +51,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
+
+#about 
+$route['company'] = 'about/about_comp';
+
+
+#investors
+$route['brief'] = 'investors/brief';
+
 $route['contact'] = 'home/contact';
 $route['news'] = 'home/news';
 $route['news/:num'] = 'home/news/';

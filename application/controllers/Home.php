@@ -137,6 +137,7 @@ class Home  extends CI_Controller{
     public function exports(){
         $data['custom_css'] = 'exports.css';        
         $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'exports.js';
         
         
         $data['content'] = $this->load->view('pages/v_exports','', true);

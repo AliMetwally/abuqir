@@ -1,8 +1,8 @@
 <?php
 
 # website title
-$lang['abuqir'] = 'abuqir';
-$lang['fertilizers'] = 'fertilizers';
+$lang['abuqir'] = 'abuqir fertilizers';
+
 
 # navigation
 $lang['home_link'] = 'Home';
@@ -21,12 +21,12 @@ $lang['about'] = 'About Us';
 # contact data
 $lang['address'] = 'Address: EL-Tabia- Rashid Road';
 $lang['state'] = 'Alexandria, Egypt';
-$lang['mobile'] = 'Mobile : (201) 001-625632';
-$lang['phone'] = 'Phone : (203) 560-3053';
+$lang['mobile'] = 'Mobile : 201001625632';
+$lang['phone'] = 'Phone : 2035603053';
 
 
 # about us footer statment 
-$lang['about_statement'] = 'We work efficiently, safety and environmentally responsible manner to produce our products at the quality required by our customer and carryout investments to maximize returns.';
+$lang['about_statement'] = "Abu Qir Fertilizers and Chemical Industries Company works in the manufacturing of all the types of nitrogen fertilizers, chemical products and other related materials, derived from it, or needed for its manufacturing, packaging, buying, selling and trading in the Egypt or abroad.";
 
 
 # investors sub menu

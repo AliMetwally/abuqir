@@ -4,4 +4,4 @@ $(function(){
     $(window).on("load",function(){
         $(".nav-contact").addClass("nav-active");
     });
-})
+});

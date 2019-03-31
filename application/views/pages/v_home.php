@@ -33,7 +33,7 @@
                         <p class="card-text text-muted">
                             <?= $newsCoverContent->content?>
                         </p>
-                        <a href="#" class="btn btn-outline-main">
+                        <a href="<?= base_url("home/newsDetails/$last_news_head->news_id");?>" class="btn btn-outline-main">
                             <?= lang('btn_read_more')?></a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                             ?>
                         <div class="carousel-item <?= $i == 1? 'active':'' ?> news-link">
                             <?php endif;?>
-                            <a href="#">
+                            <a href="<?= base_url("home/newsDetails/$news->news_id");?>">
                                 <div class="media my-3">
                                     <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
                                         alt="...">
