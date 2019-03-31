@@ -1,13 +1,13 @@
 <div class="breadcrumb"></div>
 
-<section class="contact py-5">
+<section class="contact projects py-5">
     <div class="container">
         <!-- title -->
         <div class="row mb-5">
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
-                    <h2 class="text-muted">
-                        <?= lang('project_title')?> <span class="title-span text-main-color">
+                    <h2 class="text-main-color">
+                        <?= lang('project_title')?> <span class="title-span">
                             <?= lang('project_span')?> </span>
                         <span class="sec-title-border">
                             <span></span>

@@ -24,8 +24,8 @@
                 </div>
             <?php endif; ?>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <div class="row pb-3">
+            <div class="col-12 col-md-6 shadow bg-white">
                 <!-- Start Plant abuqir 1-->
                 <div class="card  border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
@@ -51,7 +51,7 @@
                 </div>
                 <!--End Planet abuqir 1-->
             </div>    
-            <div class="col-12 col-md-6 order-first">
+            <div class="col-12 col-md-6 shadow bg-white order-first">
                 <!-- Start Plant abuqir 2-->
                 <div class="card border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
@@ -78,8 +78,8 @@
                 <!--End Planet abuqir 2-->
             </div>    
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <div class="row pb-3">
+            <div class="col-12 col-md-6 shadow bg-white">
                 <!-- Start Plant abuqir 3-->
                 <div class="card  border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
@@ -106,7 +106,7 @@
                 </div>
                 <!--End Planet abuqir 3-->
             </div>    
-            <div class="col-12 col-md-6 order-first">
+            <div class="col-12 col-md-6 shadow bg-white order-first">
                 <!-- Start Plant NPK-->
                 <div class="card border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">
@@ -127,7 +127,7 @@
             </div>    
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12  shadow bg-white">
                 <!-- Start Plant UAN-->
                 <div class="card border-0 py-3 <?= lang('text_dir') ?>">
                     <div class="card-header bg-transparent">

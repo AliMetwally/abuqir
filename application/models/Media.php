@@ -58,9 +58,9 @@ class Media extends CI_Model {
      * This function return count of news
      */
     public function countNews(){
-        $table = 'news';
+        $table = 'news a';
         $columns = 'count(*) as news_count';
-        $where = ' is_visible = 1 ';   
+        $where = ' is_visible = 1 and news_id in (select news_id from news_contents)';   
         $query = $this->model_db->getSingleRow($table, $columns, $where);
         return $query->news_count;
     }
@@ -72,9 +72,10 @@ class Media extends CI_Model {
         $table = 'news a, news_contents b ';
         $title = $this->lang == 'ar'? 'SUBSTRING_INDEX(TRIM(a.title_ar), \' \', 9) as title': 'SUBSTRING_INDEX(TRIM(a.title_en), \' \', 9) as title';
         $content = $this->lang == 'ar'? 'SUBSTRING_INDEX(TRIM(b.content_text_ar), \' \', 10) as content': 'SUBSTRING_INDEX(TRIM(b.content_text_en), \' \', 10)  as content';
-        $columns = "a.news_id,a.news_date,a.image , $title,$content";
-        $where = ' a.is_visible = 1 and b.content_id = 1 and a.news_id = b.news_id';         
+        $columns = "a.news_id,a.news_date,a.image , $title,$content,min(b.content_id) content_id";
+        $where = ' a.is_visible = 1 and a.news_id = b.news_id';         
         $this->db->limit($limit, $start);
+        $this->db->group_by('a.news_id');
         $query = $this->model_db->read($table, $columns, $where, 'news_id DESC');
         return $query;
     }

@@ -3464,21 +3464,15 @@ body {
   border-radius: 0;
 }
 
-/* end of product */
-/*gallery*/
-.home-gallery .carousel-inner .carousel-item-right.active,
-.home-gallery .carousel-inner .carousel-item-next {
-  transform: translateX(33.33%);
-}
-.home-gallery .carousel-inner .carousel-item-left.active,
-.home-gallery .carousel-inner .carousel-item-prev {
-  transform: translateX(-33.33%);
-}
-.home-gallery .carousel-inner .carousel-item-right,
-.home-gallery .carousel-inner .carousel-item-left {
-  transform: translateX(0);
+/* safty */
+.safty-home {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
+/* end for safty */
+/* end of product */
+/*gallery*/
 /*end for gallery*/
 /* footer */
 .top-page .back-to-top {

@@ -3,7 +3,7 @@
 <section class="contact py-5">
     <div class="container">
         <!-- title -->
-        <div class="row mb-5">
+        <div class="row mb-2">
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">

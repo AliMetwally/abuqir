@@ -22,8 +22,8 @@
             <?php
             $i = 1;
             foreach ($allNews as $news):                                
-            if ($i % 2 == 1):
-            ?>
+            if(!empty($news->title)):?>
+            <?php if ($i % 2 == 1): ?>
             <div class="col-12 col-lg-6">
                 <?php endif;?>
                 <div class="single-news">
@@ -49,6 +49,7 @@
                 </div>
                 <?php if (($i / 2) * ($i % 2) == 0): ?>
             </div>
+            <?php endif;?>
             <?php endif;?>
             <?php 
                         

@@ -222,7 +222,7 @@
 </section>
 <!-- end for social responsibilty -->
 <!-- safty -->
-<section class="safty my-5">
+<section class="safty-home py-5">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 safty-img hide-ele">
