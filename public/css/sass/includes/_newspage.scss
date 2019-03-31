@@ -67,17 +67,17 @@
     .img-slide{
         width: 100px;
         height: 100px;
+        margin-right: 1rem;
     }
     @media (min-width: 992px) {
             .img-news {
-                max-width: 100%;
-                height: 198px;
+                height: 400px;
             }
         }
     @media (max-width: 1199px) {
             .img-news {
+                height: 200px;
                 max-width: 100%;
-                height: 222px;
             }
         }
 }

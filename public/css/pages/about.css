@@ -3313,6 +3313,11 @@ body {
 }
 
 /* new projects */
+.projects {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
 .new-projects {
   background: linear-gradient(rgba(255, 255, 255, 0.9), white), url(../..//..//images/new_projects/3/1.jpg) no-repeat center center/cover;
   border-radius: 0;

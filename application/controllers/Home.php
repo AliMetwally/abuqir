@@ -7,6 +7,7 @@ class Home  extends CI_Controller{
         parent::__construct();
         $this->load->model('media');
         $this->load->model('products');
+        $this->load->helper('directory');
     }
     
     /*
@@ -15,7 +16,6 @@ class Home  extends CI_Controller{
      * Translation : home_lang - contact_lang
      */
     public function index(){        
-        $this->load->helper('directory');
         // ---------------------------------------------------------------------
         // get news data 
         $news_id = $this->media->lastNewsTitle()->news_id; // news_id
@@ -116,7 +116,7 @@ class Home  extends CI_Controller{
         // load the view as string 
         $data['content'] = $this->load->view('pages/v_news',$v_data, true);
         $this->load->view('main', $data);
-      
+       
     }
 
      public function newsDetails($n_id){
