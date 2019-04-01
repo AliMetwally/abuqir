@@ -1,9 +1,32 @@
 /* header */
 .header-img{
-  margin-top: 80px;
-  height: 80vh;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner1.jpg) no-repeat center center / cover;
+  margin-top: 0;
+  // height: 80vh;
+  // background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url(../..//..//images/banner1.jpg) no-repeat center center / cover;
+
 }
+.home-slid{
+  margin-top: 80px;
+  img{
+    height: 80vh;
+  }
+  .home-text
+  {
+      position: relative;
+      top: 50px;
+      width: 96.66666666666666%;
+      color: white;
+      z-index: 1;
+  }
+  .box{
+
+    background-color: none;
+    background: linear-gradient(rgba(27, 27, 31, 0.3), rgba(27, 27, 31, 0.699)) no-repeat center center / cover;
+  }
+}
+
+
+
 
 /* news */
 .news{
