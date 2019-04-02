@@ -50,8 +50,18 @@ $lang['ammonia_text_3'] = 'Quantities available are only subject to production a
 
 /******************************************************************************************************************************************/
 ## Products
+$lang['order_1'] = "order-md-first";
+$lang['order_3'] = "order-md-last";
 $lang['products_title'] = 'Products';
+$lang['nitro_head'] = "Nitrogen";
+$lang['nitro_p'] = "Nitrogen is taken up by plants primarily as Nitrate or as Ammonium ions. Plants can utilize both of these forms of nitrogen in their growth, also it needs significant amount which is essential for its nutrition 
+Most of the nitrogen taken up by plants is in the nitrate form due to mobility in the soil and moving with soil water to plant roots. Nitrogen is utilized by plants to synthesize amino acids which in turn form proteins. Nitrogen is also required by plants for other vital compounds such as chlorophyll, nucleic acids and enzymes.";
 
+$lang['urea_head'] = "Urea";
+$lang['urea_p'] = "It is considered the most important source of nitrogen having the highest percentage of Nitrogen 46.0 % in comparison with other nitrogenous products, as well as its slow release resulted in more economical application.";
+$lang['an_head'] = "Ammonium Nitrate";
+$lang['an_p'] = "Ammonium Nitrate 33.5% N is usually applied in calcium soil and sandy soil.";
+$lang['prod_btn']="Read More";
 
 /******************************************************************************************************************************************/
 ## local

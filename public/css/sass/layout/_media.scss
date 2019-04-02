@@ -18,6 +18,15 @@
     width: 100%;
 }
   
+  .products-market{
+    .card{
+      min-height: 0;
+    }
+    .px-100{      
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 } 
 @media (min-width: 992px) {
   .project_details{
@@ -39,4 +48,5 @@
     font-size: 16px;
     font-weight: bold;
   }
+
 }

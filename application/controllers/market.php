@@ -3,7 +3,7 @@
 class Market extends CI_Controller {
     public function __construct() {
         parent::__construct();
-        $this->load->model('m_about_projects');
+        $this->load->model('products');
     }
     
     public function exports(){
@@ -29,12 +29,13 @@ class Market extends CI_Controller {
     
     
     public function products(){
+        //get css & js       
         $data['custom_css'] = 'products.css';        
         $data['custom_js'] = 'main.js';
         $data['custom_js'] = 'products_market.js';
-        
-        
-        $data['content'] = $this->load->view('pages/market/v_products','', true);
+        //get data
+        $v_data['products'] = $this->products->getProducts();        
+        $data['content'] = $this->load->view('pages/market/v_products',$v_data, true);
         $this->load->view('main', $data);
     }
 }
