@@ -133,16 +133,6 @@ class Home  extends CI_Controller{
         $this->load->view('main', $data);
     }
     
-    
-    public function exports(){
-        $data['custom_css'] = 'exports.css';        
-        $data['custom_js'] = 'main.js';
-        $data['custom_js'] = 'exports.js';
-        
-        
-        $data['content'] = $this->load->view('pages/v_exports','', true);
-        $this->load->view('main', $data);
-    }
 
     public function chairmanWord(){
         // scripts css, js

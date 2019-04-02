@@ -41,7 +41,7 @@
                         <div class="project-text">
                             <h5><?= $pro->project_name?></h5>
                             <p class="small"><?= $pro->content?> ....</p>
-                            <a href="<?= base_url('about/project_details/').$pro->project_id?>" class="btn btn-outline-main">Read More</a>
+                            <a href="<?= base_url('about/project_details/').$pro->project_id?>" class="btn btn-outline-main"><?= lang('project_btn')?></a>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,8 @@
 <?php
 
 
+## exports
+
 $lang['exports_title'] = 'Exports';
 
 #overview 
@@ -45,3 +47,12 @@ $lang['ammonia_text_1'] = 'Which is supplied via Abu Qir marine line and extende
 $lang['ammonia_text_2'] = 'Length: 160 m – width 23.5 m – max draft 7.5 m';
 $lang['ammonia_text_3'] = 'Quantities available are only subject to production accumulated surplus. ';
         
+
+/******************************************************************************************************************************************/
+## Products
+$lang['products_title'] = 'Products';
+
+
+/******************************************************************************************************************************************/
+## local
+$lang['local_title'] = 'Local Market';

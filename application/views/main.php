@@ -129,9 +129,18 @@
                         </div>
                     </li>
                     <!--exports-->
-                    <li class="nav-item">
-                        <a href="<?= base_url('/exports') ?>" class="nav-link m-2 menu-item nav-exports">
-                            <?= lang('exports_link') ?></a>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle m-2 menu-item nav-market" id="MarketDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?= lang('market_link') ?></a>
+                            <div class="dropdown-menu" aria-labelledby="MarketDropdown">
+                            <a class="dropdown-item" href="<?= base_url('/market/exports')?>">
+                                <?= lang('export_link') ?></a>
+                            <a class="dropdown-item" href="<?= base_url('/market/localMarket')?>">
+                                <?= lang('local_link') ?></a>
+                            <a class="dropdown-item" href="<?= base_url('/market/products')?>">
+                                <?= lang('products_link') ?></a>
+                        </div>
                     </li>
 
                     <li class="nav-item">

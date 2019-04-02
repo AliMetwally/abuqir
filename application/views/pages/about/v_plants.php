@@ -5,7 +5,7 @@
         <div class="row d-none d-md-block d-lg-block">
             <!--Carousel-->
             <?php if ($images) : ?>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                         <?php for ($i = 0; $i < count($images); $i++): ?>
                             <div class="carousel-item  <?= $i === 0 ? 'active' : '' ?>">

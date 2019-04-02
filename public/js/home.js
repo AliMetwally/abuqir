@@ -2,6 +2,8 @@ $(function () {
     // Add active class to homepage link in navbar
     $(window).on("load",function(){
         $(".nav-home").addClass("nav-active");
+        $(".slide-text").addClass("animated fadeInRight");         
+        $(".slide-btn").addClass("animated delay-2 fadeInRight");         
     });
 
     //Add animation on news section
@@ -38,16 +40,4 @@ $(function () {
             $(".safty-img").removeClass("hide-ele");
         }
     });
-
-    // gallery
-      $('#galleryCarousel').carousel({
-        interval:2000
-      });
-      $('. galleryCarousel.carousel .carousel-item').each(function(){
-        var next = $(this).next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-      });
 });
