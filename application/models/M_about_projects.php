@@ -3,6 +3,7 @@
 class M_about_projects extends CI_Model {
     function __construct() {
         parent::__construct();
+        model_site_lang();
         $this->lang = $this->session->site_lang;
         
     }
