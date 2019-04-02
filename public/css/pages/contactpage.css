@@ -297,9 +297,10 @@ footer {
     padding-left: 0px;
     transition-duration: .8s; }
 
-  .header-img {
+  .header-img, .home-slid {
     margin-top: 0px;
     height: 85vh; }
+  }
 
   .img-latest {
     height: 100%; }

@@ -354,9 +354,8 @@ footer {
     transition-duration: 0.8s;
   }
 
-  .header-img {
+  .header-img, .home-slid {
     margin-top: 0px;
-    height: 85vh;
   }
 
   .img-latest {

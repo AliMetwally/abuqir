@@ -1,3 +1,29 @@
+<!-- carousel  -->
+<section class="home-slid">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-ride="carousel">
+        <div class="carousel-inner d-flex align-items-center">
+            <div class="carousel-item active">
+                <img src="http://localhost/abuqir/public/images/gallery/banner1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="http://localhost/abuqir/public/images/gallery/banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="http://localhost/abuqir/public/images/gallery/banner3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="home-text d-flex justify-content-end">
+                <div class="box p-4">
+                    <h1>
+                        Static Headline And Content</h1>
+                    <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end for carousel -->
 <!-- news -->
 <section class="news bg-white py-4">
     <div class="container">
@@ -53,31 +79,30 @@
                             ?>
                         <div class="carousel-item <?= $i == 1? 'active':'' ?> news-link">
                             <?php endif;?>
-                            <a href="<?= base_url("home/newsDetails/$news->news_id");?>">
-                                <div class="media my-3">
-                                    <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
-                                        alt="...">
-                                    <div class="media-body">
-                                        <p class="mt-0 font-weight-bold">
-                                            <?= $news->title?>
-                                        </p>
-                                    </div>
+                            <a href="<?= base_url(" home/newsDetails/$news->news_id");?>"> <div class="media my-3">
+                                <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
+                                    alt="...">
+                                <div class="media-body">
+                                    <p class="mt-0 font-weight-bold">
+                                        <?= $news->title?>
+                                    </p>
                                 </div>
-                            </a>
-                            <?php if (($i / 3) * ($i % 3) == 0): ?>
-                        </div> <!-- end of slice -->
-                        <?php endif;?>
+                        </div>
+                        </a>
+                        <?php if (($i / 3) * ($i % 3) == 0): ?>
+                    </div> <!-- end of slice -->
+                    <?php endif;?>
 
-                        <?php 
+                    <?php 
                         
                                 $i++;
                             endforeach;?>
 
 
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- end of news -->
@@ -140,7 +165,7 @@
 
                     <!-- Carousel items -->
                     <div class="carousel-inner">
-                    <?php
+                        <?php
                             $i = 1;
                             foreach ($products_specs as $products):                                
                             if ($i % 4 == 1):
@@ -148,19 +173,26 @@
                             ?>
                         <div class="carousel-item  <?= $i == 1? 'active':'' ?>">
                             <div class="row text-center">
-                            <?php endif;?> 
+                                <?php endif;?>
                                 <div class="col-12 col-md-6 col-lg-3 mb-3">
                                     <div class="product-box porduct-bg border-dark">
-                                        <img src="<?php echo base_url('public/images/products/'.$products['product']->product_id.'.jpg')?>" class="img-thumbnail img-shadow" alt="">
+                                        <img src="<?php echo base_url('public/images/products/'.$products['product']->product_id.'.jpg')?>"
+                                            class="img-thumbnail img-shadow" alt="">
                                         <div class="product-box-overlay">
                                             <div class="display-table">
                                                 <div class="display-tablecell">
-                                                    <h5><?= $products['product']->product_name?></h5>
-                                                    <h5 class="mt-3"><?= lang('specs')?></h5>
+                                                    <h5>
+                                                        <?= $products['product']->product_name?>
+                                                    </h5>
+                                                    <h5 class="mt-3">
+                                                        <?= lang('specs')?>
+                                                    </h5>
                                                     <?php
                                                     foreach($products['spec']  as $spec):
                                                     ?>
-                                                    <p><small><i class="fa <?= $this->session->site_lang === 'ar'? 'fa-angle-double-left':'fa-angle-double-right'?>" aria-hidden="true"></i> <?= $spec->spec_name?></small></p>
+                                                    <p><small><i class="fa <?= $this->session->site_lang === 'ar'? 'fa-angle-double-left':'fa-angle-double-right'?>"
+                                                                aria-hidden="true"></i>
+                                                            <?= $spec->spec_name?></small></p>
                                                     <?php endforeach;?>
                                                 </div>
                                             </div>
@@ -171,8 +203,8 @@
                             </div>
                             <!--.row-->
                         </div>
-                            <?php endif;?>
-                            <?php 
+                        <?php endif;?>
+                        <?php 
                         
                                 $i++;
                             endforeach;?>
@@ -196,8 +228,8 @@
             <div class="col m-4  text-center">
                 <div class="sec-title mb-20">
                     <h2 class="text-muted">
-                    <?= lang('social_title')?><span class="title-span text-main-color">
-                             <?= lang('social_span')?></span>
+                        <?= lang('social_title')?><span class="title-span text-main-color">
+                            <?= lang('social_span')?></span>
                         <span class="sec-title-border">
                             <span></span>
                             <span></span>
@@ -210,9 +242,12 @@
         <!-- end of title -->
         <div class="row py-3 ">
             <div class="col-lg-6 my-3 repons-text <?= lang('social_order_txt')?> hide-ele">
-                <h5><?= lang('social_p')?></h5>
-                <div class="mt-lg-5"><a href="<?= base_url('socialresponsibiltiy')?>" class="text-white btn btn-main"><?= lang('social_btn')?></a></div>
-                
+                <h5>
+                    <?= lang('social_p')?>
+                </h5>
+                <div class="mt-lg-5"><a href="<?= base_url('socialresponsibiltiy')?>" class="text-white btn btn-main">
+                        <?= lang('social_btn')?></a></div>
+
             </div>
             <div class="col-lg-6 my-3 repons-img <?= lang('social_order_img')?>  hide-ele">
                 <img class="w-100 img-shadow" src="<?= base_url()?>public/images/Social-Responsibility.jpg" alt="">
@@ -229,34 +264,14 @@
                 <img class="w-100 img-shadow" src="<?= base_url()?>public/images/Safety-equipment.jpg" alt="">
             </div>
             <div class="col-12 col-lg-6 safty-txt <?= lang('safty_order_txt')?>  hide-ele">
-                <h3 class="mb-md-4 my-4 my-md-0"><?= lang('safty_head')?></h3>
-                <p class="lead"><?= lang('safty_p')?></p>
+                <h3 class="mb-md-4 my-4 my-md-0">
+                    <?= lang('safty_head')?>
+                </h3>
+                <p class="lead">
+                    <?= lang('safty_p')?>
+                </p>
             </div>
         </div>
     </div>
 </section>
 <!-- end of safty -->
-<!-- Gallery -->
-<!-- <section class="home-gallery bg-white py-5"> -->
-     <!-- title -->
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col m-4  text-center">
-                <div class="sec-title mb-20">
-                    <h2 class="text-muted">
-                        <?= lang('gallery_span')?> <span class="title-span text-main-color">
-                            <?= lang('gallery_title')?></span>
-                        <span class="sec-title-border">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div> -->
-     <!-- end of title -->
-     
-<!-- </section> -->
-<!-- end for gallery -->

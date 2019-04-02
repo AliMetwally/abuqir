@@ -372,9 +372,8 @@ footer {
     padding-left: 0px;
     transition-duration: .8s; }
 
-  .header-img {
-    margin-top: 0px;
-    height: 85vh; }
+  .header-img, .home-slid {
+    margin-top: 0px; }
 
   .img-latest {
     height: 100%; }
