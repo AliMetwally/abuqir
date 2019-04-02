@@ -12,12 +12,9 @@
                 <img src="http://localhost/abuqir/public/images/gallery/banner3.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="home-text d-flex justify-content-end">
-                <div class="box p-4">
-                    <h1>
-                        Static Headline And Content</h1>
-                    <h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
+                <div class="box p-4 text-center">
+                    <h3><?= lang('slide_text')?></h3>
+                    <a href="#" class="btn btn-outline-light"><?= lang('slide_btn')?> <i class="fa fa-cloud-download"></i></a>
                 </div>
             </div>
         </div>

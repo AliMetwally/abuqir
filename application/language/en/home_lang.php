@@ -1,5 +1,12 @@
 <?php
 
+# Direction
+$lang['dir'] = "right";
+
+# Slider
+$lang['slide_text'] = "Annual Report of the Board of Directors 2018";
+$lang['slide_btn'] = "Download";
+
 # Headers
 $lang['title_span'] = 'Our';
 $lang['news_title'] = 'News';
@@ -45,6 +52,6 @@ As for the social responsibility, the company has undertaken the development of 
 The company believes in the role of national companies in the service of their communities, and it works to develop it as well as supporting initiatives aimed at providing a better life for the Egyptians in the field of health, education and support handicapped.
 Abu Qir Fertilizers Company's message includes the optimum utilization of available resources in order to achieve higher added value and effective contribution in economic and social development and integration among all fertilizer industry types, to support the serious scientific research in fertilizer industry and its related uses as well as environment and human preservation.
 Taking into account the environmental standards and requirements so as to intensify and coordinate the environmental cooperation in various fields with the relevant specialized agencies, highlighting the complementary and leading role in strengthening the company's production.
-Management confirms its full confidence in the ability of its team, that has enough experience and skill to win the trust and respect of customers in various countries around the world.
-Chairman of the board and *CEO
-Chemist/ Saad Ibrahim Abo El-Maati";
+Management confirms its full confidence in the ability of its team, that has enough experience and skill to win the trust and respect of customers in various countries around the world.";
+$lang['chair_sign_title'] = "Chairman of the board and *CEO";
+$lang['chair_sign_name'] = "Chemist/ Saad Ibrahim Abo El-Maati";

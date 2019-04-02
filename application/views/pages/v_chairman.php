@@ -1,3 +1,4 @@
+<div class="breadcrumb"></div>
 <section class="chairman-word bg-white py-5">
     <div class="container-fluid">
             <!-- title -->
@@ -17,13 +18,13 @@
                 </div>
             </div>
             <!-- end of title -->
-            <div class="row px-5">
-                <div class="col-12 col-md-8">
-                    <p><?= lang('chair_p')?></p>
+            <div class="row p-5">
+                <div class="col-12 shadow-lg">
+                    <p class="pt-2"><?= lang('chair_p')?></p>
+                    <div class="text-left">
+                        <p class="font-weight-bold text-<?= lang('dir') == 'right'? 'right pr-2' : 'left pl-1'?>"><?= lang('chair_sign_title')?></p>
+                        <p class="font-weight-bold pt-2 text-<?= lang('dir')?>"><?= lang('chair_sign_name')?></p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4">                    
-                    <img src="<?= base_url()?>public/images/chairman1.png" class="chairman-img">
-                </div>
-            </div>
     </div>
 </section>
