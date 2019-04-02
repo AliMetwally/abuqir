@@ -196,7 +196,7 @@
         <!-- end of navbar -->
 
         <!-- banner -->
-        <div class="header-img d-flex align-items-center"></div>
+        <div class="header-img"></div>
         <!-- end of banner -->
     </header>
 
