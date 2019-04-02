@@ -152,4 +152,9 @@ class Home  extends CI_Controller{
         $data['content'] = $this->load->view('pages/v_chairman','', true);
         $this->load->view('main', $data);
     }
+    
+    // clear session data
+    public function clear(){
+        session_destroy();
+    }
 }

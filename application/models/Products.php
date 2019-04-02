@@ -5,6 +5,7 @@ class Products extends CI_Model {
     
     public function __construct() {
         parent::__construct();
+        model_site_lang();
         $this->lang = $this->session->site_lang;
     }
     

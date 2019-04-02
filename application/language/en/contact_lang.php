@@ -6,7 +6,7 @@ $lang['contact_title'] = 'Contact';
 
 
 # Form
-$lang['form_title'] = "Keep in Touch";
+$lang['form_title'] = "Send Message";
 $lang['txt_name'] = "Name";
 $lang['txt_company'] = "Company Name";
 $lang['txt_email'] = "Email";

@@ -5,6 +5,7 @@ class Media extends CI_Model {
     private $lang;
     function __construct() {
         parent::__construct();
+        model_site_lang(); // util user defiend helper
          $this->lang = $this->session->site_lang;
 //        $this->lang = 'ar';
     }

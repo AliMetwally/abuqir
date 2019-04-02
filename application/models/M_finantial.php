@@ -6,7 +6,8 @@ class M_finantial extends CI_Model
 {
     public function __construct() {
         parent::__construct();
-        $this->lang = $this->session->site_lang;
+        model_site_lang();
+        $this->lang = $this->session->site_lang;        
     }
     
     public function get_shareholders()
