@@ -78,4 +78,20 @@ $lang['spec_head']= "Specifications";
 
 /******************************************************************************************************************************************/
 ## local
-$lang['local_title'] = 'Local Market';
+$lang['local_title'] = 'DOMESTIC MARKET';
+
+$lang['local_ministry'] = "Agricultural Ministry Quota ";
+$lang['local_ministry_text'] = "Abu Qir Fertilizers co. has always leaded the domestic market share in comparison with her peers supplying a total of 77 kmt/month of nitrogenous fertilizers (  Prilled urea, Granular urea and Ammonium nitrate ) ";
+
+$lang['free_market'] = "Local market ( free market )";
+$lang['free_market_text_1'] = "Since 2007 Abu Qir fertilizers co. was considered the biggest supplier of nitrogenous fertilizers to the misnistry of agriculture quota. And after new players entering the local market, the quota has been diminished to reach 77kmt /month";
+$lang['free_market_text_2'] = "Since March 2016 and after fulfilling its designated quota to the ministry of agriculture , AFC had the ability to sell the remainder of production freely to exports or to the domestic market ( depending on the feasible economical study ).";
+$lang['free_market_text_3'] ="The free market quantities are  in the form of developed products that can supply soil with micronutrients ( usually lost by consumption and irrigation ) marking Abu Qir fertilizers co. as a distinctive player amongst other competitors. Also the interrelation between nutrition elements helps to slow release and magnifies the plant use of micro and macro nutrients, which reflects significantly on nitrogen emission reductions, maintaining environmental health and the biological diversity";
+
+$lang['free_urea_zinc'] = "Urea ZINC";
+$lang['free_urea_zinc_text'] = "Produced in Abu Qir plant (I) characterized by white prills packed in distinctive 50 kgs blue bags ";
+$lang['free_urea_treated'] = "Granular urea treated with Magnesium sulphate ";
+$lang['free_urea_treated_text'] = "Produced in Abu Qir plant (III) characterized by white Granules packed in distinctive 50 kgs transparent bags";
+$lang['free_nitrate_treated'] = "Ammonium nitrate treated with Magnesium";
+$lang['free_nitrate_treated_text'] = "Produced in Abu Qir plant (II) more firm Granules packed in distinctive 50 kgs orange bags";
+
