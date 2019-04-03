@@ -20,44 +20,77 @@
         </div>
     </div>
     <!-- end of title -->
-    <div class="container-fluid">
-        <div class="row py-5">
-            <div class="col-12 col-md-4 <?= lang('order_1')?>">
+    <div class="container">
+        <div class="row py-2">
+            <div class="col-12">
                 <div class="card img-shadow border-0 mb-3 rounded-0">
-                    <img class="card-img-top rounded-0" src="<?= base_url('public/images/field.jpg')?>" alt="">
-                    <div class="card-body text-main-color">
-                        <h4 class="card-title">
-                            <?= lang('nitro_head')?>
-                        </h4>
-                        <p class="card-text">
-                            <?= lang('nitro_p')?>
-                        </p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('nitro_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                <p class="card-text">
+                                    <?= lang('nitro_p')?>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('urea_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                <p class="card-text">
+                                    <?= lang('urea_p')?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card img-shadow border-0 mb-3 rounded-0">
-                    <img class="card-img-top rounded-0" src="<?= base_url('public/images/fert.jpg')?>" alt="">
-                    <div class="card-body text-main-color">
-                        <h4 class="card-title">
-                            <?= lang('urea_head')?>
-                        </h4>
-                        <p class="card-text">
-                            <?= lang('urea_p')?>
-                        </p>
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('an_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                </h4>
+                                <p class="card-text">
+                                    <?= lang('an_p')?>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('zn_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                <p class="card-text">
+                                    <?= lang('zn_p')?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 <?= lang('order_3')?>">
-                <div class="card img-shadow border-0  mb-3rounded-0">
-                    <img class="card-img-top rounded-0" src="<?= base_url('public/images/fert.jpg')?>" alt="">
-                    <div class="card-body text-main-color">
-                        <h4 class="card-title">
-                            <?= lang('an_head')?>
-                        </h4>
-                        <p class="card-text">
-                            <?= lang('an_p')?>
-                        </p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('sul_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                <p class="card-text">
+                                    <?= lang('sul_p')?>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card-header">
+                                <h4 class="card-title"><?= lang('mg_head')?></h4>
+                            </div>
+                            <div class="card-body text-main-color">
+                                <p class="card-text">
+                                    <?= lang('mg_p')?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,7 +107,7 @@
                                 </div>
                                 <div class="col-9 col-sm-8">
                                     <p class="font-weight-bold pb-md-3 pb-0"><?= $pro->product_name?></p>
-                                    <a href="<?= base_url('about/project_details/').$pro->product_id?>" class="btn btn-outline-main"><?= lang('prod_btn')?></a>
+                                    <a href="<?= base_url('market/getProductSpec/').$pro->category_id.'/'.$pro->product_id?>" class="btn btn-outline-main"><?= lang('prod_btn')?></a>
                                 </div>
                             </div>
                     </div>

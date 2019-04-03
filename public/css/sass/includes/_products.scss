@@ -11,12 +11,9 @@
 }
 .products-market{
     background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0.5));
-    .card{
-        min-height: 580px;
-    }
     .px-100{        
-        padding-left: 100px;
-        padding-right: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .prod-img{
         max-height: 150px;

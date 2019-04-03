@@ -38,4 +38,19 @@ class Market extends CI_Controller {
         $data['content'] = $this->load->view('pages/market/v_products',$v_data, true);
         $this->load->view('main', $data);
     }
+
+    public function getProductSpec()
+    {        
+        //get css & js       
+        $data['custom_css'] = 'products.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'products_market.js';
+        //get data
+        $cat_id = $this->uri->segment(3);
+        $prod_id = $this->uri->segment(4);
+        $v_data['prod_head'] = $this->products->getProduct($cat_id,$prod_id);       
+        $v_data['prod_spec'] = $this->products->getProductSpecs($cat_id,$prod_id);       
+        $data['content'] = $this->load->view('pages/market/v_product_spec',$v_data, true);
+        $this->load->view('main', $data);
+    }
 }
