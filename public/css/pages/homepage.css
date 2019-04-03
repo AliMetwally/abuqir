@@ -2659,27 +2659,21 @@ body {
     transition: none !important; } }
 /* header */
 .header-img {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .home-slid {
-  margin-top: 80px;
-}
-.home-slid img {
-  height: 80vh;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../..//..//images/banner1.jpg) no-repeat center center/cover; }
-}
-.home-slid .home-text {
-  position: relative;
-  top: 50px;
-  width: 96.6666666667%;
-  color: white;
-  z-index: 1;
-}
-.home-slid .box {
-  background-color: none;
-  background: linear-gradient(rgba(27, 27, 31, 0.3), rgba(27, 27, 31, 0.699)) no-repeat center center/cover;
-}
+  margin-top: 80px; }
+  .home-slid img {
+    height: 80vh; }
+  .home-slid .home-text {
+    position: relative;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: white;
+    z-index: 1; }
+  .home-slid .box {
+    background-color: none;
+    background: linear-gradient(rgba(27, 27, 31, 0.3), rgba(27, 27, 31, 0.699)) no-repeat center center/cover; }
 
 /* news */
 .news {
@@ -2735,8 +2729,7 @@ body {
 
 .breadcrumb {
   background: url(../..//..//images/chairman2.JPG) no-repeat center center/cover;
-  height: 80vh !important;
-}
+  height: 80vh !important; }
 
 /* end of chairman */
 /* product */
@@ -2879,9 +2872,7 @@ footer {
     transition-duration: .8s; }
 
   .header-img, .home-slid {
-    margin-top: 0px;
-    height: 85vh; }
-  }
+    margin-top: 0px; }
 
   .img-latest {
     height: 100%; }
