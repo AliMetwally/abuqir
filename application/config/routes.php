@@ -64,5 +64,6 @@ $route['news'] = 'home/news';
 $route['news/:num'] = 'home/news/';
 // $route['news/:num'] = 'home/news/$2';
 $route['socialresponsibiltiy'] = 'home/socialresponsibiltiy';
-$route['exports'] = 'home/exports';
+$route['exports'] = 'market/exports';
+$route['products'] = 'market/products';
 $route['translate_uri_dashes'] = FALSE;

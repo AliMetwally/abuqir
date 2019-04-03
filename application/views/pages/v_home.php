@@ -1,16 +1,12 @@
 <!-- carousel  -->
 <section class="home-slid">
     <div id="carouselExampleFade" class="carousel slide carousel-fade " data-ride="carousel">
-        <div class="carousel-inner d-flex align-items-center">
-            <div class="carousel-item active">
-                <img src="http://localhost/abuqir/public/images/gallery/banner1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-inner d-flex align-items-center">            
+            <?php for($i = 0;$i < count($gallery_images);$i++):?>
+            <div class="carousel-item <?= $i == 1? 'active':'' ?>">
+                <img src='<?= base_url('public/images/gallery/'.$gallery_images[$i])?>' class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
-                <img src="http://localhost/abuqir/public/images/gallery/banner2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="http://localhost/abuqir/public/images/gallery/banner3.jpg" class="d-block w-100" alt="...">
-            </div>
+            <?php endfor;?>
             <div class="home-text d-flex justify-content-end">
                 <div class="box p-4 text-center">
                     <h3 class="slide-text"><?= lang('slide_text')?></h3>

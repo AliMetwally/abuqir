@@ -23,7 +23,7 @@ class Home  extends CI_Controller{
         $v_data['last_news_head'] = $this->media->lastNewsTitle();
         $v_data['newsCoverContent'] = $this->media->newsCoverContent($news_id);
         $v_data['topNews'] = $this->media->topNews(9); 
-        $v_data['gallary_images'] = directory_map('./public/images/gallery/');
+        $v_data['gallery_images'] = directory_map('./public/images/gallery/');
         // ---------------------------------------------------------------------
         // get product data
         $index = 0;
@@ -138,6 +138,18 @@ class Home  extends CI_Controller{
         // scripts css, js
         $data['custom_css'] = 'homepage.css';        
         $data['custom_js'] = 'main.js';
+        // load the view as string 
+        $data['content'] = $this->load->view('pages/v_chairman','', true);
+        $this->load->view('main', $data);
+    }
+    
+    
+    public function services(){
+        // scripts css, js
+        $data['custom_css'] = 'homepage.css';        
+        $data['custom_js'] = 'main.js';
+        $data['custom_js'] = 'services.js';
+
         // load the view as string 
         $data['content'] = $this->load->view('pages/v_chairman','', true);
         $this->load->view('main', $data);
