@@ -8,6 +8,7 @@ $lang['abuqir'] = 'أبوقير للاسمدة والصناعات الكيماو
 $lang['home_link'] = 'الرئيسية';
 $lang['about_link'] = 'من نحن';
 $lang['market_link'] = "التسويق";
+$lang['services_link'] = "الخدمات";
 $lang['media_link'] = 'المركز الاعلامي';
 $lang['reponsibility_link'] = 'المسئولية المجتمعية';
 $lang['investors_link'] = 'علاقات المستثمرين';

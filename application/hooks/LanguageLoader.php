@@ -34,6 +34,8 @@ class LanguageLoader {
             $ci->lang->load('home', $ci->session->userdata('site_lang'));
         }else  if($controller == 'market'  ){
             $ci->lang->load('market', $ci->session->userdata('site_lang'));
+        }else  if($controller == 'home' && $method == 'services' ){
+            $ci->lang->load('home', $ci->session->userdata('site_lang'));
         }
          
     }

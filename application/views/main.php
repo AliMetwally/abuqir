@@ -142,6 +142,10 @@
                                 <?= lang('products_link') ?></a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('/services') ?>" class="nav-link m-2 menu-item nav-services">
+                            <?= lang('services_link') ?></a>
+                    </li>
 
                     <li class="nav-item">
                         <a href="<?= base_url('/news') ?>" class="nav-link m-2 menu-item nav-media">

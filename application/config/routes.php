@@ -61,6 +61,7 @@ $route['brief'] = 'investors/brief';
 
 $route['contact'] = 'home/contact';
 $route['news'] = 'home/news';
+$route['services'] = 'home/services';
 $route['news/:num'] = 'home/news/';
 // $route['news/:num'] = 'home/news/$2';
 $route['socialresponsibiltiy'] = 'home/socialresponsibiltiy';

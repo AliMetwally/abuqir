@@ -66,3 +66,6 @@ $lang['chair_p'] = "يسعدني أن اشارككم هذه المساحة من 
 
 $lang['chair_sign_title'] = "رئيس مجلس الإدارة والعضو المنتدب";
 $lang['chair_sign_name'] = "كيميائي / سعد إبراهيم أبو المعاطي";
+
+# services
+$lang['services_title'] = "الخدمات";

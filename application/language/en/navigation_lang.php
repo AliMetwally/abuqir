@@ -8,6 +8,7 @@ $lang['abuqir'] = 'abuqir fertilizers';
 $lang['home_link'] = 'Home';
 $lang['about_link'] = 'About Us';
 $lang['market_link'] = 'Markting';
+$lang['services_link'] = "Services";
 $lang['media_link'] = 'Media';
 $lang['reponsibility_link'] = 'Social Resposibility';
 $lang['investors_link'] = 'Investors Relations';

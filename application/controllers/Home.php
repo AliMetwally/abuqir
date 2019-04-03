@@ -149,9 +149,10 @@ class Home  extends CI_Controller{
         $data['custom_css'] = 'homepage.css';        
         $data['custom_js'] = 'main.js';
         $data['custom_js'] = 'services.js';
-
+        // get data        
+        $v_data['gallery_images'] = directory_map('./public/images/services/');
         // load the view as string 
-        $data['content'] = $this->load->view('pages/v_chairman','', true);
+        $data['content'] = $this->load->view('pages/v_services',$v_data, true);
         $this->load->view('main', $data);
     }
     

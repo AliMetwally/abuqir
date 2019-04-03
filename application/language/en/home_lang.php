@@ -55,3 +55,20 @@ Taking into account the environmental standards and requirements so as to intens
 Management confirms its full confidence in the ability of its team, that has enough experience and skill to win the trust and respect of customers in various countries around the world.";
 $lang['chair_sign_title'] = "Chairman of the board and *CEO";
 $lang['chair_sign_name'] = "Chemist/ Saad Ibrahim Abo El-Maati";
+
+# Services
+$lang['services_title'] = "Services";
+$lang['success_head'] = "Abuqir Years of Success and Achievements!";
+$lang['success_title'] = "(Incorporated 1976)";
+$lang['success_p1'] = "Abu Qir Fertilizers and Chemicals Company (AFC) is one of the largest producers of nitrogen fertilizers in Egypt and the Middle East It produces about 50% of the Egyptian Nitrogen Fertilizers. The company and the 1st Ammonia Urea plant was established at 1976. It is located at Abu Qir bay, 20 kilometers East of Alexandria.";
+$lang['success_p2'] = "We pride ourselves on providing the industry with the highest quality workmanship while leading the market in safety and work force planning.";
+$lang['success_p3'] = "Through our diversification we are able to provide support and manpower for virtually all disciplines from within our corporate ranks; therefore, we eliminate the requirement of subcontractor dependence. We have also gained the trust of our customers through principled and ethical behavior without compromising quality services or a safe work place. Our Quality, Occupational Health, Safety& Environmental Policy and procedures are documented in the Quality Management System manual, which has been reviewed and updated to satisfy the requirements of the standards ISO 9001:2008, ISO 14001:2004, OHSAS 18001:2007, ISO/IEC 17025:2005.";
+$lang['success_p4'] = "For many years now, Abu Qir’s experienced and professionally well trained and equipped staff has been performing Global Maintenance for our customers in the Fertilizers, Oil & Gas facilities, Power Generation, and Petrochemicals industry.";
+$lang['success_p5'] = "Through a properly equipped, highly qualified and well-skilled work force, Abu Qir provides a large package of services and solutions to meet our customers' requirements and expectations to achieve all business objectives and plans. Additionally, Abu Qir provides a highly standardized training program that develops the entry level workers and improves the technical skill set of our experienced staff to fulfill customers' demands during normal operations, emergencies & turnarounds.";
+$lang['mv_title'] = "Vision, Mission & Core Values";
+$lang['m_title'] = "Mission";
+$lang['m_p'] = "To consistently deliver successful projects through a strong and sustainable culture of Safety, Quality, Excellence and Innovation.";
+$lang['v_title'] = "Vision";
+$lang['v_p'] = "To be the leader in the delivery of Maintenance service and Consulting.";
+$lang['s_title'] = "Our Services";
+$lang['s_title'] = "Our Services";
