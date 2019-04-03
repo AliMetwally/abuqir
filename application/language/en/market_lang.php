@@ -53,15 +53,28 @@ $lang['ammonia_text_3'] = 'Quantities available are only subject to production a
 $lang['order_1'] = "order-md-first";
 $lang['order_3'] = "order-md-last";
 $lang['products_title'] = 'Products';
+
 $lang['nitro_head'] = "Nitrogen";
 $lang['nitro_p'] = "Nitrogen is taken up by plants primarily as Nitrate or as Ammonium ions. Plants can utilize both of these forms of nitrogen in their growth, also it needs significant amount which is essential for its nutrition 
 Most of the nitrogen taken up by plants is in the nitrate form due to mobility in the soil and moving with soil water to plant roots. Nitrogen is utilized by plants to synthesize amino acids which in turn form proteins. Nitrogen is also required by plants for other vital compounds such as chlorophyll, nucleic acids and enzymes.";
 
 $lang['urea_head'] = "Urea";
 $lang['urea_p'] = "It is considered the most important source of nitrogen having the highest percentage of Nitrogen 46.0 % in comparison with other nitrogenous products, as well as its slow release resulted in more economical application.";
+
 $lang['an_head'] = "Ammonium Nitrate";
 $lang['an_p'] = "Ammonium Nitrate 33.5% N is usually applied in calcium soil and sandy soil.";
+
+$lang['zn_head']= "Zinc";
+$lang['zn_p']= "Essential constituent of several important enzyme systems in plant, it controls the synthesis of indoleaccetic acid (IAA) Plant growth regulator. Also contributes in the formation of nucleic acid and proteins, in addition to its role to help the plant to absorb phosphorus and nitrogen.";
+
+$lang['sul_head']= "Sulfur";
+$lang['sul_p']= "Sulfur is a constituent of three amino acids therefore it is essential for protein synthesis, chlorophyll production and phosphorus absorption it is essential for nodule formation on legume roots";
+
+$lang['mg_head']= "Magnesium";
+$lang['mg_p']= "Magnesium As the chlorophyll molecule contains magnesium , therefore it is essential for the photosynthesis process. Magnesium also serves as an activator for many plant enzymes required in the growth processes.";
+
 $lang['prod_btn']="Read More";
+$lang['spec_head']= "Specifications";
 
 /******************************************************************************************************************************************/
 ## local
