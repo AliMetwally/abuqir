@@ -23,24 +23,28 @@
         <div class="row bg-white">
             <div class="col-12 p-0">
                 <div class="card-body p-0">
-                    <h4 class="card-title bg-main py-3 px-2 text-white"><?= lang('granular_urea_head')?></h4>
-                    <p class="px-4">text</p>
+                    <h4 class="card-title bg-main py-3 px-2 text-white"><?= lang('local_ministry');?></h4>
+                    <p class="px-4 py-3 text-justify"><?= lang('local_ministry_text');?></p>
                     
                 </div>
                 
                 <div class="card-body p-0">
-                    <h4 class="card-title bg-main py-3 px-2 text-white"><?= lang('granular_urea_head')?></h4>
-                    <p class="px-4">text</p>
-                    <p class="px-4">text</p>
-                    <p class="px-4">text</p>
-                    <h5 class="px-3"><?= lang('overview_head') ?></h5> <!-- plant name -->
-                    <p class="px-4">text</p>
+                    <h4 class="card-title bg-main py-3 px-2 text-white"><?= lang('free_market')?></h4>
+                    <p class="px-4"><?= lang('free_market_text_1');?></p>
+                    <p class="px-4"><?= lang('free_market_text_2');?></p>
+                    <p class="px-4"><?= lang('free_market_text_3');?></p>
                     
-                    <h5 class="px-3"><?= lang('overview_head') ?></h5> <!-- plant name -->
-                    <p class="px-4">text</p>
+                                        
                     
-                    <h5 class="px-3"><?= lang('overview_head') ?></h5> <!-- plant name -->
-                    <p class="px-4">text</p>
+                    <h5 class="px-3"><?= lang('free_urea_zinc') ?></h5> <!-- plant name -->
+                    <p class="px-4"><?= lang('free_urea_zinc_text') ?></p>
+                    <hr>
+                    <h5 class="px-3"><?= lang('free_urea_treated') ?></h5> <!-- plant name -->
+                    <p class="px-4"><?= lang('free_urea_treated_text') ?></p>
+                    <hr>
+                    <h5 class="px-3"><?= lang('free_nitrate_treated') ?></h5> <!-- plant name -->
+                    <p class="px-4"><?= lang('free_nitrate_treated_text') ?></p>
+                    
                 </div>
             </div>
         </div>
