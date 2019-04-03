@@ -4,7 +4,7 @@ $lang['icon_dir']="right";
 #New Projects
 $lang['project_title'] = "Our New";
 $lang['project_span'] = "Projects";
-
+$lang['project_btn'] = "Read More";
 
 # mission
 $lang['mv_span'] ="Vision And Mission";

@@ -228,6 +228,82 @@ body {
 
 /* end of navbar */
 /* end of header */
+/* new projects and products*/
+.new-projects, .products-market {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), white), url(../..//..//images/new_projects/3/1.jpg) no-repeat center center/cover;
+  border-radius: 0; }
+  .new-projects .project-box p, .products-market .project-box p {
+    margin-bottom: 12px; }
+  .new-projects .project-box h4, .products-market .project-box h4 {
+    font-size: 20px;
+    transition: all 0.4s; }
+  .new-projects .project-box:hover .btn-outline-main, .products-market .project-box:hover .btn-outline-main {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff; }
+  .new-projects .project-box:hover, .products-market .project-box:hover {
+    color: #fff; }
+  .new-projects .project-box:hover h4, .products-market .project-box:hover h4 {
+    color: #fff; }
+  .new-projects .project-icon, .products-market .project-icon {
+    float: left;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-right: 18px;
+    position: relative;
+    height: 100px;
+    transition: all 0.4s; }
+  .new-projects .project-text, .products-market .project-text {
+    overflow: hidden;
+    flex: 3; }
+  .new-projects .project-box, .products-market .project-box {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #0F3661;
+    margin-top: 30px;
+    transition: all 0.4s; }
+  .new-projects .project-icon::before, .products-market .project-icon::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    width: 2px;
+    transition: all 0.4s;
+    background: #0f3661; }
+  .new-projects .project-box i, .products-market .project-box i {
+    font-size: 25px;
+    color: #0f3661;
+    transition: all 0.4s; }
+  .new-projects .project-box h4, .products-market .project-box h4 {
+    margin: 0 0 10px; }
+  .new-projects .project-box:hover i, .products-market .project-box:hover i {
+    color: #fff;
+    transform: translateY(-10px);
+    transition: transform 0.4s; }
+  .new-projects .project-box:hover .project-icon, .products-market .project-box:hover .project-icon {
+    height: 70px; }
+  .new-projects .project-box:hover .project-icon::before, .products-market .project-box:hover .project-icon::before {
+    background: #fff; }
+  .new-projects .project-box::before, .products-market .project-box::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    background: #0F3661;
+    margin: auto;
+    transition: all 0.4s; }
+  .new-projects .project-box:hover::before, .products-market .project-box:hover::before {
+    height: 100%;
+    width: 100%; }
+
+/* end for new projects and products*/
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.7.0
@@ -2673,7 +2749,7 @@ body {
     z-index: 1; }
   .home-slid .box {
     background-color: none;
-    background: linear-gradient(rgba(27, 27, 31, 0.3), rgba(27, 27, 31, 0.699)) no-repeat center center/cover; }
+    background: linear-gradient(rgba(27, 27, 31, 0.699), rgba(27, 27, 31, 0.753)) no-repeat center center/cover; }
 
 /* news */
 .news {
@@ -2881,7 +2957,13 @@ footer {
     display: none; }
 
   .dropdown-menu {
-    width: 100%; } }
+    width: 100%; }
+
+  .products-market .card {
+    min-height: 0; }
+  .products-market .px-100 {
+    padding-left: 0;
+    padding-right: 0; } }
 @media (min-width: 992px) {
   .project_details {
     margin-top: 100px !important; }

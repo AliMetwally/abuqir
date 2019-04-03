@@ -3405,41 +3405,6 @@ body {
     transition: none !important;
   }
 }
-.header-img {
-  display: none;
-}
-
-.breadcrumb {
-  background: linear-gradient(rgba(4, 28, 56, 0.4), rgba(4, 28, 56, 0.5)), url(../..//..//images/investors.jpg) no-repeat center center/cover;
-  border-radius: 0;
-}
-
-/* new projects */
-.projects {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), url(../..//..//images/them-gray1.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
-}
-
-.project_details img, .plants img {
-  display: block;
-  max-width: 100%;
-  height: 500px;
-}
-.project_details blockquote, .plants blockquote {
-  color: #666;
-  margin-top: 30px;
-}
-
-/* end for new project */
-/*Certifications Page*/
-.cert-card .card-body {
-  padding: 0;
-}
-.cert-card .card-body .card-text {
-  padding: 0 1.25rem;
-}
-
-/*end certifications page*/
 /* footer */
 .top-page .back-to-top {
   cursor: pointer;
@@ -3556,4 +3521,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=local.css.map */

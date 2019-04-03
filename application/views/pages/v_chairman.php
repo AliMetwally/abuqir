@@ -20,7 +20,7 @@
             <!-- end of title -->
             <div class="row p-5">
                 <div class="col-12 shadow-lg">
-                    <p class="pt-2"><?= lang('chair_p')?></p>
+                    <p class="p-4"><?= lang('chair_p')?></p>
                     <div class="text-left">
                         <p class="font-weight-bold text-<?= lang('dir') == 'right'? 'right pr-2' : 'left pl-1'?>"><?= lang('chair_sign_title')?></p>
                         <p class="font-weight-bold pt-2 text-<?= lang('dir')?>"><?= lang('chair_sign_name')?></p>

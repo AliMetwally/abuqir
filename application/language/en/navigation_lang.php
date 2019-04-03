@@ -7,7 +7,7 @@ $lang['abuqir'] = 'abuqir fertilizers';
 # navigation
 $lang['home_link'] = 'Home';
 $lang['about_link'] = 'About Us';
-$lang['exports_link'] = 'Exports';
+$lang['market_link'] = 'Markting';
 $lang['media_link'] = 'Media';
 $lang['reponsibility_link'] = 'Social Resposibility';
 $lang['investors_link'] = 'Investors Relations';
@@ -48,3 +48,8 @@ $lang['about_policy_link'] = 'Policy';
 $lang['about_plants_link'] = 'Plants';
 $lang['about_projects_link'] = 'New Projects';
 $lang['about_cert_link'] = 'Certificates';
+
+# markting sub menu
+$lang['export_link']= "Exports";
+$lang['local_link']= "Local market";
+$lang['products_link']= "Products";

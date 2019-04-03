@@ -13,8 +13,8 @@
             </div>
             <div class="home-text d-flex justify-content-end">
                 <div class="box p-4 text-center">
-                    <h3><?= lang('slide_text')?></h3>
-                    <a href="#" class="btn btn-outline-light"><?= lang('slide_btn')?> <i class="fa fa-cloud-download"></i></a>
+                    <h3 class="slide-text"><?= lang('slide_text')?></h3>
+                    <a href="#" class="btn btn-outline-light slide-btn"><?= lang('slide_btn')?> <i class="fa fa-cloud-download"></i></a>
                 </div>
             </div>
         </div>

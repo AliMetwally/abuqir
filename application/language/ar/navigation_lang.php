@@ -7,7 +7,7 @@ $lang['abuqir'] = 'أبوقير للاسمدة والصناعات الكيماو
 # navigation
 $lang['home_link'] = 'الرئيسية';
 $lang['about_link'] = 'من نحن';
-$lang['exports_link'] = 'الصادرات';
+$lang['market_link'] = "التسويق";
 $lang['media_link'] = 'المركز الاعلامي';
 $lang['reponsibility_link'] = 'المسئولية المجتمعية';
 $lang['investors_link'] = 'علاقات المستثمرين';
@@ -49,3 +49,8 @@ $lang['about_policy_link'] = 'سياستنا';
 $lang['about_plants_link'] = 'المصانع';
 $lang['about_projects_link'] = 'المشروعات المستقبلية';
 $lang['about_cert_link'] = 'الشهادات المعتمدة';
+
+# markting sub menu
+$lang['export_link']= "الصادرات";
+$lang['local_link']= "السوق المحلى";
+$lang['products_link']= "المنتجات";

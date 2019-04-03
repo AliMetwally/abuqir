@@ -63,7 +63,7 @@
             </div>
             <div class="col-12 col-lg-3">
                 <div class="latest-3 sticky-top mb-5 mb-lg-0">
-                    <h4>أخر الأخبار</h4>
+                    <h4><?= lang('news_top')?></h4>
                         <?php foreach ($topNews as $news): ?>                    
                             <div class="media my-3">
                                     <img src="<?=base_url("/uploads/press-news/$news->image")?>" class="border-main img-slide" alt="...">
