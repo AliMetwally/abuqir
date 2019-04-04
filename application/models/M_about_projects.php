@@ -22,7 +22,8 @@ class M_about_projects extends CI_Model {
 
     public function get_projects_name($project){
         $table = 'projects a';
-        $columns = "a.project_id,a.project_name_ar,a.project_name_en,a.images";
+        $project_name = $this->lang == 'ar'? 'a.project_name_ar as project_name': 'a.project_name_en as project_name';
+        $columns = "a.project_id, $project_name,a.images";
         $where = ' a.project_id = '.$project;
         // $this->db->order_by('a.project_id');
         $query = $this->model_db->getSingleRow($table, $columns, $where);        
@@ -31,7 +32,8 @@ class M_about_projects extends CI_Model {
 
     public function get_projects_header($project){
         $table = 'projects_headers b';
-        $columns = "b.project_id,b.head_id,b.head_name_ar,b.head_name_en";
+        $head_name = $this->lang == 'ar'? 'b.head_name_ar as head_name': 'b.head_name_en as head_name';
+        $columns = "b.project_id,b.head_id,$head_name";
         $where = ' b.project_id = '.$project;
         $query = $this->model_db->read($table, $columns, $where);        
         return $query;
@@ -39,7 +41,8 @@ class M_about_projects extends CI_Model {
 
     public function get_projects_content($project,$header){
         $table = 'projects_contents c';
-        $columns = "c.content_id,c.content_ar,c.content_en";
+        $content = $this->lang == 'ar'? 'c.content_ar as content': 'c.content_en as content';
+        $columns = "c.content_id,$content";
         $where = " c.head_id = ".$header." and c.project_id = ".$project;
         // $this->db->order_by('a.project_id');
         $query = $this->model_db->read($table, $columns, $where);        

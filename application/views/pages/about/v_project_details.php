@@ -35,14 +35,14 @@
           
         <div class="card border-light py-3 <?= lang('text_dir')?>">
             <div class="card-header bg-transparent">
-                <h4><?= $project->project_name_ar?></h4>
+                <h4><?= $project->project_name?></h4>
             </div>
                 <?php foreach ($projects as $pro) :?>
                     <?php if($pro['content']):?>
                         <div class="card-body">
-                            <h5 class="card-title bg-main py-3 px-2 text-white"><?= $pro['head']->head_name_ar?></h5>
+                            <h5 class="card-title bg-main py-3 px-2 text-white"><?= $pro['head']->head_name?></h5>
                                 <?php foreach($pro['content']  as $con):?>
-                                    <p class="card-text px-2"><?=  $pro['head']->head_id == 1? '' :"<i class=\"fa fa-arrow-circle-left fa-1x text-main-color\">" ?></i> <?= $con->content_ar?></p>
+                                    <p class="card-text px-2"><?=  $pro['head']->head_id == 1? '' :"<i class=\"fa fa fa-check-square-o fa-1x text-main-color\">" ?></i> <?= $con->content?></p>
                                 <?php endforeach;?>
                         </div>
                     <?php endif;?>
