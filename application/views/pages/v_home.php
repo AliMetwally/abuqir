@@ -19,7 +19,7 @@
 <!-- end for carousel -->
 <!-- news -->
 <section class="news bg-white py-4">
-    <div class="container">
+    <div class="container-fluid">
         <!-- title -->
         <div class="row">
             <div class="col m-4  text-center">
@@ -41,57 +41,76 @@
 
 
         <div class="row py-3">
-            <div class="col-lg-7 card-news hide-ele">
-                <div class="card my-5 border-main">
-                    <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest img-shadow"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <?= $last_news_head->title?>
-                        </h5>
-                        <p class="card-text text-muted">
-                            <?= $newsCoverContent->content?>
-                        </p>
-                        <a href="<?= base_url("home/newsDetails/$last_news_head->news_id");?>" class="btn btn-outline-main">
-                            <?= lang('btn_read_more')?></a>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-lg-7 card-news hide-ele">
+                        <div class="card my-5 border-main rounded-0">
+                            <img src="<?= base_url("uploads/press-news/$last_news_head->image")?>" class="d-flex card-img-top mr-3 img-latest img-shadow rounded-0"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <?= $last_news_head->title?>
+                                </h5>
+                                <p class="card-text text-muted">
+                                    <?= $newsCoverContent->content?>
+                                </p>
+                                <a href="<?= base_url("home/newsDetails/$last_news_head->news_id");?>" class="btn btn-outline-main">
+                                    <?= lang('btn_read_more')?></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 my-5 slide-news hide-ele" style="top: -54px;">
+                        <div class="text-right">
+                            <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                            <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <?php
+                                    $i = 1;
+                                    foreach ($topNews as $news):                                
+                                    if ($i % 3 == 1):
+                                    ?>
+                                <div class="carousel-item <?= $i == 1? 'active':'' ?> news-link">
+                                    <?php endif;?>
+                                    <a href="<?= base_url(" home/newsDetails/$news->news_id");?>"> <div class="media my-3">
+                                        <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
+                                            alt="...">
+                                        <div class="media-body">
+                                            <p class="mt-0 font-weight-bold">
+                                                <?= $news->title?>
+                                            </p>
+                                        </div>
+                                </div>
+                                </a>
+                                <?php if (($i / 3) * ($i % 3) == 0): ?>
+                            </div> <!-- end of slice -->
+                            <?php endif;?>
+
+                            <?php 
+                                
+                                        $i++;
+                                    endforeach;?>
+
+
+                        </div>
                     </div>
                 </div>
+             </div>
             </div>
-            <div class="col-lg-5 my-5 slide-news hide-ele" style="top: -54px;">
-                <div class="text-right">
-                    <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                    <a class="btn btn-main text-light" href="#carouselExampleControls" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <?php
-                            $i = 1;
-                            foreach ($topNews as $news):                                
-                            if ($i % 3 == 1):
-                            ?>
-                        <div class="carousel-item <?= $i == 1? 'active':'' ?> news-link">
-                            <?php endif;?>
-                            <a href="<?= base_url(" home/newsDetails/$news->news_id");?>"> <div class="media my-3">
-                                <img src='<?=base_url("/uploads/press-news/$news->image")?>' class="border-main img-slide"
-                                    alt="...">
-                                <div class="media-body">
-                                    <p class="mt-0 font-weight-bold">
-                                        <?= $news->title?>
-                                    </p>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-12  card-news hide-ele">
+                        <div class="card my-5  img-shadow border-0 news-link">
+                            <a href="wtt.abuqir.net">
+                                <img src="<?= base_url('public/images/wtt.jpg')?>" class="card-img-bottom" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text font-weight-bold"><?= lang('wtt_p')?></p>
                                 </div>
+                            </a>
                         </div>
-                        </a>
-                        <?php if (($i / 3) * ($i % 3) == 0): ?>
-                    </div> <!-- end of slice -->
-                    <?php endif;?>
-
-                    <?php 
-                        
-                                $i++;
-                            endforeach;?>
-
-
+                    </div>
                 </div>
             </div>
         </div>

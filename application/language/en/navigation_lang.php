@@ -3,6 +3,8 @@
 # website title
 $lang['abuqir'] = 'abuqir fertilizers';
 
+# logo
+$lang['logo']="logo2.png";
 
 # navigation
 $lang['home_link'] = 'Home';

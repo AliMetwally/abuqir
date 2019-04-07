@@ -71,7 +71,7 @@
         <div class="container-fluid logo-bar" style="position: absolute;">
             <div class="container d-flex justify-content-around">
                 <div class="ml-4"><a href="<?= base_url('/home') ?>" class="nav-link">
-                        <img src="<?= base_url() ?>public/images/logo2.png" width="100px" height="130px" class="rounded"
+                        <img src="<?= base_url() ?>public/images/<?= lang('logo')?>" width="100px" height="130px" class="rounded"
                             alt="...">
                         <span class="h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color text-uppercase">
                             <?= lang('abuqir') ?></span>
@@ -89,9 +89,9 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg nav-menu nav-top">
             <a href="#" class="navbar-brand text-light text-uppercase hide-ele">
-                <img class="img-fluid img-logo d-none d-lg-block" width="100px" height="130px" style="position: absolute;top: -9px;left: 0;"
-                    src="<?= base_url() ?>public/images/logo2.png" alt="">
-                <span class="company-name h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color">
+                <img class="img-fluid img-logo" width="100px" height="130px" style="position: absolute;top: -9px;left: 0;"
+                    src="<?= base_url() ?>public/images/<?= lang('logo')?>" alt="">
+                <span class="company-name d-none d-lg-block h5 font-weight-bold pl-md-logo pl-sm-logo text-main-color">
                     <?= lang('abuqir') ?>
                     <span class="h5 text-muted Fert-text">
                         <?= lang('fertilizers') ?></span>

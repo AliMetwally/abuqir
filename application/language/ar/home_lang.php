@@ -12,6 +12,8 @@ $lang['title_span'] = '';
 $lang['news_title'] = 'الأخبار';
 $lang['products_title'] = 'المنتجات';
 
+# WTT
+$lang['wtt_p']="المؤتمر الثالث والثلاثون الدولى لتكنولوجيا معالجة المياه";
 
 # chairman message
 $lang['chairman_title'] = "رسالة رئيس الشركة";

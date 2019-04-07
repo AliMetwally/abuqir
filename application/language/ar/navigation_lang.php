@@ -3,6 +3,8 @@
 # website title
 $lang['abuqir'] = 'أبوقير للاسمدة والصناعات الكيماوية';
 
+# logo
+$lang['logo']="logo_ar.gif";
 
 # navigation
 $lang['home_link'] = 'الرئيسية';
