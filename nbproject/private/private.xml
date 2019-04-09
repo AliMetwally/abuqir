@@ -3,18 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/includes/_hompepage.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/application/language/en/navigation_lang.php</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/pages/homepage.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/layout/_footer.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/application/controllers/Home.php</file>
-            <file>file:/D:/xampp/htdocs/abuqir/application/views/main.php</file>
-            <file>file:/D:/xampp/htdocs/abuqir/application/language/ar/navigation_lang.php</file>
-            <file>file:/D:/xampp/htdocs/abuqir/application/views/home.php</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/layout/_header.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/layout/_media.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/css/sass/layout/_global.scss</file>
-            <file>file:/D:/xampp/htdocs/abuqir/public/js/main.js</file>
+            <file>file:/D:/xampp/htdocs/abuqir/application/config/config.php</file>
         </group>
     </open-files>
 </project-private>

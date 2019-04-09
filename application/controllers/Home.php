@@ -49,18 +49,47 @@ class Home  extends CI_Controller{
 
 
     public function contact(){
+        $this->load->model('m_contact');
         //----------------------------------------------------------------------
         // scripts css, js
         $data['custom_css'] = 'contactpage.css';        
         $data['custom_js'] = 'main.js';
         $data['custom_js'] = 'contact.js';
         
+        $v_data['lst_message_types'] = $this->m_contact->getMessageType();
+        $v_data['lst_contact_sector'] = $this->m_contact->getContactSectors();
+        
         // load the view as string 
-        $data['content'] = $this->load->view('pages/v_contact',true, true);
+        $data['content'] = $this->load->view('pages/v_contact',$v_data, true);
         $this->load->view('main', $data);
       
     }
+    
+    
+public function saveContact() {
+        $this->load->model('m_contact');
+        // get the ajax data
+        $sender_name = $this->input->get('txtName');
+        $sender_company = $this->input->get('txtCompany');
+        $email = $this->input->get('txtEmail');
+        $message_types = $this->input->get('message_types');
+        $send_to = $this->input->get('contact_sector');
+        $message = $this->input->get('txtMesage');
 
+        $message_data = array(
+            'sender_name' => $sender_name,
+            'sender_company' => $sender_company,
+            'email' => $email,
+            'message_type' => $message_types,
+            'send_to' => $send_to,
+            'message' => $message,
+            'status' => 1
+        );
+
+        $this->m_contact->saveContact($message_data);
+        
+        redirect('/contact');
+    }
 
     public function socialresponsibiltiy(){
         //----------------------------------------------------------------------
